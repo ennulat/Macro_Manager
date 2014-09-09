@@ -1,0 +1,29 @@
+﻿VERSION BUILD=8530828 RECORDER=FX
+
+'CMDLINE !DATASOURCE Eintragungen.csv
+'SET !DATASOURCE_COLUMNS 22
+'SET !LOOP 1
+'SET !DATASOURCE_LINE {{LOOP}}
+
+
+PROMPT 1.)!!!Achtung!!!unbedingt<SP>abmelden!!<BR>Macro<SP>fortführen..
+PAUSE
+
+TAB T=1
+TAB CLOSEALLOTHERS
+
+URL GOTO=http://www.pointoo.de/registration/simple/
+SET !ERRORIGNORE YES
+TAG POS=1 TYPE=INPUT:TEXT FORM=ID:fRegistration ATTR=ID:user_login CONTENT={{COL14}}
+SET !ENCRYPTION NO
+
+TAG POS=1 TYPE=INPUT:PASSWORD FORM=ID:fRegistration ATTR=ID:user_password CONTENT={{COL15}}
+TAG POS=1 TYPE=INPUT:PASSWORD FORM=ID:fRegistration ATTR=ID:user_password_confirmation CONTENT={{COL15}}
+TAG POS=1 TYPE=INPUT:TEXT FORM=ID:fRegistration ATTR=ID:user_email CONTENT={{COL20}}
+TAG POS=1 TYPE=INPUT:TEXT FORM=ID:fRegistration ATTR=ID:user_profile_attributes_city CONTENT={{COL8}}
+TAG POS=1 TYPE=INPUT:CHECKBOX FORM=ID:fRegistration ATTR=ID:agb_accepted CONTENT=YES
+TAG POS=1 TYPE=INPUT:CHECKBOX FORM=ID:fRegistration ATTR=ID:user_profile_attributes_newsletter CONTENT=NO
+SAVEAS TYPE=PNG FOLDER=* FILE={{COL4}}<SP>({{COL7}})<SP>-<SP>Pointoo_registration<SP>-<SP>{{NOW:dd.mm.yyyy,<SP>hh.nn.ss}}<SP>Uhr.png
+PROMPT !Achtung!:Bestätigungslink<SP>in<SP>E-Mail<SP>folgen<SP>und<SP>Macro:pointoo_profil<SP>ausführen..
+
+TAG POS=1 TYPE=BUTTON FORM=ID:fRegistration ATTR=ID:fRegistration_submit

@@ -1,0 +1,18 @@
+﻿'Registerkarte Leistungen
+'TAG POS=1 TYPE=A ATTR:ID=subpanel_standard2 
+TAG POS=1 TYPE=A ATTR=ID:htmlEditorId2
+SET !CLIPBOARD {{COL21}}
+
+PROMPT 1.)Beschreibugstext<SP>aus<SP>Zwischenablage<SP>einfügen<BR>2.)Makro<SP>fortführen...
+PAUSE
+TAG POS=1 TYPE=INPUT:BUTTON FORM=ID:frmEntry ATTR=NAME:btnSave
+
+PROMPT [Achtung]<SP>Singlestep<SP>mode<SP>innerhalb<SP>Kategorieauswahl<BR><BR>Macro<SP>fortführen...
+PAUSE
+SET !SINGLESTEP YES
+TAG POS=1 TYPE=H2 ATTR=ID:panelSearchData
+TAG POS=1 TYPE=A ATTR=ID:categoriesEditId
+TAG POS=1 TYPE=INPUT:TEXT ATTR=NAME:catSearchString CONTENT={{COL13}}
+PROMPT 1.)Kategorie<SP>mit<SP>Return<SP>bestätigen<SP>und<SP>Auswahl<SP>treffen..<BR>2.)Macro<SP>fortführen..
+PAUSE
+

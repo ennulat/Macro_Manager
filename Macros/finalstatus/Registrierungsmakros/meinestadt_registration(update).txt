@@ -1,0 +1,9 @@
+div id="contentprofile_body" class="rf-p-b ">
+
+    <div id="j_id_3h" class="message">
+        <span class="message-header">
+            <img class="icon" alt="Information" src="/sso/images/iconInformation.gif"></img>
+
+            Sie haben sich erfolgreich angemeldet.
+
+        </span>

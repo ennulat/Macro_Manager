@@ -1,0 +1,13 @@
+        span id="notification_event_title">
+
+            Auf Wiedersehen!
+
+        </span>
+        <span id="notification_text">
+
+            Du hast Dich erfolgreich ausgeloggt.
+
+        </span>
+    </strong>
+
+</p>

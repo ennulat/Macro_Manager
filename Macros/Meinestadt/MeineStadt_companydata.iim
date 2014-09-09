@@ -1,0 +1,20 @@
+﻿VERSION BUILD=7210419 RECORDER=FX
+
+TAB CLOSEALLOTHERS
+CLEAR
+
+SET !CLIPBOARD {{COL13}}
+
+TAB T=1
+URL GOTO=https://secure.meinestadt.de/firmeneintrag/gratis.html?aff_id=4
+
+'COMPANY DATA
+TAG POS=1 TYPE=INPUT:RADIO ATTR=ID:userEntryReasonId:0
+TAG POS=1 TYPE=INPUT:TEXT ATTR=NAME:firmenName CONTENT={{COL4}}
+TAG POS=1 TYPE=INPUT:TEXT ATTR=NAME:strasse CONTENT={{COL5}}
+TAG POS=1 TYPE=INPUT:TEXT ATTR=NAME:hausNummer CONTENT={{COL6}}
+TAG POS=1 TYPE=INPUT:TEXT ATTR=NAME:plz CONTENT={{COL7}}
+TAG POS=1 TYPE=INPUT:TEXT ATTR=NAME:ort CONTENT={{COL8}}
+SAVEAS TYPE=PNG FOLDER=* FILE={{COL4}}<SP>({{COL7}})<SP>-<SP>MeineStadt<SP>-<SP>{{NOW:dd.mm.yyyy,<SP>hh.nn.ss}}<SP>Uhr.png
+PROMPT Sofern<SP>Eine<SP>Unternehmensvorauswahl<SP>erscheint<SP>prüfen<SP>ob<SP>das<SP>einzutragende<SP>Unternehmen<SP>bereits<SP>vorhanden<SP>ist.<BR><BR>Firma:<SP>{{COL4}}<br>Adresse:<SP>{{COL5}}<SP>{{COL6}},<SP>{{COL7}}<SP>{{COL8}}<br>Ansprechpartner:<SP>{{COL2}}<SP>{{COL3}}<BR><BR>[Wenn<SP>Vorhanden]:<SP>Eintragung<SP>beeden<SP>ODER<SP>Paralleleintrag<SP>durchführen<BR>[Sonst]:<SP>Macro<SP>fortführen...
+PAUSE

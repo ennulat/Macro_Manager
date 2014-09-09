@@ -1,0 +1,8 @@
+K:\C#\Übungen\macroTest\macroTest\obj\x86\Debug\Interop.iMacros.dll
+K:\C#\Übungen\macroTest\macroTest\obj\x86\Debug\macroTest.csproj.ResolveComReference.cache
+K:\C#\Übungen\macroTest\macroTest\bin\Debug\macroTest.exe
+K:\C#\Übungen\macroTest\macroTest\bin\Debug\macroTest.pdb
+K:\C#\Übungen\macroTest\macroTest\bin\Debug\Interop.iMacros.dll
+K:\C#\Übungen\macroTest\macroTest\obj\x86\Debug\ResolveAssemblyReference.cache
+K:\C#\Übungen\macroTest\macroTest\obj\x86\Debug\macroTest.exe
+K:\C#\Übungen\macroTest\macroTest\obj\x86\Debug\macroTest.pdb

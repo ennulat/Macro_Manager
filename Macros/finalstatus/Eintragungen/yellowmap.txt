@@ -1,0 +1,38 @@
+    Vielen Dank für Ihre Registrierung!
+    
+    
+    <div id="MainCol">
+        <div id="NewAddressEnd">
+            <div class="ContentBox">
+                <h3>
+
+                    Vielen Dank für Ihre Registrierung!
+
+                </h3>
+                <p></p>
+                <h3></h3>
+                <div id="NewAddressEndTextBody">
+                    <div class="NewAddressEndTextBodyRow">
+                        <div class="RegistrationHugeRightCol"></div>
+                        <div class="RegistrationSmallLeftCol"></div>
+                        <div style="clear: both;"></div>
+                    </div>
+                    <div class="NewAddressEndTextBodyRow">
+                        <div class="RegistrationHugeRightCol"></div>
+                        <div class="RegistrationSmallLeftCol">
+                            <img width="69" height="76" src="../../YMap/Layout/Images/Registration/EntryEnd2.gif"></img>
+                        </div>
+                        <div style="clear: both;"></div>
+                    </div>
+                </div>
+                <div id="RegistrationBackLink"></div>
+            </div>
+        </div>
+    </div>
+
+</div>
+<!--
+
+ Ende MainContent 
+
+-->

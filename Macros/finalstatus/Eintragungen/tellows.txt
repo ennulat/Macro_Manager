@@ -1,0 +1,14 @@
+Vielen Dank! Deine Eingabe wurde aufgenommen. Der …
+
+<div id="messages" class="messages">
+
+    <ul class="success">
+        <li>
+
+            Vielen Dank! Deine Eingabe wurde aufgenommen. Der …
+
+            <a target="_blank" rel="nofollow" href="/inhalt/premium-eintrag-auf-tellowsde/"></a>
+        </li>
+    </ul>
+
+</div>

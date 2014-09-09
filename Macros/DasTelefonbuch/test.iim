@@ -1,0 +1,9 @@
+﻿VERSION BUILD=8601111 RECORDER=FX
+TAB T=1
+URL GOTO=http://www.iopus.com/imacros/compare/?ref=iim72
+
+
+
+PROMPT {{COL1}}
+PAUSE
+

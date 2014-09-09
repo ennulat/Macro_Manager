@@ -1,0 +1,61 @@
+﻿VERSION BUILD=7210419 RECORDER=FX
+
+'CMDLINE !DATASOURCE Eintragungen.csv
+'SET !DATASOURCE_COLUMNS 22
+'SET !LOOP 1
+'SET !DATASOURCE_LINE {{LOOP}}
+
+TAB CLOSEALLOTHERS
+
+TAB T=1
+
+
+
+URL GOTO=http://www.pointoo.de/sessions/new/
+SET !ERRORIGNORE YES
+PROMPT 1.)!!Abmelden!!<BR>2.)Macro<SP>fortführen..
+PAUSE
+URL GOTO=http://www.pointoo.de/sessions/new/
+
+
+TAG POS=1 TYPE=INPUT:TEXT FORM=ID:fLogin ATTR=ID:session_login CONTENT={{COL14}}
+SET !ENCRYPTION NO
+TAG POS=1 TYPE=INPUT:PASSWORD FORM=ID:fLogin ATTR=ID:session_password CONTENT={{COL15}}
+TAG POS=1 TYPE=BUTTON FORM=ID:fLogin ATTR=ID:fLogin_submit
+
+
+URL GOTO=http://www.pointoo.de/poi_wizards/new/
+
+PROMPT ACHTUNG<SP>ACHTUNG,<SP>falls<SP>das<SP>macro<SP>abstürzt<SP>UNBEDINGT<SP>manuell<SP>Daten<SP>erfassen!!!<BR><BR>Macro<SP>fortführen..
+PAUSE
+
+TAG POS=1 TYPE=INPUT:TEXT ATTR=NAME:poi_wizard[name] CONTENT={{COL4}}
+TAG POS=1 TYPE=SPAN ATTR=TXT:weiter
+
+TAG POS=1 TYPE=INPUT:TEXT ATTR=NAME:poi_wizard[street] CONTENT={{COL5}}
+TAG POS=1 TYPE=INPUT:TEXT ATTR=NAME:poi_wizard[street_nr] CONTENT={{COL6}}
+TAG POS=1 TYPE=INPUT:TEXT ATTR=NAME:poi_wizard[zip] CONTENT={{COL7}}
+TAG POS=1 TYPE=INPUT:TEXT ATTR=NAME:poi_wizard[city_name] CONTENT={{COL8}}
+WAIT SECONDS=3
+SAVEAS TYPE=PNG FOLDER=* FILE={{COL4}}<SP>({{COL7}})<SP>-<SP>Pointoo<SP>-<SP>{{NOW:dd.mm.yyyy,<SP>hh.nn.ss}}<SP>Uhr.png
+
+
+TAG POS=3 TYPE=BUTTON FORM=ID:poiWizardForm ATTR=TXT:ändern
+TAG POS=1 TYPE=INPUT:TEXT FORM=ID:poiWizardForm ATTR=ID:poi_wizard_main_tag CONTENT=autoh
+PROMPT 1.)check<SP>ob<SP>daten<SP>ausgefüllt..<BR>2.)Macro<SP>fortführen..
+PAUSE
+TAG POS=3 TYPE=SPAN ATTR=TXT:weiter
+TAG POS=1 TYPE=INPUT:TEXT FORM=ID:poiWizardForm ATTR=ID:poi_wizard_phone CONTENT={{COL10}}{{COL11}}
+TAG POS=1 TYPE=INPUT:TEXT FORM=ID:poiWizardForm ATTR=ID:poi_wizard_fax CONTENT={{COL18}}{{COL19}}
+TAG POS=1 TYPE=INPUT:TEXT FORM=ID:poiWizardForm ATTR=ID:poi_wizard_url CONTENT={{COL12}}
+TAG POS=1 TYPE=TEXTAREA FORM=ID:poiWizardForm ATTR=ID:poi_wizard_opening_hours CONTENT={{COL22}}
+PROMPT 1.)ggf.Öffnungszeiten<SP>nachtragen<BR>2.)Macro<SP>fortführen..
+PAUSE
+
+PROMPT manuell<SP>LogOut<SP>für<SP>successlog<SP>nötig
+PAUSE
+
+
+
+
+

@@ -1,0 +1,6 @@
+﻿SAVEAS TYPE=PNG FOLDER=* FILE={{COL4}}<SP>({{COL7}})<SP>-<SP>Gewusst-wo<SP>-<SP>{{!NOW:dd.mm.yyyy,<SP>hh.nn.ss}}<SP>Uhr.png
+TAG POS=1 TYPE=INPUT:IMAGE FORM=ACTION:/ ATTR=SRC:http://www.gewusst-wo.de/img/v00002/default/btn_send.gif
+TAG POS=1 TYPE=DIV  ATTR=CLASS:msg_text EXTRACT=TXT
+
+
+

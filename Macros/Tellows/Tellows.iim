@@ -1,0 +1,49 @@
+﻿VERSION BUILD=7210419 RECORDER=FX
+
+'CMDLINE !DATASOURCE Eintragungen.csv
+'SET !DATASOURCE_COLUMNS 21
+'SET !LOOP 1
+'SET !DATASOURCE_LINE {{LOOP}}
+
+TAB CLOSEALLOTHERS
+CLEAR
+
+SET !CLIPBOARD {{COL13}}
+
+TAB T=1
+URL GOTO=http://www.tellows.de/
+
+'SET !SINGLESTEP YES
+
+TAG POS=1 TYPE=INPUT:TEXT ATTR=ID:searchbox CONTENT={{COL10}}{{COL11}}
+TAG POS=1 TYPE=INPUT:IMAGE FORM=ID:lookup_big_frm ATTR=SRC:http://www.tellows.de/images/search_btn_b.gif
+									
+TAG POS=1 TYPE=SELECT FORM=NAME:NoFormName ATTR=ID:searchreason CONTENT=%5
+TAG POS=1 TYPE=INPUT:SUBMIT FORM=NAME:NoFormName ATTR=ID:submit
+
+
+TAG POS=1 TYPE=A ATTR=TXT:Firmeneintrag
+'PAUSE
+
+TAB T=1
+TAG POS=1 TYPE=INPUT:TEXT ATTR=ID:company CONTENT={{COL4}}
+TAG POS=1 TYPE=INPUT:TEXT ATTR=ID:street CONTENT={{COL5}}<SP>{{COL6}}
+TAG POS=1 TYPE=INPUT:TEXT ATTR=ID:zip CONTENT={{COL7}}
+TAG POS=1 TYPE=INPUT:TEXT ATTR=ID:city CONTENT={{COL8}}
+TAG POS=1 TYPE=INPUT:TEXT ATTR=ID:city CONTENT={{COL8}}
+TAG POS=1 TYPE=TEXTAREA ATTR=NAME:description2 CONTENT={{COL21}}
+
+
+
+TAG POS=1 TYPE=INPUT:TEXT ATTR=ID:categorysearch CONTENT={{COL13}}
+PROMPT 1.)<SP>Branche<SP>anwählen<SP>bzw<SP>falls<SP>auswahl<SP>nicht<SP>erscheint,<SP>erneut<SP>aus<SP>der<SP>zwischenablage<SP>einfügen<SP>und<SP>dann<SP>auswählen<br>2.)<SP>iMacro<SP>fortsetzen
+PAUSE
+SAVEAS TYPE=PNG FOLDER=* FILE={{COL4}}<SP>({{COL7}})<SP>-<SP>Tellows<SP>-<SP>{{!NOW:dd.mm.yyyy,<SP>hh.nn.ss}}<SP>Uhr.png
+PROMPT 1.)<SP>CAPTCHA<SP>eingeben<br>2.)<SP>Macro<SP>fortführen...
+PAUSE
+
+TAG POS=1 TYPE=INPUT:SUBMIT ATTR=ID:submit	
+
+TAG POS=1 TYPE=DIV ATTR=ID:messages EXTRACT=TXT
+
+

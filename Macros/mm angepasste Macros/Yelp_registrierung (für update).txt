@@ -1,0 +1,22 @@
+﻿VERSION BUILD=8601111 RECORDER=FX
+TAB T=1
+
+'CMDLINE !DATASOURCE Eintragungen.csv
+'SET !DATASOURCE_COLUMNS 22
+
+URL GOTO=https://www.yelp.de/signup
+
+SET !SINGLESTEP YES
+PROMPT 1.)ggf.Abmelden<BR>2.)Macro<SP>fortführen..
+PAUSE	
+TAG POS=1 TYPE=INPUT:TEXT FORM=ID:signup-form ATTR=ID:first_name CONTENT={{COL2}}
+TAG POS=1 TYPE=INPUT:TEXT FORM=ID:signup-form ATTR=ID:last_name CONTENT={{COL3}}
+TAG POS=1 TYPE=INPUT:EMAIL FORM=ID:signup-form ATTR=ID:email CONTENT={{COL20}}
+TAG POS=3 TYPE=DIV ATTR=TXT:Bei<SP>Yelp<SP>registrieren<SP>Finde<SP>tolle,<SP>lokale*
+SET !ENCRYPTION NO
+TAG POS=1 TYPE=INPUT:PASSWORD FORM=ID:signup-form ATTR=ID:password CONTENT={{COL15}}
+TAG POS=1 TYPE=INPUT:TEXT FORM=ID:signup-form ATTR=ID:zip CONTENT={{COL7}}
+TAG POS=1 TYPE=BUTTON FORM=ID:signup-form ATTR=ID:signup-button
+TAG POS=1 TYPE=A ATTR=TXT:Überspringen
+PROMPT 1.)email<SP>für<SP>registrierung<SP>manuell<SP>aktivieren<SP>makro<SP>fortfahren.<BR>2.)Weiter<SP>mit<SP>Yelp_Update<SP>macro...
+PAUSE

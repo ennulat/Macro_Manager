@@ -1,0 +1,11 @@
+﻿VERSION BUILD=8601111 RECORDER=FX
+TAB T=1
+URL GOTO=http://www.hotfrog.de/UploadImages.aspx?CompanyID=10171369&redirectURL=&s=cta&mk=Message.Images.None
+TAG POS=1 TYPE=INPUT:FILE ATTR=NAME:userfile CONTENT=C:\Users\Public\Pictures\Sample<SP>Pictures\Lighthouse.jpg
+TAG POS=1 TYPE=SPAN ATTR=TXT:Senden
+TAG POS=1 TYPE=A ATTR=ID:ctl00_contentSection_ImagesListControl_AddAnotherHyperLink
+TAG POS=1 TYPE=INPUT:FILE ATTR=NAME:userfile CONTENT=C:\Users\Public\Pictures\Sample<SP>Pictures\Desert.jpg
+TAG POS=1 TYPE=SPAN ATTR=TXT:Senden
+TAG POS=1 TYPE=A ATTR=ID:ctl00_contentSection_ImagesListControl_AddAnotherHyperLink
+TAG POS=1 TYPE=INPUT:FILE ATTR=NAME:userfile CONTENT=C:\Users\Public\Pictures\Sample<SP>Pictures\Koala.jpg
+TAG POS=1 TYPE=SPAN ATTR=TXT:Senden

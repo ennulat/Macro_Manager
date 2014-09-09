@@ -1,0 +1,52 @@
+VERSION BUILD=9052613
+TAB T=1
+TAB CLOSEALLOTHERS
+URL GOTO=https://services.dasoertliche.de/services/schnupperpaket/002_set.php
+
+TAG POS=1 TYPE=INPUT:TEXT FORM=NAME:firma ATTR=NAME:ci CONTENT={{COL7}}
+TAG POS=1 TYPE=INPUT:IMAGE FORM=NAME:firma ATTR=NAME:Submit
+PROMPT 1.)Ort<SP>auswählen({{COL8}}),<BR>2.)Makro<SP>fortführen
+PAUSE
+'TAG POS=1 TYPE=A FORM=NAME:firma ATTR=TXT:Berlin
+TAG POS=3 TYPE=INPUT:TEXT FORM=NAME:firma ATTR=NAME:companyname CONTENT={{COL4}}
+
+TAG POS=3 TYPE=INPUT:TEXT FORM=NAME:firma ATTR=NAME:companystreet CONTENT={{COL5}}
+TAG POS=3 TYPE=INPUT:TEXT FORM=NAME:firma ATTR=NAME:companyhnr CONTENT={{COL6}}
+TAG POS=3 TYPE=INPUT:TEXT FORM=NAME:firma ATTR=NAME:companypc CONTENT={{COL7}}
+TAG POS=3 TYPE=INPUT:TEXT FORM=NAME:firma ATTR=NAME:companytelpre CONTENT={{COL10}}
+TAG POS=3 TYPE=INPUT:TEXT FORM=NAME:firma ATTR=NAME:companytelnumber CONTENT={{COL11}}
+TAG POS=3 TYPE=INPUT:TEXT FORM=NAME:firma ATTR=NAME:companyfaxpre CONTENT={{COL18}}
+TAG POS=3 TYPE=INPUT:TEXT FORM=NAME:firma ATTR=NAME:companyfaxnumber CONTENT={{COL19}}
+
+TAG POS=3 TYPE=INPUT:TEXT FORM=NAME:firma ATTR=NAME:companyemail CONTENT={{COL9}}
+TAG POS=3 TYPE=INPUT:TEXT FORM=NAME:firma ATTR=NAME:companyurl CONTENT={{COL12}}
+SAVEAS TYPE=PNG FOLDER=* FILE={{COL4}}<SP>({{COL7}})<SP>-<SP>DasÖrtliche<SP>-<SP>{{!NOW:dd.mm.yyyy,<SP>hh.nn.ss}}<SP>Uhr.png
+TAG POS=1 TYPE=INPUT:IMAGE FORM=NAME:firma ATTR=NAME:SubmitForward
+
+'Keywords section
+TAG POS=1 TYPE=INPUT:TEXT FORM=NAME:keys ATTR=NAME:key1 CONTENT={{COL13}}
+TAG POS=1 TYPE=INPUT:IMAGE FORM=NAME:keys ATTR=NAME:SubmitForward
+
+'here logo section from mm direct 
+
+
+
+'PROMPT 1.)ggf.Logo<Sp>upload<BR>2.)Macro<SP>fortführen..
+'PAUSE
+
+'transition
+'TAG POS=1 TYPE=INPUT:IMAGE FORM=NAME:sloganandlogo ATTR=NAME:SubmitForward
+
+'SET !CLIPBOARD {{COL22}}
+'TAG POS=1 TYPE=TEXTAREA FORM=NAME:oh ATTR=NAME:addohtext CONTENT={{COL22}}
+'PROMPT 1.)ggf.öffnungszeiten<SP>eintragen:{{COL22}}<BR>2.)Macro<SP>fortführen...
+'PAUSE
+'TAG POS=1 TYPE=INPUT:IMAGE FORM=NAME:oh ATTR=NAME:SubmitForward
+'PROMPT 1.)ggf.Galeriebilderupload<BR>2).Macro<SP>fortführen..
+'PAUSE
+'TAG POS=1 TYPE=INPUT:IMAGE FORM=NAME:gallery ATTR=NAME:SubmitForward
+
+
+
+
+

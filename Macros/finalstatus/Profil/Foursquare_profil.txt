@@ -1,0 +1,10 @@
+<div class="tipsListSection">
+
+    <div class="tipsSectionHeader">
+        <div class="filterArea"></div>
+        <h3 class="tipCount">
+
+            Noch keine Tipps - schreibe den ersten!
+
+        </h3>
+    </div>

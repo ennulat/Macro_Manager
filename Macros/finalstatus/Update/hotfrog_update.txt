@@ -1,0 +1,7 @@
+    <a id="ctl00_contentSection_myAccountControl_HyperLink_changeloginHeader" href="http://www.hotfrog.de/ChangePassword.aspx?CompanyID=10171816">
+
+        Login ändern
+
+    </a>
+
+</h2>

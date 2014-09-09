@@ -1,0 +1,18 @@
+
+
+    <div class="successicon"></div>
+    <div class="messagetext">
+        <table>
+            <tbody>
+                <tr>
+                    <td>
+                        <ul>
+                            <li>
+
+                                Vielen Dank für Ihre Änderung.
+
+                                <br></br>
+
+                                 Bitte bestätigen Sie diesen mit dem Link, den wir…
+
+                            </li>

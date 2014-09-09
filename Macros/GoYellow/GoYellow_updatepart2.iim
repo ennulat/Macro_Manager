@@ -1,0 +1,11 @@
+﻿TAG POS=1 TYPE=INPUT:BUTTON FORM=ID:frmEntry ATTR=NAME:btnSave
+
+'Registerkarte Leistungen
+'TAG POS=1 TYPE=A ATTR:ID=subpanel_standard2 
+TAG POS=1 TYPE=A ATTR=ID:htmlEditorId2
+SET !CLIPBOARD {{COL21}}
+
+PROMPT 1.)Beschreibugstext<SP>aus<SP>Zwischenablage<SP>einfügen<BR>2.)Makro<SP>fortführen...
+PAUSE
+TAG POS=1 TYPE=INPUT:BUTTON FORM=ID:frmEntry ATTR=NAME:btnSave
+

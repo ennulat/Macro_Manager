@@ -1,0 +1,7 @@
+C:\Users\joe\Documents\Visual Studio 2010\Projects\Imacro Manager\macroManager\obj\x86\Debug\Interop.iMacros.dll
+C:\Users\joe\Documents\Visual Studio 2010\Projects\Imacro Manager\macroManager\obj\x86\Debug\macroManager.csproj.ResolveComReference.cache
+C:\Users\joe\Documents\Visual Studio 2010\Projects\Imacro Manager\macroManager\obj\x86\Debug\macroTest.exe
+C:\Users\joe\Documents\Visual Studio 2010\Projects\Imacro Manager\macroManager\obj\x86\Debug\macroTest.pdb
+C:\Users\joe\Documents\Visual Studio 2010\Projects\Imacro Manager\macroManager\bin\Debug\macroTest.exe
+C:\Users\joe\Documents\Visual Studio 2010\Projects\Imacro Manager\macroManager\bin\Debug\macroTest.pdb
+C:\Users\joe\Documents\Visual Studio 2010\Projects\Imacro Manager\macroManager\bin\Debug\Interop.iMacros.dll

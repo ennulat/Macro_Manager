@@ -1,0 +1,14 @@
+<div id="messageLayer" class="layerBox successMessage">
+
+    <table width="100%" border="0">
+        <tbody>
+            <tr>
+                <td>
+                    <div class="topBorder"></div>
+                    <div class="boxContent">
+                        <p>
+
+                            Ihre Daten wurden gespeichert.
+
+                            <br></br>
+                        </p>

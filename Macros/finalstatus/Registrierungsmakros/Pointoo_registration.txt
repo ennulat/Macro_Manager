@@ -1,0 +1,8 @@
+<header class="main-header">
+
+    <nav id="contextNav"></nav>
+    <h1>
+
+        Bitte E-Mail-Adresse bestätigen
+
+    </h1>

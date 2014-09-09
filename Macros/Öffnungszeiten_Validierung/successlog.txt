@@ -1,0 +1,104 @@
+Zeitpunkt: 09:42:46.8184893
+Kunde: test company x
+Verzeichnis: DasTelefonbuch
+Benutzer: Niklas
+Meldung: OK
+
+**********************************************************************************************
+
+Zeitpunkt: 10:13:28.3038162
+Kunde: test company x
+Verzeichnis: Yelp
+Benutzer: Niklas
+Meldung: OK
+
+**********************************************************************************************
+
+Zeitpunkt: 11:01:14.6567622
+Kunde: test company y
+Verzeichnis: DasTelefonbuch
+Benutzer: Niklas
+Meldung: OK
+
+**********************************************************************************************
+
+Zeitpunkt: 11:21:06.2579179
+Kunde: test company y
+Verzeichnis: DasTelefonbuch
+Benutzer: Niklas
+Meldung: OK
+
+**********************************************************************************************
+
+Zeitpunkt: 11:23:52.3674188
+Kunde: test company y
+Verzeichnis: GewusstWo
+Benutzer: Niklas
+Meldung: OK
+
+**********************************************************************************************
+
+Zeitpunkt: 11:27:36.8822603
+Kunde: test company x
+Verzeichnis: GewusstWo
+Benutzer: Niklas
+Meldung: OK
+
+**********************************************************************************************
+
+Zeitpunkt: 11:29:54.0481058
+Kunde: test company x
+Verzeichnis: GewusstWo
+Benutzer: Niklas
+Meldung: OK
+
+**********************************************************************************************
+
+Zeitpunkt: 11:58:35.5735714
+Kunde: test company y
+Verzeichnis: Stadtbranchenbuch
+Benutzer: Niklas
+Meldung: OK
+
+**********************************************************************************************
+
+Zeitpunkt: 12:02:33.4821790
+Kunde: test company y
+Verzeichnis: DasTelefonbuch
+Benutzer: Niklas
+Meldung: OK
+
+**********************************************************************************************
+
+Zeitpunkt: 12:04:45.7917467
+Kunde: test company y
+Verzeichnis: KlickTel
+Benutzer: Niklas
+Meldung: OK
+
+**********************************************************************************************
+
+Zeitpunkt: 12:26:33.9985718
+Kunde: test company y
+Verzeichnis: GewusstWo
+Benutzer: Niklas
+Meldung: OK
+
+**********************************************************************************************
+
+Zeitpunkt: 12:31:14.2085989
+Kunde: test company x
+Verzeichnis: GewusstWo
+Benutzer: Niklas
+Meldung: OK
+
+**********************************************************************************************
+
+Zeitpunkt: 12:52:33.9927984
+Kunde: test company y
+Verzeichnis: GewusstWo
+Benutzer: Niklas
+Meldung: OK
+
+**********************************************************************************************
+

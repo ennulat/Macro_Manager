@@ -1,0 +1,21 @@
+Vielen Dank für Ihren Eintrag. Bitte bestätigen Si
+
+<div class="messagetext">
+
+    <table>
+        <tbody>
+            <tr>
+                <td>
+                    <ul>
+                        <li>
+
+                            Vielen Dank für Ihren Eintrag. Bitte bestätigen Si…
+
+                        </li>
+                    </ul>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+
+</div>

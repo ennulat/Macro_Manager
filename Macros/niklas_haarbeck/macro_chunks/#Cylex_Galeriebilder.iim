@@ -1,0 +1,10 @@
+﻿VERSION BUILD=9052613
+TAB T=1
+TAB CLOSEALLOTHERS
+
+TAG POS=1 TYPE=SPAN FORM=NAME:aspnetForm ATTR=TXT:Firmenprofil<SP>teilweise<SP>ausgefüllt
+TAG POS=1 TYPE=A FORM=NAME:aspnetForm ATTR=TXT:Bilder<SP>hochladen<SP>Laden<SP>Sie<SP>Bilder<SP>und<SP>Fotos<SP>Ihres<SP>Unternehmens,<SP>Produkte<SP>oder<SP>D*
+TAG POS=1 TYPE=A FORM=NAME:aspnetForm ATTR=TXT:Firmenfotos<SP>hochladen
+TAG POS=1 TYPE=INPUT:TEXT FORM=NAME:aspnetForm ATTR=NAME:ctl00$ContentPlaceHolder1$multimedia$tb_title CONTENT=Galeriebilder(Titel)
+TAG POS=1 TYPE=INPUT:FILE FORM=NAME:aspnetForm ATTR=NAME:ctl00$ContentPlaceHolder1$multimedia$FileUpload1 CONTENT=c:\Users\Omnea0001\Documents\iMacros\Datasources\Bilder\test_company_x\gallery2_Jellyfish.jpg
+TAG POS=1 TYPE=INPUT:BUTTON FORM=NAME:aspnetForm ATTR=NAME:ctl00$ContentPlaceHolder1$multimedia$Upload_Image

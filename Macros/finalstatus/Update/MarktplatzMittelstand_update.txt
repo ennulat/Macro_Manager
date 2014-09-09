@@ -1,0 +1,10 @@
+<div id="user_missing_description_cta" class="cta info">
+
+    <div class="icon"></div>
+    <div class="message">
+        <h4 class="bold">
+
+            Erfolgreich abgemeldet
+
+        </h4>
+        <br></br>

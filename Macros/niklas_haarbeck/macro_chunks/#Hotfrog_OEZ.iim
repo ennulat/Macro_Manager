@@ -1,0 +1,79 @@
+﻿VERSION BUILD=8601111 RECORDER=FX
+TAB T=1
+URL GOTO=http://www.hotfrog.de/WelcomeToHotfrog.aspx?CompanyID=10171369
+TAG POS=1 TYPE=SPAN ATTR=TXT:Bearbeiten
+TAG POS=1 TYPE=A ATTR=ID:ctl00_contentSection_ctrlContactDetails_EditOpeningHoursLink
+TAG POS=1 TYPE=SELECT FORM=ID:aspnetForm ATTR=ID:ctl00_contentSection_ctrlTradingHours_DayRepeater_ctl00_OpeningTime CONTENT=%06:00
+TAG POS=1 TYPE=SELECT FORM=ID:aspnetForm ATTR=ID:ctl00_contentSection_ctrlTradingHours_DayRepeater_ctl00_ClosingTime CONTENT=%12:00
+TAG POS=1 TYPE=SELECT FORM=ID:aspnetForm ATTR=ID:ctl00_contentSection_ctrlTradingHours_DayRepeater_ctl01_OpeningTime CONTENT=%05:00
+TAG POS=1 TYPE=SELECT FORM=ID:aspnetForm ATTR=ID:ctl00_contentSection_ctrlTradingHours_DayRepeater_ctl01_ClosingTime CONTENT=%14:00
+TAG POS=1 TYPE=SELECT FORM=ID:aspnetForm ATTR=ID:ctl00_contentSection_ctrlTradingHours_DayRepeater_ctl02_OpeningTime CONTENT=%06:00
+TAG POS=1 TYPE=SELECT FORM=ID:aspnetForm ATTR=ID:ctl00_contentSection_ctrlTradingHours_DayRepeater_ctl02_ClosingTime CONTENT=%14:30
+TAG POS=1 TYPE=SELECT FORM=ID:aspnetForm ATTR=ID:ctl00_contentSection_ctrlTradingHours_DayRepeater_ctl03_OpeningTime CONTENT=%07:30
+TAG POS=1 TYPE=SELECT FORM=ID:aspnetForm ATTR=ID:ctl00_contentSection_ctrlTradingHours_DayRepeater_ctl03_ClosingTime CONTENT=%12:30
+TAG POS=1 TYPE=SELECT FORM=ID:aspnetForm ATTR=ID:ctl00_contentSection_ctrlTradingHours_DayRepeater_ctl04_OpeningTime CONTENT=%06:00
+TAG POS=1 TYPE=SELECT FORM=ID:aspnetForm ATTR=ID:ctl00_contentSection_ctrlTradingHours_DayRepeater_ctl04_ClosingTime CONTENT=%12:30
+'Samstag bei Aufruf geschlossen
+TAG POS=1 TYPE=INPUT:CHECKBOX FORM=ID:aspnetForm ATTR=ID:ctl00_contentSection_ctrlTradingHours_DayRepeater_ctl05_Closed CONTENT=NO
+'Ende
+TAG POS=1 TYPE=SELECT FORM=ID:aspnetForm ATTR=ID:ctl00_contentSection_ctrlTradingHours_DayRepeater_ctl05_OpeningTime CONTENT=%04:00
+'Sonntag bei Aufruf geschlossen
+TAG POS=1 TYPE=INPUT:CHECKBOX FORM=ID:aspnetForm ATTR=ID:ctl00_contentSection_ctrlTradingHours_DayRepeater_ctl06_Closed CONTENT=NO
+'Ende
+TAG POS=1 TYPE=SELECT FORM=ID:aspnetForm ATTR=ID:ctl00_contentSection_ctrlTradingHours_DayRepeater_ctl06_OpeningTime CONTENT=%04:30
+TAG POS=1 TYPE=SELECT FORM=ID:aspnetForm ATTR=ID:ctl00_contentSection_ctrlTradingHours_DayRepeater_ctl06_ClosingTime CONTENT=%13:30
+
+'Anfang Geschlossen
+
+TAG POS=1 TYPE=INPUT:CHECKBOX FORM=ID:aspnetForm ATTR=ID:ctl00_contentSection_ctrlTradingHours_DayRepeater_ctl00_Closed CONTENT=YES
+TAG POS=1 TYPE=INPUT:CHECKBOX FORM=ID:aspnetForm ATTR=ID:ctl00_contentSection_ctrlTradingHours_DayRepeater_ctl01_Closed CONTENT=YES
+TAG POS=1 TYPE=INPUT:CHECKBOX FORM=ID:aspnetForm ATTR=ID:ctl00_contentSection_ctrlTradingHours_DayRepeater_ctl02_Closed CONTENT=YES
+TAG POS=1 TYPE=INPUT:CHECKBOX FORM=ID:aspnetForm ATTR=ID:ctl00_contentSection_ctrlTradingHours_DayRepeater_ctl03_Closed CONTENT=YES
+TAG POS=1 TYPE=INPUT:CHECKBOX FORM=ID:aspnetForm ATTR=ID:ctl00_contentSection_ctrlTradingHours_DayRepeater_ctl04_Closed CONTENT=YES
+TAG POS=1 TYPE=INPUT:CHECKBOX FORM=ID:aspnetForm ATTR=ID:ctl00_contentSection_ctrlTradingHours_DayRepeater_ctl05_Closed CONTENT=YES
+TAG POS=1 TYPE=INPUT:CHECKBOX FORM=ID:aspnetForm ATTR=ID:ctl00_contentSection_ctrlTradingHours_DayRepeater_ctl06_Closed CONTENT=YES
+
+'Ende
+'Anfang Split-time
+
+
+TAG POS=2 TYPE=DIV ATTR=TXT:Bearbeiten<SP>Firmendetails<SP>Firmenname<SP>Consulting<SP>a*
+TAG POS=1 TYPE=SPAN ATTR=TXT:Bearbeiten
+TAG POS=1 TYPE=A ATTR=ID:ctl00_contentSection_ctrlContactDetails_EditOpeningHoursLink
+TAG POS=1 TYPE=INPUT:CHECKBOX FORM=ID:aspnetForm ATTR=ID:ctl00_contentSection_ctrlTradingHours_HasSplitHours CONTENT=YES
+TAG POS=1 TYPE=SELECT FORM=ID:aspnetForm ATTR=ID:ctl00_contentSection_ctrlTradingHours_DayRepeater_ctl00_OpeningTime CONTENT=%02:30
+TAG POS=1 TYPE=SELECT FORM=ID:aspnetForm ATTR=ID:ctl00_contentSection_ctrlTradingHours_DayRepeater_ctl00_ClosingTime CONTENT=%08:30
+TAG POS=1 TYPE=SELECT FORM=ID:aspnetForm ATTR=ID:ctl00_contentSection_ctrlTradingHours_DayRepeater_ctl00_SplitOpeningTime CONTENT=%02:00
+TAG POS=1 TYPE=SELECT FORM=ID:aspnetForm ATTR=ID:ctl00_contentSection_ctrlTradingHours_DayRepeater_ctl00_SplitClosingTime CONTENT=%12:30
+TAG POS=1 TYPE=SELECT FORM=ID:aspnetForm ATTR=ID:ctl00_contentSection_ctrlTradingHours_DayRepeater_ctl01_OpeningTime CONTENT=%05:30
+TAG POS=1 TYPE=SELECT FORM=ID:aspnetForm ATTR=ID:ctl00_contentSection_ctrlTradingHours_DayRepeater_ctl01_ClosingTime CONTENT=%13:30
+TAG POS=1 TYPE=SELECT FORM=ID:aspnetForm ATTR=ID:ctl00_contentSection_ctrlTradingHours_DayRepeater_ctl01_SplitOpeningTime CONTENT=%04:30
+TAG POS=1 TYPE=SELECT FORM=ID:aspnetForm ATTR=ID:ctl00_contentSection_ctrlTradingHours_DayRepeater_ctl01_SplitClosingTime CONTENT=%12:00
+TAG POS=1 TYPE=SELECT FORM=ID:aspnetForm ATTR=ID:ctl00_contentSection_ctrlTradingHours_DayRepeater_ctl02_OpeningTime CONTENT=%03:30
+TAG POS=1 TYPE=SELECT FORM=ID:aspnetForm ATTR=ID:ctl00_contentSection_ctrlTradingHours_DayRepeater_ctl02_ClosingTime CONTENT=%10:30
+TAG POS=1 TYPE=SELECT FORM=ID:aspnetForm ATTR=ID:ctl00_contentSection_ctrlTradingHours_DayRepeater_ctl02_SplitOpeningTime CONTENT=%04:30
+TAG POS=1 TYPE=SELECT FORM=ID:aspnetForm ATTR=ID:ctl00_contentSection_ctrlTradingHours_DayRepeater_ctl02_SplitClosingTime CONTENT=%11:00
+TAG POS=1 TYPE=SELECT FORM=ID:aspnetForm ATTR=ID:ctl00_contentSection_ctrlTradingHours_DayRepeater_ctl03_OpeningTime CONTENT=%04:30
+TAG POS=1 TYPE=SELECT FORM=ID:aspnetForm ATTR=ID:ctl00_contentSection_ctrlTradingHours_DayRepeater_ctl03_ClosingTime CONTENT=%11:30
+TAG POS=1 TYPE=SELECT FORM=ID:aspnetForm ATTR=ID:ctl00_contentSection_ctrlTradingHours_DayRepeater_ctl03_SplitOpeningTime CONTENT=%03:30
+TAG POS=1 TYPE=SELECT FORM=ID:aspnetForm ATTR=ID:ctl00_contentSection_ctrlTradingHours_DayRepeater_ctl03_SplitClosingTime CONTENT=%12:00
+TAG POS=1 TYPE=SELECT FORM=ID:aspnetForm ATTR=ID:ctl00_contentSection_ctrlTradingHours_DayRepeater_ctl04_OpeningTime CONTENT=%05:30
+TAG POS=1 TYPE=SELECT FORM=ID:aspnetForm ATTR=ID:ctl00_contentSection_ctrlTradingHours_DayRepeater_ctl04_ClosingTime CONTENT=%13:00
+TAG POS=1 TYPE=SELECT FORM=ID:aspnetForm ATTR=ID:ctl00_contentSection_ctrlTradingHours_DayRepeater_ctl04_SplitOpeningTime CONTENT=%05:30
+TAG POS=1 TYPE=SELECT FORM=ID:aspnetForm ATTR=ID:ctl00_contentSection_ctrlTradingHours_DayRepeater_ctl04_SplitClosingTime CONTENT=%14:00
+'Samstag bei Aufruf geschlossen
+TAG POS=1 TYPE=INPUT:CHECKBOX FORM=ID:aspnetForm ATTR=ID:ctl00_contentSection_ctrlTradingHours_DayRepeater_ctl05_Closed CONTENT=NO
+'Ende
+TAG POS=1 TYPE=SELECT FORM=ID:aspnetForm ATTR=ID:ctl00_contentSection_ctrlTradingHours_DayRepeater_ctl05_OpeningTime CONTENT=%05:30
+TAG POS=1 TYPE=SELECT FORM=ID:aspnetForm ATTR=ID:ctl00_contentSection_ctrlTradingHours_DayRepeater_ctl05_ClosingTime CONTENT=%13:00
+TAG POS=1 TYPE=SELECT FORM=ID:aspnetForm ATTR=ID:ctl00_contentSection_ctrlTradingHours_DayRepeater_ctl05_SplitOpeningTime CONTENT=%05:30
+TAG POS=1 TYPE=SELECT FORM=ID:aspnetForm ATTR=ID:ctl00_contentSection_ctrlTradingHours_DayRepeater_ctl05_SplitClosingTime CONTENT=%14:30
+'Sonntag bei Aufruf geschlossen
+TAG POS=1 TYPE=INPUT:CHECKBOX FORM=ID:aspnetForm ATTR=ID:ctl00_contentSection_ctrlTradingHours_DayRepeater_ctl06_Closed CONTENT=NO
+'Ende
+TAG POS=1 TYPE=SELECT FORM=ID:aspnetForm ATTR=ID:ctl00_contentSection_ctrlTradingHours_DayRepeater_ctl06_OpeningTime CONTENT=%07:30
+TAG POS=1 TYPE=SELECT FORM=ID:aspnetForm ATTR=ID:ctl00_contentSection_ctrlTradingHours_DayRepeater_ctl06_ClosingTime CONTENT=%16:00
+TAG POS=1 TYPE=SELECT FORM=ID:aspnetForm ATTR=ID:ctl00_contentSection_ctrlTradingHours_DayRepeater_ctl06_SplitOpeningTime CONTENT=%08:30
+TAG POS=1 TYPE=SELECT FORM=ID:aspnetForm ATTR=ID:ctl00_contentSection_ctrlTradingHours_DayRepeater_ctl06_SplitClosingTime CONTENT=%15:00
+TAG POS=1 TYPE=SPAN ATTR=TXT:Senden
+'Ende

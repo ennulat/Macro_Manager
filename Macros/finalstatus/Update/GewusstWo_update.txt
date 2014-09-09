@@ -1,0 +1,16 @@
+<ul id="gwo_subnav"></ul>
+
+<div id="gwo_messages">
+
+    <img alt="Information" src="/img/v00002/default/msg_sign_info.gif"></img>
+    <div class="msg_text">
+        <h3>
+
+            Vielen Dank!
+
+        </h3>
+
+
+              
+              Ihre Nachricht wird weitergeleitet.
+        …

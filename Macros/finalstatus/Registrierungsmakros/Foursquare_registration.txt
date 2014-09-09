@@ -1,0 +1,12 @@
+<div id="container" class="wrap">
+
+    <div class="onboardSection unified">
+        <div class="ribbonHeading">
+            <div class="ribbon">
+                <h3>
+
+                    Willkommen bei Foursquare
+
+                </h3>
+            </div>
+        </div>

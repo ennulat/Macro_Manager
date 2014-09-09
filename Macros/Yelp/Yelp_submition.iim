@@ -1,0 +1,8 @@
+SET !CLIPBOARD {{COL13}}
+PROMPT 1.)Kategorie<SP>eintragen<SP>({{COL13}})<BR>2.)Macro<SP>fortführen...
+PAUSE
+
+
+SAVEAS TYPE=PNG FOLDER=* FILE={{COL4}}<SP>({{COL7}})<SP>-<SP>Yelp<SP>-<SP>{{!NOW:dd.mm.yyyy,<SP>hh.nn.ss}}<SP>Uhr.png
+TAG POS=1 TYPE=BUTTON FORM=ID:biz-info-form ATTR=TXT:Hinzufügen
+TAG POS=1 TYPE=DIV ATTR=ID:signup_main_content EXTRACT=TXT

@@ -1,0 +1,17 @@
+TAG POS=1 TYPE=INPUT:TEXT ATTR=ID:sFirstname CONTENT={{COL2}}
+TAG POS=1 TYPE=INPUT:TEXT ATTR=ID:sLastname CONTENT={{COL3}}
+TAG POS=1 TYPE=INPUT:TEXT ATTR=NAME:sTelephone CONTENT={{COL10}}<SP>{{COL11}}
+TAG POS=1 TYPE=INPUT:TEXT ATTR=ID:sEmail CONTENT={{COL20}}
+SET !ENCRYPTION NO
+TAG POS=1 TYPE=INPUT:PASSWORD ATTR=ID:sPassword CONTENT={{COL15}}
+TAG POS=1 TYPE=INPUT:CHECKBOX ATTR=ID:acceptedagb CONTENT=YES
+PROMPT 1.)Herr<SP>/<SP>Frau<SP>anklicken<BR>2.)Macro<SP>fortführen(Eintrag<SP>abschließen)..
+PAUSE
+SAVEAS TYPE=PNG FOLDER=* FILE={{COL4}}<SP>({{COL7}})<SP>-<SP>Quicker<SP>-<SP>{{NOW:dd.mm.yyyy,<SP>hh.nn.ss}}<SP>Uhr.png
+
+TAG POS=1 TYPE=INPUT:SUBMIT FORM=NAME:NoFormName ATTR=VALUE:Weiter
+
+TAG POS=1 TYPE=INPUT:TEXT ATTR=ID:sDescription CONTENT={{COL21}}
+PROMPT 1.)ggf.Öffnungszeiten<SP>Eintragen..>{{COL22}}<<BR>2.)Bilder<SP>hochladen(c:\Users\joe\Documents\iMacros\Datasources\)<BR>2.)Macro<SP>fortführen..
+PAUSE
+TAG POS=1 TYPE=INPUT:SUBMIT FORM=NAME:NoFormName ATTR=VALUE:Weiter

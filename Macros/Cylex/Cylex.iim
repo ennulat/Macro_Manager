@@ -1,0 +1,65 @@
+﻿VERSION BUILD=8810214 RECORDER=FX
+TAB T=1
+
+'CMDLINE !DATASOURCE Eintragungen.csv
+'SET !DATASOURCE_COLUMNS 22
+
+URL GOTO=https://admin.cylex.de/firma_default.aspx?step=0&d=cylex.de
+TAG POS=1 TYPE=INPUT:TEXT FORM=ID:aspnetForm ATTR=ID:ctl00_ContentPlaceHolder1_companynamechecking_companyname CONTENT={{COL4}}
+'TAG POS=1 TYPE=INPUT:TEXT FORM=ID:aspnetForm ATTR=ID:ctl00_ContentPlaceHolder1_companynamechecking_city CONTENT=Berlin
+'TAG POS=1 TYPE=A ATTR=ID:ui-active-menuitem
+TAG POS=1 TYPE=INPUT:TEXT FORM=ID:aspnetForm ATTR=ID:ctl00_ContentPlaceHolder1_companynamechecking_website CONTENT={{COL12}}
+SET !CLIPBOARD {{COL8}}
+PROMPT 1.)Ort<SP>einfügen<SP>+auswählen<BR>2.)Macro<SP>weiter<SP>ausführen
+PAUSE
+TAG POS=1 TYPE=INPUT:SUBMIT FORM=ID:aspnetForm ATTR=ID:ctl00_ContentPlaceHolder1_companynamechecking_submit
+PROMPT [ACHTUNG]Bei<SP>Firmenliste<SP>Voranzeige,<SP>Firmendatenvergleich<SP>durchführen!<BR><BR>Firmenbezeichnung:<SP>{{COL4}}<BR>Ansprechpartner:<SP>{{COL2}}<SP>{{COL3}}<BR><BR>[WENN]<SP>Firmenbezeichnung<SP>identisch,<SP>Eintragung<SP>abbrechen!<BR>[SONST]:<SP>Macro<SP>fortführen...
+SET !ERRORIGNORE NO
+PAUSE
+
+TAG POS=1 TYPE=A ATTR=ID:ctl00_ContentPlaceHolder1_companynamechecking_a_addCompany
+
+
+TAG POS=1 TYPE=INPUT:PASSWORD FORM=ID:aspnetForm ATTR=ID:ctl00_ContentPlaceHolder1_register_step1_companypass1 CONTENT={{COL15}}
+TAG POS=1 TYPE=INPUT:PASSWORD FORM=ID:aspnetForm ATTR=ID:ctl00_ContentPlaceHolder1_register_step1_companypass2 CONTENT={{COL15}}
+TAG POS=1 TYPE=INPUT:TEXT FORM=ID:aspnetForm ATTR=ID:ctl00_ContentPlaceHolder1_register_step1_companystreet CONTENT={{COL5}}<SP>{{COL6}}
+'TAG POS=1 TYPE=DIV ATTR=TXT:Firmenname<SP>Passwort<SP>Passwort<SP>wiederholen<SP>Ust-IdN*
+TAG POS=1 TYPE=INPUT:TEXT FORM=ID:aspnetForm ATTR=ID:ctl00_ContentPlaceHolder1_register_step1_postnr CONTENT={{COL7}}
+TAG POS=1 TYPE=INPUT:TEXT FORM=ID:aspnetForm ATTR=ID:ctl00_ContentPlaceHolder1_register_step1_companymail CONTENT={{COL20}}
+TAG POS=1 TYPE=INPUT:CHECKBOX FORM=ID:aspnetForm ATTR=ID:ctl00_ContentPlaceHolder1_register_step1_cbaccept CONTENT=YES
+'TAG POS=1 TYPE=INPUT:TEXT FORM=ID:aspnetForm ATTR=ID:ctl00_ContentPlaceHolder1_register_step1_captchaTb CONTENT=8ebet
+TAG POS=1 TYPE=INPUT:TEXT FORM=ID:aspnetForm ATTR=ID:p_scnt_phone CONTENT={{COL10}}<SP>{{COL11}}
+TAG POS=1 TYPE=INPUT:TEXT FORM=ID:aspnetForm ATTR=ID:p_scnt_fax CONTENT={{COL18}}<SP>{{COL19}}
+SET !CLIPBOARD {{COL7}}
+PROMPT 1.)ggf.PLZ<SP>korrigieren/einfügen<BR>2.)Captcha<SP>ausfüllen<BR>3.)Makro<SP>fortfahren...
+PAUSE
+SAVEAS TYPE=PNG FOLDER=* FILE={{COL4}}<SP>({{COL7}})<SP>-<SP>Foursquare<SP>-<SP>{{!NOW:dd.mm.yyyy,<SP>hh.nn.ss}}<SP>Uhr.png
+
+TAG POS=1 TYPE=INPUT:SUBMIT FORM=ID:aspnetForm ATTR=ID:ctl00_ContentPlaceHolder1_register_step1_save
+TAG POS=1 TYPE=A ATTR=ID:ctl00_ContentPlaceHolder1_registerstep2_ctl00_unfoldCats
+TAG POS=1 TYPE=INPUT:TEXT FORM=ID:aspnetForm ATTR=ID:txtSearch CONTENT=brachnche
+SET !CLIPBOARD {{COL13}}
+PROMPT 1.)ggf.Branche<SP>korrigieren/einfügen<BR>2.)Makro<SP>fortfahren
+PAUSE
+TAG POS=1 TYPE=TEXTAREA FORM=ID:aspnetForm ATTR=ID:ctl00_ContentPlaceHolder1_registerstep2_tb_keywords CONTENT={{COL13}}
+TAG POS=1 TYPE=INPUT:TEXT FORM=ID:aspnetForm ATTR=ID:txtSearch CONTENT= {{COL13}}
+'TAG POS=1 TYPE=A ATTR=ID:ui-active-menuitem
+
+TAG POS=1 TYPE=INPUT:SUBMIT FORM=ID:aspnetForm ATTR=ID:ctl00_ContentPlaceHolder1_registerstep2_ctl00_addBtn
+TAG POS=1 TYPE=TEXTAREA FORM=ID:aspnetForm ATTR=ID:ctl00_ContentPlaceHolder1_registerstep2_tb_shortdesc CONTENT={{COL21}}
+TAG POS=1 TYPE=INPUT:SUBMIT FORM=ID:aspnetForm ATTR=ID:ctl00_ContentPlaceHolder1_registerstep2_b_save
+'TAG POS=1 TYPE=IMG ATTR=SRC:http://admin.cylex.de/images/new/icons/fugue/cross-circle.png
+
+'TAG POS=1 TYPE=B ATTR=TXT:Logo<SP>hochladen<SP>oder<SP>ändern
+'PROMPT Logo<SP>auswählen<SP>makro<SP>fortführen
+'PAUSE
+
+
+'TAG POS=1 TYPE=A ATTR=ID:ctl00_CompanyFeatures_btn_home
+'TAG POS=1 TYPE=SPAN ATTR=TXT:Firmenprofil<SP>teilweise<SP>ausgefüllt
+'TAG POS=1 TYPE=P ATTR=TXT:Laden<SP>Sie<SP>Bilder<SP>und<SP>Fotos<SP>Ihres<SP>Unternehm*
+'PROMPT 1).Bilder<SP>hochladen<BR>2.)makro<SP>fortführen
+'PROMPT Öz
+'PAUSE
+'TAG POS=1 TYPE=A ATTR=ID:ctl00_ContentPlaceHolder1_multimedia_btn_add
+'TAG POS=1 TYPE=INPUT:BUTTON FORM=ID:aspnetForm ATTR=ID:ctl00_CompanyFeatures_btn_logout

@@ -1,0 +1,34 @@
+﻿VERSION BUILD=8601111 RECORDER=FX
+TAB T=1
+
+CMDLINE !DATASOURCE Eintragungen.csv
+SET !DATASOURCE_COLUMNS 22
+
+URL GOTO=https://www.yelp.de/login?return_url=%2Fberlin
+PROMPT Abmelden<SP>wenn<SP>nötig<SP>und<SP>makro<SP>fortfahren
+PAUSE
+TAG POS=1 TYPE=INPUT:EMAIL FORM=ID:login-form ATTR=NAME:email CONTENT={{!COL20}}
+SET !ENCRYPTION NO
+TAG POS=1 TYPE=INPUT:PASSWORD FORM=ID:login-form ATTR=NAME:password CONTENT={{!COL15}}
+TAG POS=1 TYPE=BUTTON FORM=ID:login-form ATTR=NAME:action_submit
+URL GOTO=http://www.yelp.de/
+
+
+TAG POS=1 TYPE=INPUT:TEXT FORM=ID:header_find_form ATTR=ID:find_desc CONTENT={{!COL4}}
+TAG POS=1 TYPE=INPUT:TEXT FORM=ID:header_find_form ATTR=ID:dropperText_Mast CONTENT={{!COL8}}
+TAG POS=1 TYPE=BUTTON FORM=ID:header_find_form ATTR=ID:header-search-submit
+
+PROMPT Firma<SP>anklicken<SP>und<SP>ggf.Foto<SP>manuell<SP>hinzufügen!
+PAUSE
+PROMPT ggf.Geschäftsinfo<SP>bearbeiten<SP>anklicken<SP>und<SP>makro<SP>fortfahren!
+PAUSE
+TAG POS=1 TYPE=INPUT:RADIO FORM=ID:biz_attrib_form ATTR=ID:yesIsBusinessOwner
+TAG POS=1 TYPE=INPUT:TEXT FORM=ID:biz_attrib_form ATTR=ID:attr_BusinessName CONTENT={{!COL4}}
+TAG POS=1 TYPE=INPUT:TEXT FORM=ID:biz_attrib_form ATTR=ID:attr_BusinessStreetAddress1 CONTENT={{!COL5}}<SP>{{!COL6}}
+TAG POS=1 TYPE=INPUT:TEXT FORM=ID:biz_attrib_form ATTR=NAME:BusinessPhoneNumber CONTENT={{!COL10}}<SP>{{!COL11}}
+TAG POS=1 TYPE=INPUT:TEXT FORM=ID:biz_attrib_form ATTR=ID:attr_BusinessCity CONTENT={{!COL8}}
+TAG POS=1 TYPE=INPUT:TEXT FORM=ID:biz_attrib_form ATTR=ID:attr_BusinessZipCode CONTENT={{!COL7}}
+TAG POS=1 TYPE=INPUT:URL FORM=ID:biz_attrib_form ATTR=ID:attr_BusinessUrl CONTENT={{!COL12}}
+
+PROMPT Kategorie<SP>und<SP>öffnungszeiten<SP>manuell<SP>hinzufügen,<SP>überprüfen<SP>vorgang<SP>manuell<SP>abschließen.
+PAUSE

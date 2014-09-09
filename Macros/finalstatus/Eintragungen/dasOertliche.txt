@@ -1,0 +1,34 @@
+<td id="content7">
+
+    <h1>
+
+        Vielen Dank!
+
+    </h1>
+    <br></br>
+    <p></p>
+    <h3></h3>
+    <p style="margin-top:10px;"></p>
+    <p></p>
+    <p>
+        <a href="mailto:info@tvg-verlag.de"></a>
+        <br></br>
+        <a href="http://www.tvg-verlag.de"></a>
+    </p>
+    <!--
+
+    <a href="javascript: self.close();"><img src="img/…
+
+    -->
+    <br></br>
+    <div class="socialtxt"></div>
+    <a class="btn_twitter" href="http://twitter.com/home?status=Gerade+%23Schnupperpaket+bei+…+werben%21+http%3A%2F%2Fwww.dasoertliche.de%2Fschnupperpaket" target="_blank"></a>
+    <a class="btn_facebook" href="http://www.facebook.com/share.php?u=http%3A%2F%2Fservices.da…liche.de%2F%2Fservices%2Fschnupperpaket%2F%3Ffrom%3Dfacebook" target="_blank"></a>
+    <br></br>
+    <br></br>
+    <br></br>
+    <br></br>
+    <br></br>
+    <a class="tooetb" href="http://www.dasoertliche.de/"></a>
+
+</td>

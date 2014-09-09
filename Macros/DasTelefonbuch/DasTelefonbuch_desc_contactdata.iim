@@ -1,0 +1,35 @@
+﻿'Eingabe von Dienstleistungen
+'Eingabe von Produkten
+'Eingabe von Marken
+TAG POS=1 TYPE=TEXTAREA ATTR=NAME:services CONTENT={{COL21}}
+SAVEAS TYPE=PNG FOLDER=* FILE={{COL4}}<SP>({{COL7}})<SP>-<SP>DasTelefonbuch<SP>-<SP>{{!NOW:dd.mm.yyyy,<SP>hh.nn.ss}}<SP>Uhr.png
+
+TAG POS=1 TYPE=INPUT:SUBMIT  ATTR=TABINDEX:5
+TAG POS=1 TYPE=INPUT:SUBMIT  ATTR=TABINDEX:15
+
+
+TAG POS=1 TYPE=INPUT:TEXT ATTR=NAME:personPhonePrefix CONTENT={{COL10}}
+TAG POS=1 TYPE=INPUT:TEXT ATTR=NAME:personPhone CONTENT={{COL11}}
+TAG POS=1 TYPE=INPUT:TEXT ATTR=NAME:personFirstname CONTENT={{COL2}}
+TAG POS=1 TYPE=INPUT:TEXT ATTR=NAME:personLastname CONTENT={{COL3}}
+TAG POS=1 TYPE=INPUT:TEXT  ATTR=NAME:personEmail CONTENT={{COL20}}
+
+SAVEAS TYPE=PNG FOLDER=* FILE={{COL4}}<SP>({{COL7}})<SP>-<SP>DasTelefonbuch<SP>-<SP>{{!NOW:dd.mm.yyyy,<SP>hh.nn.ss}}<SP>Uhr.png
+
+
+'PROMPT 1.)Anrede<SP>wählen<BR>2.)manuell<SP>auf<SP>weiter<SP>,captcha<SP>eingeben,agb<SP>bestätigen<SP>und<SP>vorgang<SP>beenden..
+'PAUSE
+
+TAG POS=1 TYPE=INPUT:SUBMIT ATTR=NAME:_eventId_next
+
+TAG POS=1 TYPE=INPUT:CHECKBOX ATTR=ID:agb CONTENT=YES
+PROMPT 1.)Captcha<SP>eingeben...<BR>2.)Macro<SP>fortführen..
+PAUSE
+
+'TAG POS=1 TYPE=INPUT:TEXT  ATTR=ID:captcha CONTENT=IMIIPM
+TAG POS=1 TYPE=INPUT:SUBMIT  ATTR=ID:_eventId_send
+
+'ATTR=CLASS:bdytxt
+TAG POS=1 TYPE=P ATTR=CLASS:thanks EXTRACT=TXT
+'TAG POS=1 TYPE=P ATTR=TXT:* EXTRACT=TXT
+'ADD !EXTRACT {{!URLCURRENT}}

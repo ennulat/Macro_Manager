@@ -1,0 +1,17 @@
+      Aktivierung erforderlich!
+
+<div id="notification_box" class="notification attention" style="width: 1493px; display: block;">
+
+    <p id="notifications">
+        <strong>
+            <span id="notification_event_title">
+
+                Aktivierung erforderlich!
+
+            </span>
+            <span id="notification_text"></span>
+        </strong>
+    </p>
+    <p id="notification_hide"></p>
+
+</div>

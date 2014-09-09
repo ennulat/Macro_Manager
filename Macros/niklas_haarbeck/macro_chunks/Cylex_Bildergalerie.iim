@@ -1,0 +1,15 @@
+﻿VERSION BUILD=8601111 RECORDER=FX
+TAB T=1
+URL GOTO=http://admin.cylex.de/firma_page.aspx?action=startup&d=cylex.de
+TAG POS=1 TYPE=P ATTR=TXT:Laden<SP>Sie<SP>Bilder<SP>und<SP>Fotos<SP>Ihres<SP>Unternehm*
+TAG POS=1 TYPE=A ATTR=ID:ctl00_ContentPlaceHolder1_multimedia_btn_add
+TAG POS=1 TYPE=INPUT:FILE FORM=ID:aspnetForm ATTR=ID:ctl00_ContentPlaceHolder1_multimedia_FileUpload1 CONTENT=C:\Users\Public\Pictures\Sample<SP>Pictures\Desert.jpg
+TAG POS=1 TYPE=INPUT:BUTTON FORM=ID:aspnetForm ATTR=ID:ctl00_ContentPlaceHolder1_multimedia_Upload_Image
+TAG POS=1 TYPE=INPUT:TEXT FORM=ID:aspnetForm ATTR=ID:ctl00_ContentPlaceHolder1_multimedia_tb_title CONTENT=Bildbeschreibung
+TAG POS=1 TYPE=INPUT:BUTTON FORM=ID:aspnetForm ATTR=ID:ctl00_ContentPlaceHolder1_multimedia_Upload_Image
+TAG POS=1 TYPE=INPUT:FILE FORM=ID:aspnetForm ATTR=ID:ctl00_ContentPlaceHolder1_multimedia_FileUpload1 CONTENT=C:\Users\Public\Pictures\Sample<SP>Pictures\Jellyfish.jpg
+TAG POS=1 TYPE=INPUT:TEXT FORM=ID:aspnetForm ATTR=ID:ctl00_ContentPlaceHolder1_multimedia_tb_title CONTENT=Bildbeschreibung
+TAG POS=1 TYPE=INPUT:BUTTON FORM=ID:aspnetForm ATTR=ID:ctl00_ContentPlaceHolder1_multimedia_Upload_Image
+TAG POS=1 TYPE=INPUT:FILE FORM=ID:aspnetForm ATTR=ID:ctl00_ContentPlaceHolder1_multimedia_FileUpload1 CONTENT=C:\Users\Public\Pictures\Sample<SP>Pictures\Desert.jpg
+TAG POS=1 TYPE=P ATTR=TXT:Abbrechen
+TAG POS=1 TYPE=INPUT:BUTTON FORM=ID:aspnetForm ATTR=ID:ctl00_ContentPlaceHolder1_multimedia_Upload_Image

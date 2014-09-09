@@ -1,0 +1,2852 @@
+Zeitpunkt: 09:35:38.4389874
+Kunde: test company x
+Verzeichnis: DasTelefonbuch
+Benutzer: Niklas
+Meldung: Öffnungszeiten: 
+mon: open|14:00-16:00
+tue: open|14:00-16:00
+wen: open|14:00-16:00
+thu: open|14:00-16:00
+fri: open|14:00-16:00
+sat: split|09:00-13:00~15:00-19:00
+sun: split|12:00-14:00~15:00-20:00
+
+MacroCode: CODE: TAG POS=1 TYPE=A ATTR=ID:Montag
+TAG POS=1 TYPE=SELECT FORM=ACTION:/entry/entryWizard?execution=e1s6 ATTR=ID:timeselect_from_1 CONTENT=%14:00
+TAG POS=1 TYPE=SELECT FORM=ACTION:/entry/entryWizard?execution=e1s6 ATTR=ID:timeselect_to_1 CONTENT=%16:00
+TAG POS=1 TYPE=A ATTR=ID:Dienstag
+TAG POS=1 TYPE=SELECT FORM=ACTION:/entry/entryWizard?execution=e1s6 ATTR=ID:timeselect_from_1 CONTENT=%14:00
+TAG POS=1 TYPE=SELECT FORM=ACTION:/entry/entryWizard?execution=e1s6 ATTR=ID:timeselect_to_1 CONTENT=%16:00
+TAG POS=1 TYPE=A ATTR=ID:Mittwoch
+TAG POS=1 TYPE=SELECT FORM=ACTION:/entry/entryWizard?execution=e1s6 ATTR=ID:timeselect_from_1 CONTENT=%14:00
+TAG POS=1 TYPE=SELECT FORM=ACTION:/entry/entryWizard?execution=e1s6 ATTR=ID:timeselect_to_1 CONTENT=%16:00
+TAG POS=1 TYPE=A ATTR=ID:Donnerstag
+TAG POS=1 TYPE=SELECT FORM=ACTION:/entry/entryWizard?execution=e1s6 ATTR=ID:timeselect_from_1 CONTENT=%14:00
+TAG POS=1 TYPE=SELECT FORM=ACTION:/entry/entryWizard?execution=e1s6 ATTR=ID:timeselect_to_1 CONTENT=%16:00
+TAG POS=1 TYPE=A ATTR=ID:Freitag
+TAG POS=1 TYPE=SELECT FORM=ACTION:/entry/entryWizard?execution=e1s6 ATTR=ID:timeselect_from_1 CONTENT=%14:00
+TAG POS=1 TYPE=SELECT FORM=ACTION:/entry/entryWizard?execution=e1s6 ATTR=ID:timeselect_to_1 CONTENT=%16:00
+TAG POS=1 TYPE=A ATTR=ID:Samstag
+TAG POS=1 TYPE=SELECT FORM=ACTION:/entry/entryWizard?execution=e1s6 ATTR=ID:timeselect_from_1 CONTENT=%09:00
+TAG POS=1 TYPE=SELECT FORM=ACTION:/entry/entryWizard?execution=e1s6 ATTR=ID:timeselect_to_1 CONTENT=%13:00
+TAG POS=1 TYPE=SELECT FORM=ACTION:/entry/entryWizard?execution=e1s6 ATTR=ID:timeselect_from_2 CONTENT=%15:00
+TAG POS=1 TYPE=SELECT FORM=ACTION:/entry/entryWizard?execution=e1s6 ATTR=ID:timeselect_to_2 CONTENT=%19:00
+TAG POS=1 TYPE=A ATTR=ID:Sonntag
+TAG POS=1 TYPE=SELECT FORM=ACTION:/entry/entryWizard?execution=e1s6 ATTR=ID:timeselect_from_1 CONTENT=%12:00
+TAG POS=1 TYPE=SELECT FORM=ACTION:/entry/entryWizard?execution=e1s6 ATTR=ID:timeselect_to_1 CONTENT=%14:00
+TAG POS=1 TYPE=SELECT FORM=ACTION:/entry/entryWizard?execution=e1s6 ATTR=ID:timeselect_from_2 CONTENT=%15:00
+TAG POS=1 TYPE=SELECT FORM=ACTION:/entry/entryWizard?execution=e1s6 ATTR=ID:timeselect_to_2 CONTENT=%20:00
+SAVEAS TYPE=PNG FOLDER=* FILE={{COL4}}<SP>({{COL7}})<SP>-<SP>DasTelefonbuch<SP>-<SP>OH<SP>-{{!NOW:dd.mm.yyyy,<SP>hh.nn.ss}}<SP>Uhr.png
+
+**********************************************************************************************
+
+Zeitpunkt: 09:35:44.5943394
+Kunde: test company x
+Verzeichnis: DasTelefonbuch
+Benutzer: Niklas
+Meldung: Öffnungszeiten: 
+mon: open|14:00-16:00
+tue: open|14:00-16:00
+wen: open|14:00-16:00
+thu: open|14:00-16:00
+fri: open|14:00-16:00
+sat: split|09:00-13:00~15:00-19:00
+sun: split|12:00-14:00~15:00-20:00
+
+MacroCode: CODE: TAG POS=1 TYPE=A ATTR=ID:Montag
+TAG POS=1 TYPE=SELECT FORM=ACTION:/entry/entryWizard?execution=e1s6 ATTR=ID:timeselect_from_1 CONTENT=%14:00
+TAG POS=1 TYPE=SELECT FORM=ACTION:/entry/entryWizard?execution=e1s6 ATTR=ID:timeselect_to_1 CONTENT=%16:00
+TAG POS=1 TYPE=A ATTR=ID:Dienstag
+TAG POS=1 TYPE=SELECT FORM=ACTION:/entry/entryWizard?execution=e1s6 ATTR=ID:timeselect_from_1 CONTENT=%14:00
+TAG POS=1 TYPE=SELECT FORM=ACTION:/entry/entryWizard?execution=e1s6 ATTR=ID:timeselect_to_1 CONTENT=%16:00
+TAG POS=1 TYPE=A ATTR=ID:Mittwoch
+TAG POS=1 TYPE=SELECT FORM=ACTION:/entry/entryWizard?execution=e1s6 ATTR=ID:timeselect_from_1 CONTENT=%14:00
+TAG POS=1 TYPE=SELECT FORM=ACTION:/entry/entryWizard?execution=e1s6 ATTR=ID:timeselect_to_1 CONTENT=%16:00
+TAG POS=1 TYPE=A ATTR=ID:Donnerstag
+TAG POS=1 TYPE=SELECT FORM=ACTION:/entry/entryWizard?execution=e1s6 ATTR=ID:timeselect_from_1 CONTENT=%14:00
+TAG POS=1 TYPE=SELECT FORM=ACTION:/entry/entryWizard?execution=e1s6 ATTR=ID:timeselect_to_1 CONTENT=%16:00
+TAG POS=1 TYPE=A ATTR=ID:Freitag
+TAG POS=1 TYPE=SELECT FORM=ACTION:/entry/entryWizard?execution=e1s6 ATTR=ID:timeselect_from_1 CONTENT=%14:00
+TAG POS=1 TYPE=SELECT FORM=ACTION:/entry/entryWizard?execution=e1s6 ATTR=ID:timeselect_to_1 CONTENT=%16:00
+TAG POS=1 TYPE=A ATTR=ID:Samstag
+TAG POS=1 TYPE=SELECT FORM=ACTION:/entry/entryWizard?execution=e1s6 ATTR=ID:timeselect_from_1 CONTENT=%09:00
+TAG POS=1 TYPE=SELECT FORM=ACTION:/entry/entryWizard?execution=e1s6 ATTR=ID:timeselect_to_1 CONTENT=%13:00
+TAG POS=1 TYPE=SELECT FORM=ACTION:/entry/entryWizard?execution=e1s6 ATTR=ID:timeselect_from_2 CONTENT=%15:00
+TAG POS=1 TYPE=SELECT FORM=ACTION:/entry/entryWizard?execution=e1s6 ATTR=ID:timeselect_to_2 CONTENT=%19:00
+TAG POS=1 TYPE=A ATTR=ID:Sonntag
+TAG POS=1 TYPE=SELECT FORM=ACTION:/entry/entryWizard?execution=e1s6 ATTR=ID:timeselect_from_1 CONTENT=%12:00
+TAG POS=1 TYPE=SELECT FORM=ACTION:/entry/entryWizard?execution=e1s6 ATTR=ID:timeselect_to_1 CONTENT=%14:00
+TAG POS=1 TYPE=SELECT FORM=ACTION:/entry/entryWizard?execution=e1s6 ATTR=ID:timeselect_from_2 CONTENT=%15:00
+TAG POS=1 TYPE=SELECT FORM=ACTION:/entry/entryWizard?execution=e1s6 ATTR=ID:timeselect_to_2 CONTENT=%20:00
+SAVEAS TYPE=PNG FOLDER=* FILE={{COL4}}<SP>({{COL7}})<SP>-<SP>DasTelefonbuch<SP>-<SP>OH<SP>-{{!NOW:dd.mm.yyyy,<SP>hh.nn.ss}}<SP>Uhr.png
+
+**********************************************************************************************
+
+Zeitpunkt: 09:35:47.1744870
+Kunde: test company x
+Verzeichnis: DasTelefonbuch
+Benutzer: Niklas
+Meldung: Öffnungszeiten: 
+mon: open|14:00-16:00
+tue: open|14:00-16:00
+wen: open|14:00-16:00
+thu: open|14:00-16:00
+fri: open|14:00-16:00
+sat: split|09:00-13:00~15:00-19:00
+sun: split|12:00-14:00~15:00-20:00
+
+MacroCode: CODE: TAG POS=1 TYPE=A ATTR=ID:Montag
+TAG POS=1 TYPE=SELECT FORM=ACTION:/entry/entryWizard?execution=e1s6 ATTR=ID:timeselect_from_1 CONTENT=%14:00
+TAG POS=1 TYPE=SELECT FORM=ACTION:/entry/entryWizard?execution=e1s6 ATTR=ID:timeselect_to_1 CONTENT=%16:00
+TAG POS=1 TYPE=A ATTR=ID:Dienstag
+TAG POS=1 TYPE=SELECT FORM=ACTION:/entry/entryWizard?execution=e1s6 ATTR=ID:timeselect_from_1 CONTENT=%14:00
+TAG POS=1 TYPE=SELECT FORM=ACTION:/entry/entryWizard?execution=e1s6 ATTR=ID:timeselect_to_1 CONTENT=%16:00
+TAG POS=1 TYPE=A ATTR=ID:Mittwoch
+TAG POS=1 TYPE=SELECT FORM=ACTION:/entry/entryWizard?execution=e1s6 ATTR=ID:timeselect_from_1 CONTENT=%14:00
+TAG POS=1 TYPE=SELECT FORM=ACTION:/entry/entryWizard?execution=e1s6 ATTR=ID:timeselect_to_1 CONTENT=%16:00
+TAG POS=1 TYPE=A ATTR=ID:Donnerstag
+TAG POS=1 TYPE=SELECT FORM=ACTION:/entry/entryWizard?execution=e1s6 ATTR=ID:timeselect_from_1 CONTENT=%14:00
+TAG POS=1 TYPE=SELECT FORM=ACTION:/entry/entryWizard?execution=e1s6 ATTR=ID:timeselect_to_1 CONTENT=%16:00
+TAG POS=1 TYPE=A ATTR=ID:Freitag
+TAG POS=1 TYPE=SELECT FORM=ACTION:/entry/entryWizard?execution=e1s6 ATTR=ID:timeselect_from_1 CONTENT=%14:00
+TAG POS=1 TYPE=SELECT FORM=ACTION:/entry/entryWizard?execution=e1s6 ATTR=ID:timeselect_to_1 CONTENT=%16:00
+TAG POS=1 TYPE=A ATTR=ID:Samstag
+TAG POS=1 TYPE=SELECT FORM=ACTION:/entry/entryWizard?execution=e1s6 ATTR=ID:timeselect_from_1 CONTENT=%09:00
+TAG POS=1 TYPE=SELECT FORM=ACTION:/entry/entryWizard?execution=e1s6 ATTR=ID:timeselect_to_1 CONTENT=%13:00
+TAG POS=1 TYPE=SELECT FORM=ACTION:/entry/entryWizard?execution=e1s6 ATTR=ID:timeselect_from_2 CONTENT=%15:00
+TAG POS=1 TYPE=SELECT FORM=ACTION:/entry/entryWizard?execution=e1s6 ATTR=ID:timeselect_to_2 CONTENT=%19:00
+TAG POS=1 TYPE=A ATTR=ID:Sonntag
+TAG POS=1 TYPE=SELECT FORM=ACTION:/entry/entryWizard?execution=e1s6 ATTR=ID:timeselect_from_1 CONTENT=%12:00
+TAG POS=1 TYPE=SELECT FORM=ACTION:/entry/entryWizard?execution=e1s6 ATTR=ID:timeselect_to_1 CONTENT=%14:00
+TAG POS=1 TYPE=SELECT FORM=ACTION:/entry/entryWizard?execution=e1s6 ATTR=ID:timeselect_from_2 CONTENT=%15:00
+TAG POS=1 TYPE=SELECT FORM=ACTION:/entry/entryWizard?execution=e1s6 ATTR=ID:timeselect_to_2 CONTENT=%20:00
+SAVEAS TYPE=PNG FOLDER=* FILE={{COL4}}<SP>({{COL7}})<SP>-<SP>DasTelefonbuch<SP>-<SP>OH<SP>-{{!NOW:dd.mm.yyyy,<SP>hh.nn.ss}}<SP>Uhr.png
+
+**********************************************************************************************
+
+Zeitpunkt: 09:35:48.7385765
+Kunde: test company x
+Verzeichnis: DasTelefonbuch
+Benutzer: Niklas
+Meldung: Öffnungszeiten: 
+mon: open|14:00-16:00
+tue: open|14:00-16:00
+wen: open|14:00-16:00
+thu: open|14:00-16:00
+fri: open|14:00-16:00
+sat: split|09:00-13:00~15:00-19:00
+sun: split|12:00-14:00~15:00-20:00
+
+MacroCode: CODE: TAG POS=1 TYPE=A ATTR=ID:Montag
+TAG POS=1 TYPE=SELECT FORM=ACTION:/entry/entryWizard?execution=e1s6 ATTR=ID:timeselect_from_1 CONTENT=%14:00
+TAG POS=1 TYPE=SELECT FORM=ACTION:/entry/entryWizard?execution=e1s6 ATTR=ID:timeselect_to_1 CONTENT=%16:00
+TAG POS=1 TYPE=A ATTR=ID:Dienstag
+TAG POS=1 TYPE=SELECT FORM=ACTION:/entry/entryWizard?execution=e1s6 ATTR=ID:timeselect_from_1 CONTENT=%14:00
+TAG POS=1 TYPE=SELECT FORM=ACTION:/entry/entryWizard?execution=e1s6 ATTR=ID:timeselect_to_1 CONTENT=%16:00
+TAG POS=1 TYPE=A ATTR=ID:Mittwoch
+TAG POS=1 TYPE=SELECT FORM=ACTION:/entry/entryWizard?execution=e1s6 ATTR=ID:timeselect_from_1 CONTENT=%14:00
+TAG POS=1 TYPE=SELECT FORM=ACTION:/entry/entryWizard?execution=e1s6 ATTR=ID:timeselect_to_1 CONTENT=%16:00
+TAG POS=1 TYPE=A ATTR=ID:Donnerstag
+TAG POS=1 TYPE=SELECT FORM=ACTION:/entry/entryWizard?execution=e1s6 ATTR=ID:timeselect_from_1 CONTENT=%14:00
+TAG POS=1 TYPE=SELECT FORM=ACTION:/entry/entryWizard?execution=e1s6 ATTR=ID:timeselect_to_1 CONTENT=%16:00
+TAG POS=1 TYPE=A ATTR=ID:Freitag
+TAG POS=1 TYPE=SELECT FORM=ACTION:/entry/entryWizard?execution=e1s6 ATTR=ID:timeselect_from_1 CONTENT=%14:00
+TAG POS=1 TYPE=SELECT FORM=ACTION:/entry/entryWizard?execution=e1s6 ATTR=ID:timeselect_to_1 CONTENT=%16:00
+TAG POS=1 TYPE=A ATTR=ID:Samstag
+TAG POS=1 TYPE=SELECT FORM=ACTION:/entry/entryWizard?execution=e1s6 ATTR=ID:timeselect_from_1 CONTENT=%09:00
+TAG POS=1 TYPE=SELECT FORM=ACTION:/entry/entryWizard?execution=e1s6 ATTR=ID:timeselect_to_1 CONTENT=%13:00
+TAG POS=1 TYPE=SELECT FORM=ACTION:/entry/entryWizard?execution=e1s6 ATTR=ID:timeselect_from_2 CONTENT=%15:00
+TAG POS=1 TYPE=SELECT FORM=ACTION:/entry/entryWizard?execution=e1s6 ATTR=ID:timeselect_to_2 CONTENT=%19:00
+TAG POS=1 TYPE=A ATTR=ID:Sonntag
+TAG POS=1 TYPE=SELECT FORM=ACTION:/entry/entryWizard?execution=e1s6 ATTR=ID:timeselect_from_1 CONTENT=%12:00
+TAG POS=1 TYPE=SELECT FORM=ACTION:/entry/entryWizard?execution=e1s6 ATTR=ID:timeselect_to_1 CONTENT=%14:00
+TAG POS=1 TYPE=SELECT FORM=ACTION:/entry/entryWizard?execution=e1s6 ATTR=ID:timeselect_from_2 CONTENT=%15:00
+TAG POS=1 TYPE=SELECT FORM=ACTION:/entry/entryWizard?execution=e1s6 ATTR=ID:timeselect_to_2 CONTENT=%20:00
+SAVEAS TYPE=PNG FOLDER=* FILE={{COL4}}<SP>({{COL7}})<SP>-<SP>DasTelefonbuch<SP>-<SP>OH<SP>-{{!NOW:dd.mm.yyyy,<SP>hh.nn.ss}}<SP>Uhr.png
+
+**********************************************************************************************
+
+Zeitpunkt: 09:35:49.8966427
+Kunde: test company x
+Verzeichnis: DasTelefonbuch
+Benutzer: Niklas
+Meldung: Öffnungszeiten: 
+mon: open|14:00-16:00
+tue: open|14:00-16:00
+wen: open|14:00-16:00
+thu: open|14:00-16:00
+fri: open|14:00-16:00
+sat: split|09:00-13:00~15:00-19:00
+sun: split|12:00-14:00~15:00-20:00
+
+MacroCode: CODE: TAG POS=1 TYPE=A ATTR=ID:Montag
+TAG POS=1 TYPE=SELECT FORM=ACTION:/entry/entryWizard?execution=e1s6 ATTR=ID:timeselect_from_1 CONTENT=%14:00
+TAG POS=1 TYPE=SELECT FORM=ACTION:/entry/entryWizard?execution=e1s6 ATTR=ID:timeselect_to_1 CONTENT=%16:00
+TAG POS=1 TYPE=A ATTR=ID:Dienstag
+TAG POS=1 TYPE=SELECT FORM=ACTION:/entry/entryWizard?execution=e1s6 ATTR=ID:timeselect_from_1 CONTENT=%14:00
+TAG POS=1 TYPE=SELECT FORM=ACTION:/entry/entryWizard?execution=e1s6 ATTR=ID:timeselect_to_1 CONTENT=%16:00
+TAG POS=1 TYPE=A ATTR=ID:Mittwoch
+TAG POS=1 TYPE=SELECT FORM=ACTION:/entry/entryWizard?execution=e1s6 ATTR=ID:timeselect_from_1 CONTENT=%14:00
+TAG POS=1 TYPE=SELECT FORM=ACTION:/entry/entryWizard?execution=e1s6 ATTR=ID:timeselect_to_1 CONTENT=%16:00
+TAG POS=1 TYPE=A ATTR=ID:Donnerstag
+TAG POS=1 TYPE=SELECT FORM=ACTION:/entry/entryWizard?execution=e1s6 ATTR=ID:timeselect_from_1 CONTENT=%14:00
+TAG POS=1 TYPE=SELECT FORM=ACTION:/entry/entryWizard?execution=e1s6 ATTR=ID:timeselect_to_1 CONTENT=%16:00
+TAG POS=1 TYPE=A ATTR=ID:Freitag
+TAG POS=1 TYPE=SELECT FORM=ACTION:/entry/entryWizard?execution=e1s6 ATTR=ID:timeselect_from_1 CONTENT=%14:00
+TAG POS=1 TYPE=SELECT FORM=ACTION:/entry/entryWizard?execution=e1s6 ATTR=ID:timeselect_to_1 CONTENT=%16:00
+TAG POS=1 TYPE=A ATTR=ID:Samstag
+TAG POS=1 TYPE=SELECT FORM=ACTION:/entry/entryWizard?execution=e1s6 ATTR=ID:timeselect_from_1 CONTENT=%09:00
+TAG POS=1 TYPE=SELECT FORM=ACTION:/entry/entryWizard?execution=e1s6 ATTR=ID:timeselect_to_1 CONTENT=%13:00
+TAG POS=1 TYPE=SELECT FORM=ACTION:/entry/entryWizard?execution=e1s6 ATTR=ID:timeselect_from_2 CONTENT=%15:00
+TAG POS=1 TYPE=SELECT FORM=ACTION:/entry/entryWizard?execution=e1s6 ATTR=ID:timeselect_to_2 CONTENT=%19:00
+TAG POS=1 TYPE=A ATTR=ID:Sonntag
+TAG POS=1 TYPE=SELECT FORM=ACTION:/entry/entryWizard?execution=e1s6 ATTR=ID:timeselect_from_1 CONTENT=%12:00
+TAG POS=1 TYPE=SELECT FORM=ACTION:/entry/entryWizard?execution=e1s6 ATTR=ID:timeselect_to_1 CONTENT=%14:00
+TAG POS=1 TYPE=SELECT FORM=ACTION:/entry/entryWizard?execution=e1s6 ATTR=ID:timeselect_from_2 CONTENT=%15:00
+TAG POS=1 TYPE=SELECT FORM=ACTION:/entry/entryWizard?execution=e1s6 ATTR=ID:timeselect_to_2 CONTENT=%20:00
+SAVEAS TYPE=PNG FOLDER=* FILE={{COL4}}<SP>({{COL7}})<SP>-<SP>DasTelefonbuch<SP>-<SP>OH<SP>-{{!NOW:dd.mm.yyyy,<SP>hh.nn.ss}}<SP>Uhr.png
+
+**********************************************************************************************
+
+Zeitpunkt: 09:35:50.4346735
+Kunde: test company x
+Verzeichnis: DasTelefonbuch
+Benutzer: Niklas
+Meldung: Öffnungszeiten: 
+mon: open|14:00-16:00
+tue: open|14:00-16:00
+wen: open|14:00-16:00
+thu: open|14:00-16:00
+fri: open|14:00-16:00
+sat: split|09:00-13:00~15:00-19:00
+sun: split|12:00-14:00~15:00-20:00
+
+MacroCode: CODE: TAG POS=1 TYPE=A ATTR=ID:Montag
+TAG POS=1 TYPE=SELECT FORM=ACTION:/entry/entryWizard?execution=e1s6 ATTR=ID:timeselect_from_1 CONTENT=%14:00
+TAG POS=1 TYPE=SELECT FORM=ACTION:/entry/entryWizard?execution=e1s6 ATTR=ID:timeselect_to_1 CONTENT=%16:00
+TAG POS=1 TYPE=A ATTR=ID:Dienstag
+TAG POS=1 TYPE=SELECT FORM=ACTION:/entry/entryWizard?execution=e1s6 ATTR=ID:timeselect_from_1 CONTENT=%14:00
+TAG POS=1 TYPE=SELECT FORM=ACTION:/entry/entryWizard?execution=e1s6 ATTR=ID:timeselect_to_1 CONTENT=%16:00
+TAG POS=1 TYPE=A ATTR=ID:Mittwoch
+TAG POS=1 TYPE=SELECT FORM=ACTION:/entry/entryWizard?execution=e1s6 ATTR=ID:timeselect_from_1 CONTENT=%14:00
+TAG POS=1 TYPE=SELECT FORM=ACTION:/entry/entryWizard?execution=e1s6 ATTR=ID:timeselect_to_1 CONTENT=%16:00
+TAG POS=1 TYPE=A ATTR=ID:Donnerstag
+TAG POS=1 TYPE=SELECT FORM=ACTION:/entry/entryWizard?execution=e1s6 ATTR=ID:timeselect_from_1 CONTENT=%14:00
+TAG POS=1 TYPE=SELECT FORM=ACTION:/entry/entryWizard?execution=e1s6 ATTR=ID:timeselect_to_1 CONTENT=%16:00
+TAG POS=1 TYPE=A ATTR=ID:Freitag
+TAG POS=1 TYPE=SELECT FORM=ACTION:/entry/entryWizard?execution=e1s6 ATTR=ID:timeselect_from_1 CONTENT=%14:00
+TAG POS=1 TYPE=SELECT FORM=ACTION:/entry/entryWizard?execution=e1s6 ATTR=ID:timeselect_to_1 CONTENT=%16:00
+TAG POS=1 TYPE=A ATTR=ID:Samstag
+TAG POS=1 TYPE=SELECT FORM=ACTION:/entry/entryWizard?execution=e1s6 ATTR=ID:timeselect_from_1 CONTENT=%09:00
+TAG POS=1 TYPE=SELECT FORM=ACTION:/entry/entryWizard?execution=e1s6 ATTR=ID:timeselect_to_1 CONTENT=%13:00
+TAG POS=1 TYPE=SELECT FORM=ACTION:/entry/entryWizard?execution=e1s6 ATTR=ID:timeselect_from_2 CONTENT=%15:00
+TAG POS=1 TYPE=SELECT FORM=ACTION:/entry/entryWizard?execution=e1s6 ATTR=ID:timeselect_to_2 CONTENT=%19:00
+TAG POS=1 TYPE=A ATTR=ID:Sonntag
+TAG POS=1 TYPE=SELECT FORM=ACTION:/entry/entryWizard?execution=e1s6 ATTR=ID:timeselect_from_1 CONTENT=%12:00
+TAG POS=1 TYPE=SELECT FORM=ACTION:/entry/entryWizard?execution=e1s6 ATTR=ID:timeselect_to_1 CONTENT=%14:00
+TAG POS=1 TYPE=SELECT FORM=ACTION:/entry/entryWizard?execution=e1s6 ATTR=ID:timeselect_from_2 CONTENT=%15:00
+TAG POS=1 TYPE=SELECT FORM=ACTION:/entry/entryWizard?execution=e1s6 ATTR=ID:timeselect_to_2 CONTENT=%20:00
+SAVEAS TYPE=PNG FOLDER=* FILE={{COL4}}<SP>({{COL7}})<SP>-<SP>DasTelefonbuch<SP>-<SP>OH<SP>-{{!NOW:dd.mm.yyyy,<SP>hh.nn.ss}}<SP>Uhr.png
+
+**********************************************************************************************
+
+Zeitpunkt: 09:36:10.1528013
+Kunde: test company x
+Verzeichnis: DasTelefonbuch
+Benutzer: Niklas
+Meldung: Öffnungszeiten: 
+mon: open|14:00-16:00
+tue: open|14:00-16:00
+wen: open|14:00-16:00
+thu: open|14:00-16:00
+fri: open|14:00-16:00
+sat: split|09:00-13:00~15:00-19:00
+sun: split|12:00-14:00~15:00-20:00
+
+MacroCode: CODE: TAG POS=1 TYPE=A ATTR=ID:Montag
+TAG POS=1 TYPE=SELECT FORM=ACTION:/entry/entryWizard?execution=e1s6 ATTR=ID:timeselect_from_1 CONTENT=%14:00
+TAG POS=1 TYPE=SELECT FORM=ACTION:/entry/entryWizard?execution=e1s6 ATTR=ID:timeselect_to_1 CONTENT=%16:00
+TAG POS=1 TYPE=A ATTR=ID:Dienstag
+TAG POS=1 TYPE=SELECT FORM=ACTION:/entry/entryWizard?execution=e1s6 ATTR=ID:timeselect_from_1 CONTENT=%14:00
+TAG POS=1 TYPE=SELECT FORM=ACTION:/entry/entryWizard?execution=e1s6 ATTR=ID:timeselect_to_1 CONTENT=%16:00
+TAG POS=1 TYPE=A ATTR=ID:Mittwoch
+TAG POS=1 TYPE=SELECT FORM=ACTION:/entry/entryWizard?execution=e1s6 ATTR=ID:timeselect_from_1 CONTENT=%14:00
+TAG POS=1 TYPE=SELECT FORM=ACTION:/entry/entryWizard?execution=e1s6 ATTR=ID:timeselect_to_1 CONTENT=%16:00
+TAG POS=1 TYPE=A ATTR=ID:Donnerstag
+TAG POS=1 TYPE=SELECT FORM=ACTION:/entry/entryWizard?execution=e1s6 ATTR=ID:timeselect_from_1 CONTENT=%14:00
+TAG POS=1 TYPE=SELECT FORM=ACTION:/entry/entryWizard?execution=e1s6 ATTR=ID:timeselect_to_1 CONTENT=%16:00
+TAG POS=1 TYPE=A ATTR=ID:Freitag
+TAG POS=1 TYPE=SELECT FORM=ACTION:/entry/entryWizard?execution=e1s6 ATTR=ID:timeselect_from_1 CONTENT=%14:00
+TAG POS=1 TYPE=SELECT FORM=ACTION:/entry/entryWizard?execution=e1s6 ATTR=ID:timeselect_to_1 CONTENT=%16:00
+TAG POS=1 TYPE=A ATTR=ID:Samstag
+TAG POS=1 TYPE=SELECT FORM=ACTION:/entry/entryWizard?execution=e1s6 ATTR=ID:timeselect_from_1 CONTENT=%09:00
+TAG POS=1 TYPE=SELECT FORM=ACTION:/entry/entryWizard?execution=e1s6 ATTR=ID:timeselect_to_1 CONTENT=%13:00
+TAG POS=1 TYPE=SELECT FORM=ACTION:/entry/entryWizard?execution=e1s6 ATTR=ID:timeselect_from_2 CONTENT=%15:00
+TAG POS=1 TYPE=SELECT FORM=ACTION:/entry/entryWizard?execution=e1s6 ATTR=ID:timeselect_to_2 CONTENT=%19:00
+TAG POS=1 TYPE=A ATTR=ID:Sonntag
+TAG POS=1 TYPE=SELECT FORM=ACTION:/entry/entryWizard?execution=e1s6 ATTR=ID:timeselect_from_1 CONTENT=%12:00
+TAG POS=1 TYPE=SELECT FORM=ACTION:/entry/entryWizard?execution=e1s6 ATTR=ID:timeselect_to_1 CONTENT=%14:00
+TAG POS=1 TYPE=SELECT FORM=ACTION:/entry/entryWizard?execution=e1s6 ATTR=ID:timeselect_from_2 CONTENT=%15:00
+TAG POS=1 TYPE=SELECT FORM=ACTION:/entry/entryWizard?execution=e1s6 ATTR=ID:timeselect_to_2 CONTENT=%20:00
+SAVEAS TYPE=PNG FOLDER=* FILE={{COL4}}<SP>({{COL7}})<SP>-<SP>DasTelefonbuch<SP>-<SP>OH<SP>-{{!NOW:dd.mm.yyyy,<SP>hh.nn.ss}}<SP>Uhr.png
+
+**********************************************************************************************
+
+Zeitpunkt: 09:36:10.7068330
+Kunde: test company x
+Verzeichnis: DasTelefonbuch
+Benutzer: Niklas
+Meldung: Öffnungszeiten: 
+mon: open|14:00-16:00
+tue: open|14:00-16:00
+wen: open|14:00-16:00
+thu: open|14:00-16:00
+fri: open|14:00-16:00
+sat: split|09:00-13:00~15:00-19:00
+sun: split|12:00-14:00~15:00-20:00
+
+MacroCode: CODE: TAG POS=1 TYPE=A ATTR=ID:Montag
+TAG POS=1 TYPE=SELECT FORM=ACTION:/entry/entryWizard?execution=e1s6 ATTR=ID:timeselect_from_1 CONTENT=%14:00
+TAG POS=1 TYPE=SELECT FORM=ACTION:/entry/entryWizard?execution=e1s6 ATTR=ID:timeselect_to_1 CONTENT=%16:00
+TAG POS=1 TYPE=A ATTR=ID:Dienstag
+TAG POS=1 TYPE=SELECT FORM=ACTION:/entry/entryWizard?execution=e1s6 ATTR=ID:timeselect_from_1 CONTENT=%14:00
+TAG POS=1 TYPE=SELECT FORM=ACTION:/entry/entryWizard?execution=e1s6 ATTR=ID:timeselect_to_1 CONTENT=%16:00
+TAG POS=1 TYPE=A ATTR=ID:Mittwoch
+TAG POS=1 TYPE=SELECT FORM=ACTION:/entry/entryWizard?execution=e1s6 ATTR=ID:timeselect_from_1 CONTENT=%14:00
+TAG POS=1 TYPE=SELECT FORM=ACTION:/entry/entryWizard?execution=e1s6 ATTR=ID:timeselect_to_1 CONTENT=%16:00
+TAG POS=1 TYPE=A ATTR=ID:Donnerstag
+TAG POS=1 TYPE=SELECT FORM=ACTION:/entry/entryWizard?execution=e1s6 ATTR=ID:timeselect_from_1 CONTENT=%14:00
+TAG POS=1 TYPE=SELECT FORM=ACTION:/entry/entryWizard?execution=e1s6 ATTR=ID:timeselect_to_1 CONTENT=%16:00
+TAG POS=1 TYPE=A ATTR=ID:Freitag
+TAG POS=1 TYPE=SELECT FORM=ACTION:/entry/entryWizard?execution=e1s6 ATTR=ID:timeselect_from_1 CONTENT=%14:00
+TAG POS=1 TYPE=SELECT FORM=ACTION:/entry/entryWizard?execution=e1s6 ATTR=ID:timeselect_to_1 CONTENT=%16:00
+TAG POS=1 TYPE=A ATTR=ID:Samstag
+TAG POS=1 TYPE=SELECT FORM=ACTION:/entry/entryWizard?execution=e1s6 ATTR=ID:timeselect_from_1 CONTENT=%09:00
+TAG POS=1 TYPE=SELECT FORM=ACTION:/entry/entryWizard?execution=e1s6 ATTR=ID:timeselect_to_1 CONTENT=%13:00
+TAG POS=1 TYPE=SELECT FORM=ACTION:/entry/entryWizard?execution=e1s6 ATTR=ID:timeselect_from_2 CONTENT=%15:00
+TAG POS=1 TYPE=SELECT FORM=ACTION:/entry/entryWizard?execution=e1s6 ATTR=ID:timeselect_to_2 CONTENT=%19:00
+TAG POS=1 TYPE=A ATTR=ID:Sonntag
+TAG POS=1 TYPE=SELECT FORM=ACTION:/entry/entryWizard?execution=e1s6 ATTR=ID:timeselect_from_1 CONTENT=%12:00
+TAG POS=1 TYPE=SELECT FORM=ACTION:/entry/entryWizard?execution=e1s6 ATTR=ID:timeselect_to_1 CONTENT=%14:00
+TAG POS=1 TYPE=SELECT FORM=ACTION:/entry/entryWizard?execution=e1s6 ATTR=ID:timeselect_from_2 CONTENT=%15:00
+TAG POS=1 TYPE=SELECT FORM=ACTION:/entry/entryWizard?execution=e1s6 ATTR=ID:timeselect_to_2 CONTENT=%20:00
+SAVEAS TYPE=PNG FOLDER=* FILE={{COL4}}<SP>({{COL7}})<SP>-<SP>DasTelefonbuch<SP>-<SP>OH<SP>-{{!NOW:dd.mm.yyyy,<SP>hh.nn.ss}}<SP>Uhr.png
+
+**********************************************************************************************
+
+Zeitpunkt: 09:40:44.6154997
+Kunde: test company x
+Verzeichnis: DasTelefonbuch
+Benutzer: Niklas
+Meldung: Öffnungszeiten: 
+mon: open|14:00-16:00
+tue: open|14:00-16:00
+wen: open|14:00-16:00
+thu: open|14:00-16:00
+fri: open|14:00-16:00
+sat: split|09:00-13:00~15:00-19:00
+sun: split|12:00-14:00~15:00-20:00
+
+MacroCode: CODE: TAG POS=1 TYPE=A ATTR=ID:Montag
+TAG POS=1 TYPE=SELECT FORM=ACTION:/entry/entryWizard?execution=e1s6 ATTR=ID:timeselect_from_1 CONTENT=%14:00
+TAG POS=1 TYPE=SELECT FORM=ACTION:/entry/entryWizard?execution=e1s6 ATTR=ID:timeselect_to_1 CONTENT=%16:00
+TAG POS=1 TYPE=A ATTR=ID:Dienstag
+TAG POS=1 TYPE=SELECT FORM=ACTION:/entry/entryWizard?execution=e1s6 ATTR=ID:timeselect_from_1 CONTENT=%14:00
+TAG POS=1 TYPE=SELECT FORM=ACTION:/entry/entryWizard?execution=e1s6 ATTR=ID:timeselect_to_1 CONTENT=%16:00
+TAG POS=1 TYPE=A ATTR=ID:Mittwoch
+TAG POS=1 TYPE=SELECT FORM=ACTION:/entry/entryWizard?execution=e1s6 ATTR=ID:timeselect_from_1 CONTENT=%14:00
+TAG POS=1 TYPE=SELECT FORM=ACTION:/entry/entryWizard?execution=e1s6 ATTR=ID:timeselect_to_1 CONTENT=%16:00
+TAG POS=1 TYPE=A ATTR=ID:Donnerstag
+TAG POS=1 TYPE=SELECT FORM=ACTION:/entry/entryWizard?execution=e1s6 ATTR=ID:timeselect_from_1 CONTENT=%14:00
+TAG POS=1 TYPE=SELECT FORM=ACTION:/entry/entryWizard?execution=e1s6 ATTR=ID:timeselect_to_1 CONTENT=%16:00
+TAG POS=1 TYPE=A ATTR=ID:Freitag
+TAG POS=1 TYPE=SELECT FORM=ACTION:/entry/entryWizard?execution=e1s6 ATTR=ID:timeselect_from_1 CONTENT=%14:00
+TAG POS=1 TYPE=SELECT FORM=ACTION:/entry/entryWizard?execution=e1s6 ATTR=ID:timeselect_to_1 CONTENT=%16:00
+TAG POS=1 TYPE=A ATTR=ID:Samstag
+TAG POS=1 TYPE=SELECT FORM=ACTION:/entry/entryWizard?execution=e1s6 ATTR=ID:timeselect_from_1 CONTENT=%09:00
+TAG POS=1 TYPE=SELECT FORM=ACTION:/entry/entryWizard?execution=e1s6 ATTR=ID:timeselect_to_1 CONTENT=%13:00
+TAG POS=1 TYPE=SELECT FORM=ACTION:/entry/entryWizard?execution=e1s6 ATTR=ID:timeselect_from_2 CONTENT=%15:00
+TAG POS=1 TYPE=SELECT FORM=ACTION:/entry/entryWizard?execution=e1s6 ATTR=ID:timeselect_to_2 CONTENT=%19:00
+TAG POS=1 TYPE=A ATTR=ID:Sonntag
+TAG POS=1 TYPE=SELECT FORM=ACTION:/entry/entryWizard?execution=e1s6 ATTR=ID:timeselect_from_1 CONTENT=%12:00
+TAG POS=1 TYPE=SELECT FORM=ACTION:/entry/entryWizard?execution=e1s6 ATTR=ID:timeselect_to_1 CONTENT=%14:00
+TAG POS=1 TYPE=SELECT FORM=ACTION:/entry/entryWizard?execution=e1s6 ATTR=ID:timeselect_from_2 CONTENT=%15:00
+TAG POS=1 TYPE=SELECT FORM=ACTION:/entry/entryWizard?execution=e1s6 ATTR=ID:timeselect_to_2 CONTENT=%20:00
+SAVEAS TYPE=PNG FOLDER=* FILE={{COL4}}<SP>({{COL7}})<SP>-<SP>DasTelefonbuch<SP>-<SP>OH<SP>-{{!NOW:dd.mm.yyyy,<SP>hh.nn.ss}}<SP>Uhr.png
+
+**********************************************************************************************
+
+Zeitpunkt: 09:40:49.1077566
+Kunde: test company x
+Verzeichnis: DasTelefonbuch
+Benutzer: Niklas
+Meldung: Öffnungszeiten: 
+mon: open|14:00-16:00
+tue: open|14:00-16:00
+wen: open|14:00-16:00
+thu: open|14:00-16:00
+fri: open|14:00-16:00
+sat: split|09:00-13:00~15:00-19:00
+sun: split|12:00-14:00~15:00-20:00
+
+MacroCode: CODE: TAG POS=1 TYPE=A ATTR=ID:Montag
+TAG POS=1 TYPE=SELECT FORM=ACTION:/entry/entryWizard?execution=e1s6 ATTR=ID:timeselect_from_1 CONTENT=%14:00
+TAG POS=1 TYPE=SELECT FORM=ACTION:/entry/entryWizard?execution=e1s6 ATTR=ID:timeselect_to_1 CONTENT=%16:00
+TAG POS=1 TYPE=A ATTR=ID:Dienstag
+TAG POS=1 TYPE=SELECT FORM=ACTION:/entry/entryWizard?execution=e1s6 ATTR=ID:timeselect_from_1 CONTENT=%14:00
+TAG POS=1 TYPE=SELECT FORM=ACTION:/entry/entryWizard?execution=e1s6 ATTR=ID:timeselect_to_1 CONTENT=%16:00
+TAG POS=1 TYPE=A ATTR=ID:Mittwoch
+TAG POS=1 TYPE=SELECT FORM=ACTION:/entry/entryWizard?execution=e1s6 ATTR=ID:timeselect_from_1 CONTENT=%14:00
+TAG POS=1 TYPE=SELECT FORM=ACTION:/entry/entryWizard?execution=e1s6 ATTR=ID:timeselect_to_1 CONTENT=%16:00
+TAG POS=1 TYPE=A ATTR=ID:Donnerstag
+TAG POS=1 TYPE=SELECT FORM=ACTION:/entry/entryWizard?execution=e1s6 ATTR=ID:timeselect_from_1 CONTENT=%14:00
+TAG POS=1 TYPE=SELECT FORM=ACTION:/entry/entryWizard?execution=e1s6 ATTR=ID:timeselect_to_1 CONTENT=%16:00
+TAG POS=1 TYPE=A ATTR=ID:Freitag
+TAG POS=1 TYPE=SELECT FORM=ACTION:/entry/entryWizard?execution=e1s6 ATTR=ID:timeselect_from_1 CONTENT=%14:00
+TAG POS=1 TYPE=SELECT FORM=ACTION:/entry/entryWizard?execution=e1s6 ATTR=ID:timeselect_to_1 CONTENT=%16:00
+TAG POS=1 TYPE=A ATTR=ID:Samstag
+TAG POS=1 TYPE=SELECT FORM=ACTION:/entry/entryWizard?execution=e1s6 ATTR=ID:timeselect_from_1 CONTENT=%09:00
+TAG POS=1 TYPE=SELECT FORM=ACTION:/entry/entryWizard?execution=e1s6 ATTR=ID:timeselect_to_1 CONTENT=%13:00
+TAG POS=1 TYPE=SELECT FORM=ACTION:/entry/entryWizard?execution=e1s6 ATTR=ID:timeselect_from_2 CONTENT=%15:00
+TAG POS=1 TYPE=SELECT FORM=ACTION:/entry/entryWizard?execution=e1s6 ATTR=ID:timeselect_to_2 CONTENT=%19:00
+TAG POS=1 TYPE=A ATTR=ID:Sonntag
+TAG POS=1 TYPE=SELECT FORM=ACTION:/entry/entryWizard?execution=e1s6 ATTR=ID:timeselect_from_1 CONTENT=%12:00
+TAG POS=1 TYPE=SELECT FORM=ACTION:/entry/entryWizard?execution=e1s6 ATTR=ID:timeselect_to_1 CONTENT=%14:00
+TAG POS=1 TYPE=SELECT FORM=ACTION:/entry/entryWizard?execution=e1s6 ATTR=ID:timeselect_from_2 CONTENT=%15:00
+TAG POS=1 TYPE=SELECT FORM=ACTION:/entry/entryWizard?execution=e1s6 ATTR=ID:timeselect_to_2 CONTENT=%20:00
+SAVEAS TYPE=PNG FOLDER=* FILE={{COL4}}<SP>({{COL7}})<SP>-<SP>DasTelefonbuch<SP>-<SP>OH<SP>-{{!NOW:dd.mm.yyyy,<SP>hh.nn.ss}}<SP>Uhr.png
+
+**********************************************************************************************
+
+Zeitpunkt: 09:40:50.9898642
+Kunde: test company x
+Verzeichnis: DasTelefonbuch
+Benutzer: Niklas
+Meldung: Öffnungszeiten: 
+mon: open|14:00-16:00
+tue: open|14:00-16:00
+wen: open|14:00-16:00
+thu: open|14:00-16:00
+fri: open|14:00-16:00
+sat: split|09:00-13:00~15:00-19:00
+sun: split|12:00-14:00~15:00-20:00
+
+MacroCode: CODE: TAG POS=1 TYPE=A ATTR=ID:Montag
+TAG POS=1 TYPE=SELECT FORM=ACTION:/entry/entryWizard?execution=e1s6 ATTR=ID:timeselect_from_1 CONTENT=%14:00
+TAG POS=1 TYPE=SELECT FORM=ACTION:/entry/entryWizard?execution=e1s6 ATTR=ID:timeselect_to_1 CONTENT=%16:00
+TAG POS=1 TYPE=A ATTR=ID:Dienstag
+TAG POS=1 TYPE=SELECT FORM=ACTION:/entry/entryWizard?execution=e1s6 ATTR=ID:timeselect_from_1 CONTENT=%14:00
+TAG POS=1 TYPE=SELECT FORM=ACTION:/entry/entryWizard?execution=e1s6 ATTR=ID:timeselect_to_1 CONTENT=%16:00
+TAG POS=1 TYPE=A ATTR=ID:Mittwoch
+TAG POS=1 TYPE=SELECT FORM=ACTION:/entry/entryWizard?execution=e1s6 ATTR=ID:timeselect_from_1 CONTENT=%14:00
+TAG POS=1 TYPE=SELECT FORM=ACTION:/entry/entryWizard?execution=e1s6 ATTR=ID:timeselect_to_1 CONTENT=%16:00
+TAG POS=1 TYPE=A ATTR=ID:Donnerstag
+TAG POS=1 TYPE=SELECT FORM=ACTION:/entry/entryWizard?execution=e1s6 ATTR=ID:timeselect_from_1 CONTENT=%14:00
+TAG POS=1 TYPE=SELECT FORM=ACTION:/entry/entryWizard?execution=e1s6 ATTR=ID:timeselect_to_1 CONTENT=%16:00
+TAG POS=1 TYPE=A ATTR=ID:Freitag
+TAG POS=1 TYPE=SELECT FORM=ACTION:/entry/entryWizard?execution=e1s6 ATTR=ID:timeselect_from_1 CONTENT=%14:00
+TAG POS=1 TYPE=SELECT FORM=ACTION:/entry/entryWizard?execution=e1s6 ATTR=ID:timeselect_to_1 CONTENT=%16:00
+TAG POS=1 TYPE=A ATTR=ID:Samstag
+TAG POS=1 TYPE=SELECT FORM=ACTION:/entry/entryWizard?execution=e1s6 ATTR=ID:timeselect_from_1 CONTENT=%09:00
+TAG POS=1 TYPE=SELECT FORM=ACTION:/entry/entryWizard?execution=e1s6 ATTR=ID:timeselect_to_1 CONTENT=%13:00
+TAG POS=1 TYPE=SELECT FORM=ACTION:/entry/entryWizard?execution=e1s6 ATTR=ID:timeselect_from_2 CONTENT=%15:00
+TAG POS=1 TYPE=SELECT FORM=ACTION:/entry/entryWizard?execution=e1s6 ATTR=ID:timeselect_to_2 CONTENT=%19:00
+TAG POS=1 TYPE=A ATTR=ID:Sonntag
+TAG POS=1 TYPE=SELECT FORM=ACTION:/entry/entryWizard?execution=e1s6 ATTR=ID:timeselect_from_1 CONTENT=%12:00
+TAG POS=1 TYPE=SELECT FORM=ACTION:/entry/entryWizard?execution=e1s6 ATTR=ID:timeselect_to_1 CONTENT=%14:00
+TAG POS=1 TYPE=SELECT FORM=ACTION:/entry/entryWizard?execution=e1s6 ATTR=ID:timeselect_from_2 CONTENT=%15:00
+TAG POS=1 TYPE=SELECT FORM=ACTION:/entry/entryWizard?execution=e1s6 ATTR=ID:timeselect_to_2 CONTENT=%20:00
+SAVEAS TYPE=PNG FOLDER=* FILE={{COL4}}<SP>({{COL7}})<SP>-<SP>DasTelefonbuch<SP>-<SP>OH<SP>-{{!NOW:dd.mm.yyyy,<SP>hh.nn.ss}}<SP>Uhr.png
+
+**********************************************************************************************
+
+Zeitpunkt: 09:40:51.6289008
+Kunde: test company x
+Verzeichnis: DasTelefonbuch
+Benutzer: Niklas
+Meldung: Öffnungszeiten: 
+mon: open|14:00-16:00
+tue: open|14:00-16:00
+wen: open|14:00-16:00
+thu: open|14:00-16:00
+fri: open|14:00-16:00
+sat: split|09:00-13:00~15:00-19:00
+sun: split|12:00-14:00~15:00-20:00
+
+MacroCode: CODE: TAG POS=1 TYPE=A ATTR=ID:Montag
+TAG POS=1 TYPE=SELECT FORM=ACTION:/entry/entryWizard?execution=e1s6 ATTR=ID:timeselect_from_1 CONTENT=%14:00
+TAG POS=1 TYPE=SELECT FORM=ACTION:/entry/entryWizard?execution=e1s6 ATTR=ID:timeselect_to_1 CONTENT=%16:00
+TAG POS=1 TYPE=A ATTR=ID:Dienstag
+TAG POS=1 TYPE=SELECT FORM=ACTION:/entry/entryWizard?execution=e1s6 ATTR=ID:timeselect_from_1 CONTENT=%14:00
+TAG POS=1 TYPE=SELECT FORM=ACTION:/entry/entryWizard?execution=e1s6 ATTR=ID:timeselect_to_1 CONTENT=%16:00
+TAG POS=1 TYPE=A ATTR=ID:Mittwoch
+TAG POS=1 TYPE=SELECT FORM=ACTION:/entry/entryWizard?execution=e1s6 ATTR=ID:timeselect_from_1 CONTENT=%14:00
+TAG POS=1 TYPE=SELECT FORM=ACTION:/entry/entryWizard?execution=e1s6 ATTR=ID:timeselect_to_1 CONTENT=%16:00
+TAG POS=1 TYPE=A ATTR=ID:Donnerstag
+TAG POS=1 TYPE=SELECT FORM=ACTION:/entry/entryWizard?execution=e1s6 ATTR=ID:timeselect_from_1 CONTENT=%14:00
+TAG POS=1 TYPE=SELECT FORM=ACTION:/entry/entryWizard?execution=e1s6 ATTR=ID:timeselect_to_1 CONTENT=%16:00
+TAG POS=1 TYPE=A ATTR=ID:Freitag
+TAG POS=1 TYPE=SELECT FORM=ACTION:/entry/entryWizard?execution=e1s6 ATTR=ID:timeselect_from_1 CONTENT=%14:00
+TAG POS=1 TYPE=SELECT FORM=ACTION:/entry/entryWizard?execution=e1s6 ATTR=ID:timeselect_to_1 CONTENT=%16:00
+TAG POS=1 TYPE=A ATTR=ID:Samstag
+TAG POS=1 TYPE=SELECT FORM=ACTION:/entry/entryWizard?execution=e1s6 ATTR=ID:timeselect_from_1 CONTENT=%09:00
+TAG POS=1 TYPE=SELECT FORM=ACTION:/entry/entryWizard?execution=e1s6 ATTR=ID:timeselect_to_1 CONTENT=%13:00
+TAG POS=1 TYPE=SELECT FORM=ACTION:/entry/entryWizard?execution=e1s6 ATTR=ID:timeselect_from_2 CONTENT=%15:00
+TAG POS=1 TYPE=SELECT FORM=ACTION:/entry/entryWizard?execution=e1s6 ATTR=ID:timeselect_to_2 CONTENT=%19:00
+TAG POS=1 TYPE=A ATTR=ID:Sonntag
+TAG POS=1 TYPE=SELECT FORM=ACTION:/entry/entryWizard?execution=e1s6 ATTR=ID:timeselect_from_1 CONTENT=%12:00
+TAG POS=1 TYPE=SELECT FORM=ACTION:/entry/entryWizard?execution=e1s6 ATTR=ID:timeselect_to_1 CONTENT=%14:00
+TAG POS=1 TYPE=SELECT FORM=ACTION:/entry/entryWizard?execution=e1s6 ATTR=ID:timeselect_from_2 CONTENT=%15:00
+TAG POS=1 TYPE=SELECT FORM=ACTION:/entry/entryWizard?execution=e1s6 ATTR=ID:timeselect_to_2 CONTENT=%20:00
+SAVEAS TYPE=PNG FOLDER=* FILE={{COL4}}<SP>({{COL7}})<SP>-<SP>DasTelefonbuch<SP>-<SP>OH<SP>-{{!NOW:dd.mm.yyyy,<SP>hh.nn.ss}}<SP>Uhr.png
+
+**********************************************************************************************
+
+Zeitpunkt: 09:40:52.7099626
+Kunde: test company x
+Verzeichnis: DasTelefonbuch
+Benutzer: Niklas
+Meldung: Öffnungszeiten: 
+mon: open|14:00-16:00
+tue: open|14:00-16:00
+wen: open|14:00-16:00
+thu: open|14:00-16:00
+fri: open|14:00-16:00
+sat: split|09:00-13:00~15:00-19:00
+sun: split|12:00-14:00~15:00-20:00
+
+MacroCode: CODE: TAG POS=1 TYPE=A ATTR=ID:Montag
+TAG POS=1 TYPE=SELECT FORM=ACTION:/entry/entryWizard?execution=e1s6 ATTR=ID:timeselect_from_1 CONTENT=%14:00
+TAG POS=1 TYPE=SELECT FORM=ACTION:/entry/entryWizard?execution=e1s6 ATTR=ID:timeselect_to_1 CONTENT=%16:00
+TAG POS=1 TYPE=A ATTR=ID:Dienstag
+TAG POS=1 TYPE=SELECT FORM=ACTION:/entry/entryWizard?execution=e1s6 ATTR=ID:timeselect_from_1 CONTENT=%14:00
+TAG POS=1 TYPE=SELECT FORM=ACTION:/entry/entryWizard?execution=e1s6 ATTR=ID:timeselect_to_1 CONTENT=%16:00
+TAG POS=1 TYPE=A ATTR=ID:Mittwoch
+TAG POS=1 TYPE=SELECT FORM=ACTION:/entry/entryWizard?execution=e1s6 ATTR=ID:timeselect_from_1 CONTENT=%14:00
+TAG POS=1 TYPE=SELECT FORM=ACTION:/entry/entryWizard?execution=e1s6 ATTR=ID:timeselect_to_1 CONTENT=%16:00
+TAG POS=1 TYPE=A ATTR=ID:Donnerstag
+TAG POS=1 TYPE=SELECT FORM=ACTION:/entry/entryWizard?execution=e1s6 ATTR=ID:timeselect_from_1 CONTENT=%14:00
+TAG POS=1 TYPE=SELECT FORM=ACTION:/entry/entryWizard?execution=e1s6 ATTR=ID:timeselect_to_1 CONTENT=%16:00
+TAG POS=1 TYPE=A ATTR=ID:Freitag
+TAG POS=1 TYPE=SELECT FORM=ACTION:/entry/entryWizard?execution=e1s6 ATTR=ID:timeselect_from_1 CONTENT=%14:00
+TAG POS=1 TYPE=SELECT FORM=ACTION:/entry/entryWizard?execution=e1s6 ATTR=ID:timeselect_to_1 CONTENT=%16:00
+TAG POS=1 TYPE=A ATTR=ID:Samstag
+TAG POS=1 TYPE=SELECT FORM=ACTION:/entry/entryWizard?execution=e1s6 ATTR=ID:timeselect_from_1 CONTENT=%09:00
+TAG POS=1 TYPE=SELECT FORM=ACTION:/entry/entryWizard?execution=e1s6 ATTR=ID:timeselect_to_1 CONTENT=%13:00
+TAG POS=1 TYPE=SELECT FORM=ACTION:/entry/entryWizard?execution=e1s6 ATTR=ID:timeselect_from_2 CONTENT=%15:00
+TAG POS=1 TYPE=SELECT FORM=ACTION:/entry/entryWizard?execution=e1s6 ATTR=ID:timeselect_to_2 CONTENT=%19:00
+TAG POS=1 TYPE=A ATTR=ID:Sonntag
+TAG POS=1 TYPE=SELECT FORM=ACTION:/entry/entryWizard?execution=e1s6 ATTR=ID:timeselect_from_1 CONTENT=%12:00
+TAG POS=1 TYPE=SELECT FORM=ACTION:/entry/entryWizard?execution=e1s6 ATTR=ID:timeselect_to_1 CONTENT=%14:00
+TAG POS=1 TYPE=SELECT FORM=ACTION:/entry/entryWizard?execution=e1s6 ATTR=ID:timeselect_from_2 CONTENT=%15:00
+TAG POS=1 TYPE=SELECT FORM=ACTION:/entry/entryWizard?execution=e1s6 ATTR=ID:timeselect_to_2 CONTENT=%20:00
+SAVEAS TYPE=PNG FOLDER=* FILE={{COL4}}<SP>({{COL7}})<SP>-<SP>DasTelefonbuch<SP>-<SP>OH<SP>-{{!NOW:dd.mm.yyyy,<SP>hh.nn.ss}}<SP>Uhr.png
+
+**********************************************************************************************
+
+Zeitpunkt: 09:40:53.4110027
+Kunde: test company x
+Verzeichnis: DasTelefonbuch
+Benutzer: Niklas
+Meldung: Öffnungszeiten: 
+mon: open|14:00-16:00
+tue: open|14:00-16:00
+wen: open|14:00-16:00
+thu: open|14:00-16:00
+fri: open|14:00-16:00
+sat: split|09:00-13:00~15:00-19:00
+sun: split|12:00-14:00~15:00-20:00
+
+MacroCode: CODE: TAG POS=1 TYPE=A ATTR=ID:Montag
+TAG POS=1 TYPE=SELECT FORM=ACTION:/entry/entryWizard?execution=e1s6 ATTR=ID:timeselect_from_1 CONTENT=%14:00
+TAG POS=1 TYPE=SELECT FORM=ACTION:/entry/entryWizard?execution=e1s6 ATTR=ID:timeselect_to_1 CONTENT=%16:00
+TAG POS=1 TYPE=A ATTR=ID:Dienstag
+TAG POS=1 TYPE=SELECT FORM=ACTION:/entry/entryWizard?execution=e1s6 ATTR=ID:timeselect_from_1 CONTENT=%14:00
+TAG POS=1 TYPE=SELECT FORM=ACTION:/entry/entryWizard?execution=e1s6 ATTR=ID:timeselect_to_1 CONTENT=%16:00
+TAG POS=1 TYPE=A ATTR=ID:Mittwoch
+TAG POS=1 TYPE=SELECT FORM=ACTION:/entry/entryWizard?execution=e1s6 ATTR=ID:timeselect_from_1 CONTENT=%14:00
+TAG POS=1 TYPE=SELECT FORM=ACTION:/entry/entryWizard?execution=e1s6 ATTR=ID:timeselect_to_1 CONTENT=%16:00
+TAG POS=1 TYPE=A ATTR=ID:Donnerstag
+TAG POS=1 TYPE=SELECT FORM=ACTION:/entry/entryWizard?execution=e1s6 ATTR=ID:timeselect_from_1 CONTENT=%14:00
+TAG POS=1 TYPE=SELECT FORM=ACTION:/entry/entryWizard?execution=e1s6 ATTR=ID:timeselect_to_1 CONTENT=%16:00
+TAG POS=1 TYPE=A ATTR=ID:Freitag
+TAG POS=1 TYPE=SELECT FORM=ACTION:/entry/entryWizard?execution=e1s6 ATTR=ID:timeselect_from_1 CONTENT=%14:00
+TAG POS=1 TYPE=SELECT FORM=ACTION:/entry/entryWizard?execution=e1s6 ATTR=ID:timeselect_to_1 CONTENT=%16:00
+TAG POS=1 TYPE=A ATTR=ID:Samstag
+TAG POS=1 TYPE=SELECT FORM=ACTION:/entry/entryWizard?execution=e1s6 ATTR=ID:timeselect_from_1 CONTENT=%09:00
+TAG POS=1 TYPE=SELECT FORM=ACTION:/entry/entryWizard?execution=e1s6 ATTR=ID:timeselect_to_1 CONTENT=%13:00
+TAG POS=1 TYPE=SELECT FORM=ACTION:/entry/entryWizard?execution=e1s6 ATTR=ID:timeselect_from_2 CONTENT=%15:00
+TAG POS=1 TYPE=SELECT FORM=ACTION:/entry/entryWizard?execution=e1s6 ATTR=ID:timeselect_to_2 CONTENT=%19:00
+TAG POS=1 TYPE=A ATTR=ID:Sonntag
+TAG POS=1 TYPE=SELECT FORM=ACTION:/entry/entryWizard?execution=e1s6 ATTR=ID:timeselect_from_1 CONTENT=%12:00
+TAG POS=1 TYPE=SELECT FORM=ACTION:/entry/entryWizard?execution=e1s6 ATTR=ID:timeselect_to_1 CONTENT=%14:00
+TAG POS=1 TYPE=SELECT FORM=ACTION:/entry/entryWizard?execution=e1s6 ATTR=ID:timeselect_from_2 CONTENT=%15:00
+TAG POS=1 TYPE=SELECT FORM=ACTION:/entry/entryWizard?execution=e1s6 ATTR=ID:timeselect_to_2 CONTENT=%20:00
+SAVEAS TYPE=PNG FOLDER=* FILE={{COL4}}<SP>({{COL7}})<SP>-<SP>DasTelefonbuch<SP>-<SP>OH<SP>-{{!NOW:dd.mm.yyyy,<SP>hh.nn.ss}}<SP>Uhr.png
+
+**********************************************************************************************
+
+Zeitpunkt: 09:41:09.5809276
+Kunde: test company x
+Verzeichnis: DasTelefonbuch
+Benutzer: Niklas
+Meldung: Öffnungszeiten: 
+mon: open|14:00-16:00
+tue: open|14:00-16:00
+wen: open|14:00-16:00
+thu: open|14:00-16:00
+fri: open|14:00-16:00
+sat: split|09:00-13:00~15:00-19:00
+sun: split|12:00-14:00~15:00-20:00
+
+MacroCode: CODE: TAG POS=1 TYPE=A ATTR=ID:Montag
+TAG POS=1 TYPE=SELECT FORM=ACTION:/entry/entryWizard?execution=e1s6 ATTR=ID:timeselect_from_1 CONTENT=%14:00
+TAG POS=1 TYPE=SELECT FORM=ACTION:/entry/entryWizard?execution=e1s6 ATTR=ID:timeselect_to_1 CONTENT=%16:00
+TAG POS=1 TYPE=A ATTR=ID:Dienstag
+TAG POS=1 TYPE=SELECT FORM=ACTION:/entry/entryWizard?execution=e1s6 ATTR=ID:timeselect_from_1 CONTENT=%14:00
+TAG POS=1 TYPE=SELECT FORM=ACTION:/entry/entryWizard?execution=e1s6 ATTR=ID:timeselect_to_1 CONTENT=%16:00
+TAG POS=1 TYPE=A ATTR=ID:Mittwoch
+TAG POS=1 TYPE=SELECT FORM=ACTION:/entry/entryWizard?execution=e1s6 ATTR=ID:timeselect_from_1 CONTENT=%14:00
+TAG POS=1 TYPE=SELECT FORM=ACTION:/entry/entryWizard?execution=e1s6 ATTR=ID:timeselect_to_1 CONTENT=%16:00
+TAG POS=1 TYPE=A ATTR=ID:Donnerstag
+TAG POS=1 TYPE=SELECT FORM=ACTION:/entry/entryWizard?execution=e1s6 ATTR=ID:timeselect_from_1 CONTENT=%14:00
+TAG POS=1 TYPE=SELECT FORM=ACTION:/entry/entryWizard?execution=e1s6 ATTR=ID:timeselect_to_1 CONTENT=%16:00
+TAG POS=1 TYPE=A ATTR=ID:Freitag
+TAG POS=1 TYPE=SELECT FORM=ACTION:/entry/entryWizard?execution=e1s6 ATTR=ID:timeselect_from_1 CONTENT=%14:00
+TAG POS=1 TYPE=SELECT FORM=ACTION:/entry/entryWizard?execution=e1s6 ATTR=ID:timeselect_to_1 CONTENT=%16:00
+TAG POS=1 TYPE=A ATTR=ID:Samstag
+TAG POS=1 TYPE=SELECT FORM=ACTION:/entry/entryWizard?execution=e1s6 ATTR=ID:timeselect_from_1 CONTENT=%09:00
+TAG POS=1 TYPE=SELECT FORM=ACTION:/entry/entryWizard?execution=e1s6 ATTR=ID:timeselect_to_1 CONTENT=%13:00
+TAG POS=1 TYPE=SELECT FORM=ACTION:/entry/entryWizard?execution=e1s6 ATTR=ID:timeselect_from_2 CONTENT=%15:00
+TAG POS=1 TYPE=SELECT FORM=ACTION:/entry/entryWizard?execution=e1s6 ATTR=ID:timeselect_to_2 CONTENT=%19:00
+TAG POS=1 TYPE=A ATTR=ID:Sonntag
+TAG POS=1 TYPE=SELECT FORM=ACTION:/entry/entryWizard?execution=e1s6 ATTR=ID:timeselect_from_1 CONTENT=%12:00
+TAG POS=1 TYPE=SELECT FORM=ACTION:/entry/entryWizard?execution=e1s6 ATTR=ID:timeselect_to_1 CONTENT=%14:00
+TAG POS=1 TYPE=SELECT FORM=ACTION:/entry/entryWizard?execution=e1s6 ATTR=ID:timeselect_from_2 CONTENT=%15:00
+TAG POS=1 TYPE=SELECT FORM=ACTION:/entry/entryWizard?execution=e1s6 ATTR=ID:timeselect_to_2 CONTENT=%20:00
+SAVEAS TYPE=PNG FOLDER=* FILE={{COL4}}<SP>({{COL7}})<SP>-<SP>DasTelefonbuch<SP>-<SP>OH<SP>-{{!NOW:dd.mm.yyyy,<SP>hh.nn.ss}}<SP>Uhr.png
+
+**********************************************************************************************
+
+Zeitpunkt: 09:41:10.1509602
+Kunde: test company x
+Verzeichnis: DasTelefonbuch
+Benutzer: Niklas
+Meldung: Öffnungszeiten: 
+mon: open|14:00-16:00
+tue: open|14:00-16:00
+wen: open|14:00-16:00
+thu: open|14:00-16:00
+fri: open|14:00-16:00
+sat: split|09:00-13:00~15:00-19:00
+sun: split|12:00-14:00~15:00-20:00
+
+MacroCode: CODE: TAG POS=1 TYPE=A ATTR=ID:Montag
+TAG POS=1 TYPE=SELECT FORM=ACTION:/entry/entryWizard?execution=e1s6 ATTR=ID:timeselect_from_1 CONTENT=%14:00
+TAG POS=1 TYPE=SELECT FORM=ACTION:/entry/entryWizard?execution=e1s6 ATTR=ID:timeselect_to_1 CONTENT=%16:00
+TAG POS=1 TYPE=A ATTR=ID:Dienstag
+TAG POS=1 TYPE=SELECT FORM=ACTION:/entry/entryWizard?execution=e1s6 ATTR=ID:timeselect_from_1 CONTENT=%14:00
+TAG POS=1 TYPE=SELECT FORM=ACTION:/entry/entryWizard?execution=e1s6 ATTR=ID:timeselect_to_1 CONTENT=%16:00
+TAG POS=1 TYPE=A ATTR=ID:Mittwoch
+TAG POS=1 TYPE=SELECT FORM=ACTION:/entry/entryWizard?execution=e1s6 ATTR=ID:timeselect_from_1 CONTENT=%14:00
+TAG POS=1 TYPE=SELECT FORM=ACTION:/entry/entryWizard?execution=e1s6 ATTR=ID:timeselect_to_1 CONTENT=%16:00
+TAG POS=1 TYPE=A ATTR=ID:Donnerstag
+TAG POS=1 TYPE=SELECT FORM=ACTION:/entry/entryWizard?execution=e1s6 ATTR=ID:timeselect_from_1 CONTENT=%14:00
+TAG POS=1 TYPE=SELECT FORM=ACTION:/entry/entryWizard?execution=e1s6 ATTR=ID:timeselect_to_1 CONTENT=%16:00
+TAG POS=1 TYPE=A ATTR=ID:Freitag
+TAG POS=1 TYPE=SELECT FORM=ACTION:/entry/entryWizard?execution=e1s6 ATTR=ID:timeselect_from_1 CONTENT=%14:00
+TAG POS=1 TYPE=SELECT FORM=ACTION:/entry/entryWizard?execution=e1s6 ATTR=ID:timeselect_to_1 CONTENT=%16:00
+TAG POS=1 TYPE=A ATTR=ID:Samstag
+TAG POS=1 TYPE=SELECT FORM=ACTION:/entry/entryWizard?execution=e1s6 ATTR=ID:timeselect_from_1 CONTENT=%09:00
+TAG POS=1 TYPE=SELECT FORM=ACTION:/entry/entryWizard?execution=e1s6 ATTR=ID:timeselect_to_1 CONTENT=%13:00
+TAG POS=1 TYPE=SELECT FORM=ACTION:/entry/entryWizard?execution=e1s6 ATTR=ID:timeselect_from_2 CONTENT=%15:00
+TAG POS=1 TYPE=SELECT FORM=ACTION:/entry/entryWizard?execution=e1s6 ATTR=ID:timeselect_to_2 CONTENT=%19:00
+TAG POS=1 TYPE=A ATTR=ID:Sonntag
+TAG POS=1 TYPE=SELECT FORM=ACTION:/entry/entryWizard?execution=e1s6 ATTR=ID:timeselect_from_1 CONTENT=%12:00
+TAG POS=1 TYPE=SELECT FORM=ACTION:/entry/entryWizard?execution=e1s6 ATTR=ID:timeselect_to_1 CONTENT=%14:00
+TAG POS=1 TYPE=SELECT FORM=ACTION:/entry/entryWizard?execution=e1s6 ATTR=ID:timeselect_from_2 CONTENT=%15:00
+TAG POS=1 TYPE=SELECT FORM=ACTION:/entry/entryWizard?execution=e1s6 ATTR=ID:timeselect_to_2 CONTENT=%20:00
+SAVEAS TYPE=PNG FOLDER=* FILE={{COL4}}<SP>({{COL7}})<SP>-<SP>DasTelefonbuch<SP>-<SP>OH<SP>-{{!NOW:dd.mm.yyyy,<SP>hh.nn.ss}}<SP>Uhr.png
+
+**********************************************************************************************
+
+Zeitpunkt: 10:00:11.0792176
+Kunde: test company x
+Verzeichnis: Yelp
+Benutzer: Niklas
+Meldung: Öffnungszeiten: 
+mon: open|14:00-16:00
+tue: open|14:00-16:00
+wen: open|14:00-16:00
+thu: open|14:00-16:00
+fri: open|14:00-16:00
+sat: split|09:00-13:00~15:00-19:00
+sun: split|12:00-14:00~15:00-20:00
+
+MacroCode: CODE: TAG POS=1 TYPE=SELECT FORM=ID:biz-info-form ATTR=TXT:Mo.<SP>Di.<SP>Mi.<SP>Do.<SP>Fr.<SP>Sa.<SP>So. CONTENT=%0
+TAG POS=1 TYPE=SELECT FORM=ID:biz-info-form ATTR=TXT:06:00<SP>06:30<SP>07:00<SP>07:30<SP>08:00<SP>08:30<SP>09:00* CONTENT=%14
+TAG POS=2 TYPE=SELECT FORM=ID:biz-info-form ATTR=TXT:06:00<SP>06:30<SP>07:00<SP>07:30<SP>08:00<SP>08:30<SP>09:00* CONTENT=%16
+TAG POS=1 TYPE=BUTTON FORM=ID:biz-info-form ATTR=TXT:Zeiten<SP>hinzufügen
+TAG POS=1 TYPE=SELECT FORM=ID:biz-info-form ATTR=TXT:Mo.<SP>Di.<SP>Mi.<SP>Do.<SP>Fr.<SP>Sa.<SP>So. CONTENT=%1
+TAG POS=1 TYPE=SELECT FORM=ID:biz-info-form ATTR=TXT:06:00<SP>06:30<SP>07:00<SP>07:30<SP>08:00<SP>08:30<SP>09:00* CONTENT=%14
+TAG POS=2 TYPE=SELECT FORM=ID:biz-info-form ATTR=TXT:06:00<SP>06:30<SP>07:00<SP>07:30<SP>08:00<SP>08:30<SP>09:00* CONTENT=%16
+TAG POS=1 TYPE=BUTTON FORM=ID:biz-info-form ATTR=TXT:Zeiten<SP>hinzufügen
+TAG POS=1 TYPE=SELECT FORM=ID:biz-info-form ATTR=TXT:Mo.<SP>Di.<SP>Mi.<SP>Do.<SP>Fr.<SP>Sa.<SP>So. CONTENT=%2
+TAG POS=1 TYPE=SELECT FORM=ID:biz-info-form ATTR=TXT:06:00<SP>06:30<SP>07:00<SP>07:30<SP>08:00<SP>08:30<SP>09:00* CONTENT=%14
+TAG POS=2 TYPE=SELECT FORM=ID:biz-info-form ATTR=TXT:06:00<SP>06:30<SP>07:00<SP>07:30<SP>08:00<SP>08:30<SP>09:00* CONTENT=%16
+TAG POS=1 TYPE=BUTTON FORM=ID:biz-info-form ATTR=TXT:Zeiten<SP>hinzufügen
+TAG POS=1 TYPE=SELECT FORM=ID:biz-info-form ATTR=TXT:Mo.<SP>Di.<SP>Mi.<SP>Do.<SP>Fr.<SP>Sa.<SP>So. CONTENT=%3
+TAG POS=1 TYPE=SELECT FORM=ID:biz-info-form ATTR=TXT:06:00<SP>06:30<SP>07:00<SP>07:30<SP>08:00<SP>08:30<SP>09:00* CONTENT=%14
+TAG POS=2 TYPE=SELECT FORM=ID:biz-info-form ATTR=TXT:06:00<SP>06:30<SP>07:00<SP>07:30<SP>08:00<SP>08:30<SP>09:00* CONTENT=%16
+TAG POS=1 TYPE=BUTTON FORM=ID:biz-info-form ATTR=TXT:Zeiten<SP>hinzufügen
+TAG POS=1 TYPE=SELECT FORM=ID:biz-info-form ATTR=TXT:Mo.<SP>Di.<SP>Mi.<SP>Do.<SP>Fr.<SP>Sa.<SP>So. CONTENT=%4
+TAG POS=1 TYPE=SELECT FORM=ID:biz-info-form ATTR=TXT:06:00<SP>06:30<SP>07:00<SP>07:30<SP>08:00<SP>08:30<SP>09:00* CONTENT=%14
+TAG POS=2 TYPE=SELECT FORM=ID:biz-info-form ATTR=TXT:06:00<SP>06:30<SP>07:00<SP>07:30<SP>08:00<SP>08:30<SP>09:00* CONTENT=%16
+TAG POS=1 TYPE=BUTTON FORM=ID:biz-info-form ATTR=TXT:Zeiten<SP>hinzufügen
+PROMPT 1.)folgende<SP>Zeiten<SP>manuell<SP>setzen:<BR>sat<SP>(09:00-13:00~15:00-19:00)<BR>sun<SP>(12:00-14:00~15:00-20:00)<BR><BR>2.)Macro<SP>fortführen
+PAUSE
+
+
+**********************************************************************************************
+
+Zeitpunkt: 10:00:24.5019853
+Kunde: test company x
+Verzeichnis: Yelp
+Benutzer: Niklas
+Meldung: Öffnungszeiten: 
+mon: open|14:00-16:00
+tue: open|14:00-16:00
+wen: open|14:00-16:00
+thu: open|14:00-16:00
+fri: open|14:00-16:00
+sat: split|09:00-13:00~15:00-19:00
+sun: split|12:00-14:00~15:00-20:00
+
+MacroCode: CODE: TAG POS=1 TYPE=SELECT FORM=ID:biz-info-form ATTR=TXT:Mo.<SP>Di.<SP>Mi.<SP>Do.<SP>Fr.<SP>Sa.<SP>So. CONTENT=%0
+TAG POS=1 TYPE=SELECT FORM=ID:biz-info-form ATTR=TXT:06:00<SP>06:30<SP>07:00<SP>07:30<SP>08:00<SP>08:30<SP>09:00* CONTENT=%14
+TAG POS=2 TYPE=SELECT FORM=ID:biz-info-form ATTR=TXT:06:00<SP>06:30<SP>07:00<SP>07:30<SP>08:00<SP>08:30<SP>09:00* CONTENT=%16
+TAG POS=1 TYPE=BUTTON FORM=ID:biz-info-form ATTR=TXT:Zeiten<SP>hinzufügen
+TAG POS=1 TYPE=SELECT FORM=ID:biz-info-form ATTR=TXT:Mo.<SP>Di.<SP>Mi.<SP>Do.<SP>Fr.<SP>Sa.<SP>So. CONTENT=%1
+TAG POS=1 TYPE=SELECT FORM=ID:biz-info-form ATTR=TXT:06:00<SP>06:30<SP>07:00<SP>07:30<SP>08:00<SP>08:30<SP>09:00* CONTENT=%14
+TAG POS=2 TYPE=SELECT FORM=ID:biz-info-form ATTR=TXT:06:00<SP>06:30<SP>07:00<SP>07:30<SP>08:00<SP>08:30<SP>09:00* CONTENT=%16
+TAG POS=1 TYPE=BUTTON FORM=ID:biz-info-form ATTR=TXT:Zeiten<SP>hinzufügen
+TAG POS=1 TYPE=SELECT FORM=ID:biz-info-form ATTR=TXT:Mo.<SP>Di.<SP>Mi.<SP>Do.<SP>Fr.<SP>Sa.<SP>So. CONTENT=%2
+TAG POS=1 TYPE=SELECT FORM=ID:biz-info-form ATTR=TXT:06:00<SP>06:30<SP>07:00<SP>07:30<SP>08:00<SP>08:30<SP>09:00* CONTENT=%14
+TAG POS=2 TYPE=SELECT FORM=ID:biz-info-form ATTR=TXT:06:00<SP>06:30<SP>07:00<SP>07:30<SP>08:00<SP>08:30<SP>09:00* CONTENT=%16
+TAG POS=1 TYPE=BUTTON FORM=ID:biz-info-form ATTR=TXT:Zeiten<SP>hinzufügen
+TAG POS=1 TYPE=SELECT FORM=ID:biz-info-form ATTR=TXT:Mo.<SP>Di.<SP>Mi.<SP>Do.<SP>Fr.<SP>Sa.<SP>So. CONTENT=%3
+TAG POS=1 TYPE=SELECT FORM=ID:biz-info-form ATTR=TXT:06:00<SP>06:30<SP>07:00<SP>07:30<SP>08:00<SP>08:30<SP>09:00* CONTENT=%14
+TAG POS=2 TYPE=SELECT FORM=ID:biz-info-form ATTR=TXT:06:00<SP>06:30<SP>07:00<SP>07:30<SP>08:00<SP>08:30<SP>09:00* CONTENT=%16
+TAG POS=1 TYPE=BUTTON FORM=ID:biz-info-form ATTR=TXT:Zeiten<SP>hinzufügen
+TAG POS=1 TYPE=SELECT FORM=ID:biz-info-form ATTR=TXT:Mo.<SP>Di.<SP>Mi.<SP>Do.<SP>Fr.<SP>Sa.<SP>So. CONTENT=%4
+TAG POS=1 TYPE=SELECT FORM=ID:biz-info-form ATTR=TXT:06:00<SP>06:30<SP>07:00<SP>07:30<SP>08:00<SP>08:30<SP>09:00* CONTENT=%14
+TAG POS=2 TYPE=SELECT FORM=ID:biz-info-form ATTR=TXT:06:00<SP>06:30<SP>07:00<SP>07:30<SP>08:00<SP>08:30<SP>09:00* CONTENT=%16
+TAG POS=1 TYPE=BUTTON FORM=ID:biz-info-form ATTR=TXT:Zeiten<SP>hinzufügen
+PROMPT 1.)folgende<SP>Zeiten<SP>manuell<SP>setzen:<BR>sat<SP>(09:00-13:00~15:00-19:00)<BR>sun<SP>(12:00-14:00~15:00-20:00)<BR><BR>2.)Macro<SP>fortführen
+PAUSE
+
+
+**********************************************************************************************
+
+Zeitpunkt: 10:00:35.4916139
+Kunde: test company x
+Verzeichnis: Yelp
+Benutzer: Niklas
+Meldung: Öffnungszeiten: 
+mon: open|14:00-16:00
+tue: open|14:00-16:00
+wen: open|14:00-16:00
+thu: open|14:00-16:00
+fri: open|14:00-16:00
+sat: split|09:00-13:00~15:00-19:00
+sun: split|12:00-14:00~15:00-20:00
+
+MacroCode: CODE: TAG POS=1 TYPE=SELECT FORM=ID:biz-info-form ATTR=TXT:Mo.<SP>Di.<SP>Mi.<SP>Do.<SP>Fr.<SP>Sa.<SP>So. CONTENT=%0
+TAG POS=1 TYPE=SELECT FORM=ID:biz-info-form ATTR=TXT:06:00<SP>06:30<SP>07:00<SP>07:30<SP>08:00<SP>08:30<SP>09:00* CONTENT=%14
+TAG POS=2 TYPE=SELECT FORM=ID:biz-info-form ATTR=TXT:06:00<SP>06:30<SP>07:00<SP>07:30<SP>08:00<SP>08:30<SP>09:00* CONTENT=%16
+TAG POS=1 TYPE=BUTTON FORM=ID:biz-info-form ATTR=TXT:Zeiten<SP>hinzufügen
+TAG POS=1 TYPE=SELECT FORM=ID:biz-info-form ATTR=TXT:Mo.<SP>Di.<SP>Mi.<SP>Do.<SP>Fr.<SP>Sa.<SP>So. CONTENT=%1
+TAG POS=1 TYPE=SELECT FORM=ID:biz-info-form ATTR=TXT:06:00<SP>06:30<SP>07:00<SP>07:30<SP>08:00<SP>08:30<SP>09:00* CONTENT=%14
+TAG POS=2 TYPE=SELECT FORM=ID:biz-info-form ATTR=TXT:06:00<SP>06:30<SP>07:00<SP>07:30<SP>08:00<SP>08:30<SP>09:00* CONTENT=%16
+TAG POS=1 TYPE=BUTTON FORM=ID:biz-info-form ATTR=TXT:Zeiten<SP>hinzufügen
+TAG POS=1 TYPE=SELECT FORM=ID:biz-info-form ATTR=TXT:Mo.<SP>Di.<SP>Mi.<SP>Do.<SP>Fr.<SP>Sa.<SP>So. CONTENT=%2
+TAG POS=1 TYPE=SELECT FORM=ID:biz-info-form ATTR=TXT:06:00<SP>06:30<SP>07:00<SP>07:30<SP>08:00<SP>08:30<SP>09:00* CONTENT=%14
+TAG POS=2 TYPE=SELECT FORM=ID:biz-info-form ATTR=TXT:06:00<SP>06:30<SP>07:00<SP>07:30<SP>08:00<SP>08:30<SP>09:00* CONTENT=%16
+TAG POS=1 TYPE=BUTTON FORM=ID:biz-info-form ATTR=TXT:Zeiten<SP>hinzufügen
+TAG POS=1 TYPE=SELECT FORM=ID:biz-info-form ATTR=TXT:Mo.<SP>Di.<SP>Mi.<SP>Do.<SP>Fr.<SP>Sa.<SP>So. CONTENT=%3
+TAG POS=1 TYPE=SELECT FORM=ID:biz-info-form ATTR=TXT:06:00<SP>06:30<SP>07:00<SP>07:30<SP>08:00<SP>08:30<SP>09:00* CONTENT=%14
+TAG POS=2 TYPE=SELECT FORM=ID:biz-info-form ATTR=TXT:06:00<SP>06:30<SP>07:00<SP>07:30<SP>08:00<SP>08:30<SP>09:00* CONTENT=%16
+TAG POS=1 TYPE=BUTTON FORM=ID:biz-info-form ATTR=TXT:Zeiten<SP>hinzufügen
+TAG POS=1 TYPE=SELECT FORM=ID:biz-info-form ATTR=TXT:Mo.<SP>Di.<SP>Mi.<SP>Do.<SP>Fr.<SP>Sa.<SP>So. CONTENT=%4
+TAG POS=1 TYPE=SELECT FORM=ID:biz-info-form ATTR=TXT:06:00<SP>06:30<SP>07:00<SP>07:30<SP>08:00<SP>08:30<SP>09:00* CONTENT=%14
+TAG POS=2 TYPE=SELECT FORM=ID:biz-info-form ATTR=TXT:06:00<SP>06:30<SP>07:00<SP>07:30<SP>08:00<SP>08:30<SP>09:00* CONTENT=%16
+TAG POS=1 TYPE=BUTTON FORM=ID:biz-info-form ATTR=TXT:Zeiten<SP>hinzufügen
+PROMPT 1.)folgende<SP>Zeiten<SP>manuell<SP>setzen:<BR>sat<SP>(09:00-13:00~15:00-19:00)<BR>sun<SP>(12:00-14:00~15:00-20:00)<BR><BR>2.)Macro<SP>fortführen
+PAUSE
+
+
+**********************************************************************************************
+
+Zeitpunkt: 10:57:01.4612803
+Kunde: test company y
+Verzeichnis: DasTelefonbuch
+Benutzer: Niklas
+Meldung: Öffnungszeiten: 
+mon: closed|
+tue: 24h|
+wen: 24h|
+thu: 24h|
+fri: 24h|
+sat: closed|
+sun: closed|
+
+MacroCode: CODE: TAG POS=1 TYPE=A ATTR=ID:Montag
+TAG POS=1 TYPE=A ATTR=ID:Dienstag
+TAG POS=1 TYPE=SELECT FORM=ACTION:/entry/entryWizard?execution=e1s6 ATTR=ID:timeselect_from_1 CONTENT=%00:00
+TAG POS=1 TYPE=SELECT FORM=ACTION:/entry/entryWizard?execution=e1s6 ATTR=ID:timeselect_to_1 CONTENT=%00:00
+TAG POS=1 TYPE=A ATTR=ID:Mittwoch
+TAG POS=1 TYPE=SELECT FORM=ACTION:/entry/entryWizard?execution=e1s6 ATTR=ID:timeselect_from_1 CONTENT=%00:00
+TAG POS=1 TYPE=SELECT FORM=ACTION:/entry/entryWizard?execution=e1s6 ATTR=ID:timeselect_to_1 CONTENT=%00:00
+TAG POS=1 TYPE=A ATTR=ID:Donnerstag
+TAG POS=1 TYPE=SELECT FORM=ACTION:/entry/entryWizard?execution=e1s6 ATTR=ID:timeselect_from_1 CONTENT=%00:00
+TAG POS=1 TYPE=SELECT FORM=ACTION:/entry/entryWizard?execution=e1s6 ATTR=ID:timeselect_to_1 CONTENT=%00:00
+TAG POS=1 TYPE=A ATTR=ID:Freitag
+TAG POS=1 TYPE=SELECT FORM=ACTION:/entry/entryWizard?execution=e1s6 ATTR=ID:timeselect_from_1 CONTENT=%00:00
+TAG POS=1 TYPE=SELECT FORM=ACTION:/entry/entryWizard?execution=e1s6 ATTR=ID:timeselect_to_1 CONTENT=%00:00
+TAG POS=1 TYPE=A ATTR=ID:Samstag
+TAG POS=1 TYPE=A ATTR=ID:Sonntag
+SAVEAS TYPE=PNG FOLDER=* FILE={{COL4}}<SP>({{COL7}})<SP>-<SP>DasTelefonbuch<SP>-<SP>OH<SP>-{{!NOW:dd.mm.yyyy,<SP>hh.nn.ss}}<SP>Uhr.png
+
+**********************************************************************************************
+
+Zeitpunkt: 10:57:05.8395307
+Kunde: test company y
+Verzeichnis: DasTelefonbuch
+Benutzer: Niklas
+Meldung: Öffnungszeiten: 
+mon: closed|
+tue: 24h|
+wen: 24h|
+thu: 24h|
+fri: 24h|
+sat: closed|
+sun: closed|
+
+MacroCode: CODE: TAG POS=1 TYPE=A ATTR=ID:Montag
+TAG POS=1 TYPE=A ATTR=ID:Dienstag
+TAG POS=1 TYPE=SELECT FORM=ACTION:/entry/entryWizard?execution=e1s6 ATTR=ID:timeselect_from_1 CONTENT=%00:00
+TAG POS=1 TYPE=SELECT FORM=ACTION:/entry/entryWizard?execution=e1s6 ATTR=ID:timeselect_to_1 CONTENT=%00:00
+TAG POS=1 TYPE=A ATTR=ID:Mittwoch
+TAG POS=1 TYPE=SELECT FORM=ACTION:/entry/entryWizard?execution=e1s6 ATTR=ID:timeselect_from_1 CONTENT=%00:00
+TAG POS=1 TYPE=SELECT FORM=ACTION:/entry/entryWizard?execution=e1s6 ATTR=ID:timeselect_to_1 CONTENT=%00:00
+TAG POS=1 TYPE=A ATTR=ID:Donnerstag
+TAG POS=1 TYPE=SELECT FORM=ACTION:/entry/entryWizard?execution=e1s6 ATTR=ID:timeselect_from_1 CONTENT=%00:00
+TAG POS=1 TYPE=SELECT FORM=ACTION:/entry/entryWizard?execution=e1s6 ATTR=ID:timeselect_to_1 CONTENT=%00:00
+TAG POS=1 TYPE=A ATTR=ID:Freitag
+TAG POS=1 TYPE=SELECT FORM=ACTION:/entry/entryWizard?execution=e1s6 ATTR=ID:timeselect_from_1 CONTENT=%00:00
+TAG POS=1 TYPE=SELECT FORM=ACTION:/entry/entryWizard?execution=e1s6 ATTR=ID:timeselect_to_1 CONTENT=%00:00
+TAG POS=1 TYPE=A ATTR=ID:Samstag
+TAG POS=1 TYPE=A ATTR=ID:Sonntag
+SAVEAS TYPE=PNG FOLDER=* FILE={{COL4}}<SP>({{COL7}})<SP>-<SP>DasTelefonbuch<SP>-<SP>OH<SP>-{{!NOW:dd.mm.yyyy,<SP>hh.nn.ss}}<SP>Uhr.png
+
+**********************************************************************************************
+
+Zeitpunkt: 10:57:10.6128037
+Kunde: test company y
+Verzeichnis: DasTelefonbuch
+Benutzer: Niklas
+Meldung: Öffnungszeiten: 
+mon: closed|
+tue: 24h|
+wen: 24h|
+thu: 24h|
+fri: 24h|
+sat: closed|
+sun: closed|
+
+MacroCode: CODE: TAG POS=1 TYPE=A ATTR=ID:Montag
+TAG POS=1 TYPE=A ATTR=ID:Dienstag
+TAG POS=1 TYPE=SELECT FORM=ACTION:/entry/entryWizard?execution=e1s6 ATTR=ID:timeselect_from_1 CONTENT=%00:00
+TAG POS=1 TYPE=SELECT FORM=ACTION:/entry/entryWizard?execution=e1s6 ATTR=ID:timeselect_to_1 CONTENT=%00:00
+TAG POS=1 TYPE=A ATTR=ID:Mittwoch
+TAG POS=1 TYPE=SELECT FORM=ACTION:/entry/entryWizard?execution=e1s6 ATTR=ID:timeselect_from_1 CONTENT=%00:00
+TAG POS=1 TYPE=SELECT FORM=ACTION:/entry/entryWizard?execution=e1s6 ATTR=ID:timeselect_to_1 CONTENT=%00:00
+TAG POS=1 TYPE=A ATTR=ID:Donnerstag
+TAG POS=1 TYPE=SELECT FORM=ACTION:/entry/entryWizard?execution=e1s6 ATTR=ID:timeselect_from_1 CONTENT=%00:00
+TAG POS=1 TYPE=SELECT FORM=ACTION:/entry/entryWizard?execution=e1s6 ATTR=ID:timeselect_to_1 CONTENT=%00:00
+TAG POS=1 TYPE=A ATTR=ID:Freitag
+TAG POS=1 TYPE=SELECT FORM=ACTION:/entry/entryWizard?execution=e1s6 ATTR=ID:timeselect_from_1 CONTENT=%00:00
+TAG POS=1 TYPE=SELECT FORM=ACTION:/entry/entryWizard?execution=e1s6 ATTR=ID:timeselect_to_1 CONTENT=%00:00
+TAG POS=1 TYPE=A ATTR=ID:Samstag
+TAG POS=1 TYPE=A ATTR=ID:Sonntag
+SAVEAS TYPE=PNG FOLDER=* FILE={{COL4}}<SP>({{COL7}})<SP>-<SP>DasTelefonbuch<SP>-<SP>OH<SP>-{{!NOW:dd.mm.yyyy,<SP>hh.nn.ss}}<SP>Uhr.png
+
+**********************************************************************************************
+
+Zeitpunkt: 10:57:11.1948370
+Kunde: test company y
+Verzeichnis: DasTelefonbuch
+Benutzer: Niklas
+Meldung: Öffnungszeiten: 
+mon: closed|
+tue: 24h|
+wen: 24h|
+thu: 24h|
+fri: 24h|
+sat: closed|
+sun: closed|
+
+MacroCode: CODE: TAG POS=1 TYPE=A ATTR=ID:Montag
+TAG POS=1 TYPE=A ATTR=ID:Dienstag
+TAG POS=1 TYPE=SELECT FORM=ACTION:/entry/entryWizard?execution=e1s6 ATTR=ID:timeselect_from_1 CONTENT=%00:00
+TAG POS=1 TYPE=SELECT FORM=ACTION:/entry/entryWizard?execution=e1s6 ATTR=ID:timeselect_to_1 CONTENT=%00:00
+TAG POS=1 TYPE=A ATTR=ID:Mittwoch
+TAG POS=1 TYPE=SELECT FORM=ACTION:/entry/entryWizard?execution=e1s6 ATTR=ID:timeselect_from_1 CONTENT=%00:00
+TAG POS=1 TYPE=SELECT FORM=ACTION:/entry/entryWizard?execution=e1s6 ATTR=ID:timeselect_to_1 CONTENT=%00:00
+TAG POS=1 TYPE=A ATTR=ID:Donnerstag
+TAG POS=1 TYPE=SELECT FORM=ACTION:/entry/entryWizard?execution=e1s6 ATTR=ID:timeselect_from_1 CONTENT=%00:00
+TAG POS=1 TYPE=SELECT FORM=ACTION:/entry/entryWizard?execution=e1s6 ATTR=ID:timeselect_to_1 CONTENT=%00:00
+TAG POS=1 TYPE=A ATTR=ID:Freitag
+TAG POS=1 TYPE=SELECT FORM=ACTION:/entry/entryWizard?execution=e1s6 ATTR=ID:timeselect_from_1 CONTENT=%00:00
+TAG POS=1 TYPE=SELECT FORM=ACTION:/entry/entryWizard?execution=e1s6 ATTR=ID:timeselect_to_1 CONTENT=%00:00
+TAG POS=1 TYPE=A ATTR=ID:Samstag
+TAG POS=1 TYPE=A ATTR=ID:Sonntag
+SAVEAS TYPE=PNG FOLDER=* FILE={{COL4}}<SP>({{COL7}})<SP>-<SP>DasTelefonbuch<SP>-<SP>OH<SP>-{{!NOW:dd.mm.yyyy,<SP>hh.nn.ss}}<SP>Uhr.png
+
+**********************************************************************************************
+
+Zeitpunkt: 10:57:12.2288961
+Kunde: test company y
+Verzeichnis: DasTelefonbuch
+Benutzer: Niklas
+Meldung: Öffnungszeiten: 
+mon: closed|
+tue: 24h|
+wen: 24h|
+thu: 24h|
+fri: 24h|
+sat: closed|
+sun: closed|
+
+MacroCode: CODE: TAG POS=1 TYPE=A ATTR=ID:Montag
+TAG POS=1 TYPE=A ATTR=ID:Dienstag
+TAG POS=1 TYPE=SELECT FORM=ACTION:/entry/entryWizard?execution=e1s6 ATTR=ID:timeselect_from_1 CONTENT=%00:00
+TAG POS=1 TYPE=SELECT FORM=ACTION:/entry/entryWizard?execution=e1s6 ATTR=ID:timeselect_to_1 CONTENT=%00:00
+TAG POS=1 TYPE=A ATTR=ID:Mittwoch
+TAG POS=1 TYPE=SELECT FORM=ACTION:/entry/entryWizard?execution=e1s6 ATTR=ID:timeselect_from_1 CONTENT=%00:00
+TAG POS=1 TYPE=SELECT FORM=ACTION:/entry/entryWizard?execution=e1s6 ATTR=ID:timeselect_to_1 CONTENT=%00:00
+TAG POS=1 TYPE=A ATTR=ID:Donnerstag
+TAG POS=1 TYPE=SELECT FORM=ACTION:/entry/entryWizard?execution=e1s6 ATTR=ID:timeselect_from_1 CONTENT=%00:00
+TAG POS=1 TYPE=SELECT FORM=ACTION:/entry/entryWizard?execution=e1s6 ATTR=ID:timeselect_to_1 CONTENT=%00:00
+TAG POS=1 TYPE=A ATTR=ID:Freitag
+TAG POS=1 TYPE=SELECT FORM=ACTION:/entry/entryWizard?execution=e1s6 ATTR=ID:timeselect_from_1 CONTENT=%00:00
+TAG POS=1 TYPE=SELECT FORM=ACTION:/entry/entryWizard?execution=e1s6 ATTR=ID:timeselect_to_1 CONTENT=%00:00
+TAG POS=1 TYPE=A ATTR=ID:Samstag
+TAG POS=1 TYPE=A ATTR=ID:Sonntag
+SAVEAS TYPE=PNG FOLDER=* FILE={{COL4}}<SP>({{COL7}})<SP>-<SP>DasTelefonbuch<SP>-<SP>OH<SP>-{{!NOW:dd.mm.yyyy,<SP>hh.nn.ss}}<SP>Uhr.png
+
+**********************************************************************************************
+
+Zeitpunkt: 10:57:12.9219358
+Kunde: test company y
+Verzeichnis: DasTelefonbuch
+Benutzer: Niklas
+Meldung: Öffnungszeiten: 
+mon: closed|
+tue: 24h|
+wen: 24h|
+thu: 24h|
+fri: 24h|
+sat: closed|
+sun: closed|
+
+MacroCode: CODE: TAG POS=1 TYPE=A ATTR=ID:Montag
+TAG POS=1 TYPE=A ATTR=ID:Dienstag
+TAG POS=1 TYPE=SELECT FORM=ACTION:/entry/entryWizard?execution=e1s6 ATTR=ID:timeselect_from_1 CONTENT=%00:00
+TAG POS=1 TYPE=SELECT FORM=ACTION:/entry/entryWizard?execution=e1s6 ATTR=ID:timeselect_to_1 CONTENT=%00:00
+TAG POS=1 TYPE=A ATTR=ID:Mittwoch
+TAG POS=1 TYPE=SELECT FORM=ACTION:/entry/entryWizard?execution=e1s6 ATTR=ID:timeselect_from_1 CONTENT=%00:00
+TAG POS=1 TYPE=SELECT FORM=ACTION:/entry/entryWizard?execution=e1s6 ATTR=ID:timeselect_to_1 CONTENT=%00:00
+TAG POS=1 TYPE=A ATTR=ID:Donnerstag
+TAG POS=1 TYPE=SELECT FORM=ACTION:/entry/entryWizard?execution=e1s6 ATTR=ID:timeselect_from_1 CONTENT=%00:00
+TAG POS=1 TYPE=SELECT FORM=ACTION:/entry/entryWizard?execution=e1s6 ATTR=ID:timeselect_to_1 CONTENT=%00:00
+TAG POS=1 TYPE=A ATTR=ID:Freitag
+TAG POS=1 TYPE=SELECT FORM=ACTION:/entry/entryWizard?execution=e1s6 ATTR=ID:timeselect_from_1 CONTENT=%00:00
+TAG POS=1 TYPE=SELECT FORM=ACTION:/entry/entryWizard?execution=e1s6 ATTR=ID:timeselect_to_1 CONTENT=%00:00
+TAG POS=1 TYPE=A ATTR=ID:Samstag
+TAG POS=1 TYPE=A ATTR=ID:Sonntag
+SAVEAS TYPE=PNG FOLDER=* FILE={{COL4}}<SP>({{COL7}})<SP>-<SP>DasTelefonbuch<SP>-<SP>OH<SP>-{{!NOW:dd.mm.yyyy,<SP>hh.nn.ss}}<SP>Uhr.png
+
+**********************************************************************************************
+
+Zeitpunkt: 10:57:25.1516353
+Kunde: test company y
+Verzeichnis: DasTelefonbuch
+Benutzer: Niklas
+Meldung: Öffnungszeiten: 
+mon: closed|
+tue: 24h|
+wen: 24h|
+thu: 24h|
+fri: 24h|
+sat: closed|
+sun: closed|
+
+MacroCode: CODE: TAG POS=1 TYPE=A ATTR=ID:Montag
+TAG POS=1 TYPE=A ATTR=ID:Dienstag
+TAG POS=1 TYPE=SELECT FORM=ACTION:/entry/entryWizard?execution=e1s6 ATTR=ID:timeselect_from_1 CONTENT=%00:00
+TAG POS=1 TYPE=SELECT FORM=ACTION:/entry/entryWizard?execution=e1s6 ATTR=ID:timeselect_to_1 CONTENT=%00:00
+TAG POS=1 TYPE=A ATTR=ID:Mittwoch
+TAG POS=1 TYPE=SELECT FORM=ACTION:/entry/entryWizard?execution=e1s6 ATTR=ID:timeselect_from_1 CONTENT=%00:00
+TAG POS=1 TYPE=SELECT FORM=ACTION:/entry/entryWizard?execution=e1s6 ATTR=ID:timeselect_to_1 CONTENT=%00:00
+TAG POS=1 TYPE=A ATTR=ID:Donnerstag
+TAG POS=1 TYPE=SELECT FORM=ACTION:/entry/entryWizard?execution=e1s6 ATTR=ID:timeselect_from_1 CONTENT=%00:00
+TAG POS=1 TYPE=SELECT FORM=ACTION:/entry/entryWizard?execution=e1s6 ATTR=ID:timeselect_to_1 CONTENT=%00:00
+TAG POS=1 TYPE=A ATTR=ID:Freitag
+TAG POS=1 TYPE=SELECT FORM=ACTION:/entry/entryWizard?execution=e1s6 ATTR=ID:timeselect_from_1 CONTENT=%00:00
+TAG POS=1 TYPE=SELECT FORM=ACTION:/entry/entryWizard?execution=e1s6 ATTR=ID:timeselect_to_1 CONTENT=%00:00
+TAG POS=1 TYPE=A ATTR=ID:Samstag
+TAG POS=1 TYPE=A ATTR=ID:Sonntag
+SAVEAS TYPE=PNG FOLDER=* FILE={{COL4}}<SP>({{COL7}})<SP>-<SP>DasTelefonbuch<SP>-<SP>OH<SP>-{{!NOW:dd.mm.yyyy,<SP>hh.nn.ss}}<SP>Uhr.png
+
+**********************************************************************************************
+
+Zeitpunkt: 10:57:25.7026668
+Kunde: test company y
+Verzeichnis: DasTelefonbuch
+Benutzer: Niklas
+Meldung: Öffnungszeiten: 
+mon: closed|
+tue: 24h|
+wen: 24h|
+thu: 24h|
+fri: 24h|
+sat: closed|
+sun: closed|
+
+MacroCode: CODE: TAG POS=1 TYPE=A ATTR=ID:Montag
+TAG POS=1 TYPE=A ATTR=ID:Dienstag
+TAG POS=1 TYPE=SELECT FORM=ACTION:/entry/entryWizard?execution=e1s6 ATTR=ID:timeselect_from_1 CONTENT=%00:00
+TAG POS=1 TYPE=SELECT FORM=ACTION:/entry/entryWizard?execution=e1s6 ATTR=ID:timeselect_to_1 CONTENT=%00:00
+TAG POS=1 TYPE=A ATTR=ID:Mittwoch
+TAG POS=1 TYPE=SELECT FORM=ACTION:/entry/entryWizard?execution=e1s6 ATTR=ID:timeselect_from_1 CONTENT=%00:00
+TAG POS=1 TYPE=SELECT FORM=ACTION:/entry/entryWizard?execution=e1s6 ATTR=ID:timeselect_to_1 CONTENT=%00:00
+TAG POS=1 TYPE=A ATTR=ID:Donnerstag
+TAG POS=1 TYPE=SELECT FORM=ACTION:/entry/entryWizard?execution=e1s6 ATTR=ID:timeselect_from_1 CONTENT=%00:00
+TAG POS=1 TYPE=SELECT FORM=ACTION:/entry/entryWizard?execution=e1s6 ATTR=ID:timeselect_to_1 CONTENT=%00:00
+TAG POS=1 TYPE=A ATTR=ID:Freitag
+TAG POS=1 TYPE=SELECT FORM=ACTION:/entry/entryWizard?execution=e1s6 ATTR=ID:timeselect_from_1 CONTENT=%00:00
+TAG POS=1 TYPE=SELECT FORM=ACTION:/entry/entryWizard?execution=e1s6 ATTR=ID:timeselect_to_1 CONTENT=%00:00
+TAG POS=1 TYPE=A ATTR=ID:Samstag
+TAG POS=1 TYPE=A ATTR=ID:Sonntag
+SAVEAS TYPE=PNG FOLDER=* FILE={{COL4}}<SP>({{COL7}})<SP>-<SP>DasTelefonbuch<SP>-<SP>OH<SP>-{{!NOW:dd.mm.yyyy,<SP>hh.nn.ss}}<SP>Uhr.png
+
+**********************************************************************************************
+
+Zeitpunkt: 11:19:58.7620574
+Kunde: test company y
+Verzeichnis: DasTelefonbuch
+Benutzer: Niklas
+Meldung: Öffnungszeiten: 
+mon: split|10:00-13:00~14:00-18:00
+tue: split|10:00-13:00~14:00-18:00
+wen: split|10:00-13:00~14:00-18:00
+thu: split|10:00-13:00~14:00-18:00
+fri: split|10:00-13:00~14:00-18:00
+sat: split|10:00-13:00~14:00-18:00
+sun: split|10:00-13:00~14:00-18:00
+
+MacroCode: CODE: TAG POS=1 TYPE=A ATTR=ID:Montag
+TAG POS=1 TYPE=SELECT FORM=ACTION:/entry/entryWizard?execution=e1s6 ATTR=ID:timeselect_from_1 CONTENT=%10:00
+TAG POS=1 TYPE=SELECT FORM=ACTION:/entry/entryWizard?execution=e1s6 ATTR=ID:timeselect_to_1 CONTENT=%13:00
+TAG POS=1 TYPE=SELECT FORM=ACTION:/entry/entryWizard?execution=e1s6 ATTR=ID:timeselect_from_2 CONTENT=%14:00
+TAG POS=1 TYPE=SELECT FORM=ACTION:/entry/entryWizard?execution=e1s6 ATTR=ID:timeselect_to_2 CONTENT=%18:00
+TAG POS=1 TYPE=A ATTR=ID:Dienstag
+TAG POS=1 TYPE=SELECT FORM=ACTION:/entry/entryWizard?execution=e1s6 ATTR=ID:timeselect_from_1 CONTENT=%10:00
+TAG POS=1 TYPE=SELECT FORM=ACTION:/entry/entryWizard?execution=e1s6 ATTR=ID:timeselect_to_1 CONTENT=%13:00
+TAG POS=1 TYPE=SELECT FORM=ACTION:/entry/entryWizard?execution=e1s6 ATTR=ID:timeselect_from_2 CONTENT=%14:00
+TAG POS=1 TYPE=SELECT FORM=ACTION:/entry/entryWizard?execution=e1s6 ATTR=ID:timeselect_to_2 CONTENT=%18:00
+TAG POS=1 TYPE=A ATTR=ID:Mittwoch
+TAG POS=1 TYPE=SELECT FORM=ACTION:/entry/entryWizard?execution=e1s6 ATTR=ID:timeselect_from_1 CONTENT=%10:00
+TAG POS=1 TYPE=SELECT FORM=ACTION:/entry/entryWizard?execution=e1s6 ATTR=ID:timeselect_to_1 CONTENT=%13:00
+TAG POS=1 TYPE=SELECT FORM=ACTION:/entry/entryWizard?execution=e1s6 ATTR=ID:timeselect_from_2 CONTENT=%14:00
+TAG POS=1 TYPE=SELECT FORM=ACTION:/entry/entryWizard?execution=e1s6 ATTR=ID:timeselect_to_2 CONTENT=%18:00
+TAG POS=1 TYPE=A ATTR=ID:Donnerstag
+TAG POS=1 TYPE=SELECT FORM=ACTION:/entry/entryWizard?execution=e1s6 ATTR=ID:timeselect_from_1 CONTENT=%10:00
+TAG POS=1 TYPE=SELECT FORM=ACTION:/entry/entryWizard?execution=e1s6 ATTR=ID:timeselect_to_1 CONTENT=%13:00
+TAG POS=1 TYPE=SELECT FORM=ACTION:/entry/entryWizard?execution=e1s6 ATTR=ID:timeselect_from_2 CONTENT=%14:00
+TAG POS=1 TYPE=SELECT FORM=ACTION:/entry/entryWizard?execution=e1s6 ATTR=ID:timeselect_to_2 CONTENT=%18:00
+TAG POS=1 TYPE=A ATTR=ID:Freitag
+TAG POS=1 TYPE=SELECT FORM=ACTION:/entry/entryWizard?execution=e1s6 ATTR=ID:timeselect_from_1 CONTENT=%10:00
+TAG POS=1 TYPE=SELECT FORM=ACTION:/entry/entryWizard?execution=e1s6 ATTR=ID:timeselect_to_1 CONTENT=%13:00
+TAG POS=1 TYPE=SELECT FORM=ACTION:/entry/entryWizard?execution=e1s6 ATTR=ID:timeselect_from_2 CONTENT=%14:00
+TAG POS=1 TYPE=SELECT FORM=ACTION:/entry/entryWizard?execution=e1s6 ATTR=ID:timeselect_to_2 CONTENT=%18:00
+TAG POS=1 TYPE=A ATTR=ID:Samstag
+TAG POS=1 TYPE=SELECT FORM=ACTION:/entry/entryWizard?execution=e1s6 ATTR=ID:timeselect_from_1 CONTENT=%10:00
+TAG POS=1 TYPE=SELECT FORM=ACTION:/entry/entryWizard?execution=e1s6 ATTR=ID:timeselect_to_1 CONTENT=%13:00
+TAG POS=1 TYPE=SELECT FORM=ACTION:/entry/entryWizard?execution=e1s6 ATTR=ID:timeselect_from_2 CONTENT=%14:00
+TAG POS=1 TYPE=SELECT FORM=ACTION:/entry/entryWizard?execution=e1s6 ATTR=ID:timeselect_to_2 CONTENT=%18:00
+TAG POS=1 TYPE=A ATTR=ID:Sonntag
+TAG POS=1 TYPE=SELECT FORM=ACTION:/entry/entryWizard?execution=e1s6 ATTR=ID:timeselect_from_1 CONTENT=%10:00
+TAG POS=1 TYPE=SELECT FORM=ACTION:/entry/entryWizard?execution=e1s6 ATTR=ID:timeselect_to_1 CONTENT=%13:00
+TAG POS=1 TYPE=SELECT FORM=ACTION:/entry/entryWizard?execution=e1s6 ATTR=ID:timeselect_from_2 CONTENT=%14:00
+TAG POS=1 TYPE=SELECT FORM=ACTION:/entry/entryWizard?execution=e1s6 ATTR=ID:timeselect_to_2 CONTENT=%18:00
+SAVEAS TYPE=PNG FOLDER=* FILE={{COL4}}<SP>({{COL7}})<SP>-<SP>DasTelefonbuch<SP>-<SP>OH<SP>-{{!NOW:dd.mm.yyyy,<SP>hh.nn.ss}}<SP>Uhr.png
+
+**********************************************************************************************
+
+Zeitpunkt: 11:20:03.1273070
+Kunde: test company y
+Verzeichnis: DasTelefonbuch
+Benutzer: Niklas
+Meldung: Öffnungszeiten: 
+mon: split|10:00-13:00~14:00-18:00
+tue: split|10:00-13:00~14:00-18:00
+wen: split|10:00-13:00~14:00-18:00
+thu: split|10:00-13:00~14:00-18:00
+fri: split|10:00-13:00~14:00-18:00
+sat: split|10:00-13:00~14:00-18:00
+sun: split|10:00-13:00~14:00-18:00
+
+MacroCode: CODE: TAG POS=1 TYPE=A ATTR=ID:Montag
+TAG POS=1 TYPE=SELECT FORM=ACTION:/entry/entryWizard?execution=e1s6 ATTR=ID:timeselect_from_1 CONTENT=%10:00
+TAG POS=1 TYPE=SELECT FORM=ACTION:/entry/entryWizard?execution=e1s6 ATTR=ID:timeselect_to_1 CONTENT=%13:00
+TAG POS=1 TYPE=SELECT FORM=ACTION:/entry/entryWizard?execution=e1s6 ATTR=ID:timeselect_from_2 CONTENT=%14:00
+TAG POS=1 TYPE=SELECT FORM=ACTION:/entry/entryWizard?execution=e1s6 ATTR=ID:timeselect_to_2 CONTENT=%18:00
+TAG POS=1 TYPE=A ATTR=ID:Dienstag
+TAG POS=1 TYPE=SELECT FORM=ACTION:/entry/entryWizard?execution=e1s6 ATTR=ID:timeselect_from_1 CONTENT=%10:00
+TAG POS=1 TYPE=SELECT FORM=ACTION:/entry/entryWizard?execution=e1s6 ATTR=ID:timeselect_to_1 CONTENT=%13:00
+TAG POS=1 TYPE=SELECT FORM=ACTION:/entry/entryWizard?execution=e1s6 ATTR=ID:timeselect_from_2 CONTENT=%14:00
+TAG POS=1 TYPE=SELECT FORM=ACTION:/entry/entryWizard?execution=e1s6 ATTR=ID:timeselect_to_2 CONTENT=%18:00
+TAG POS=1 TYPE=A ATTR=ID:Mittwoch
+TAG POS=1 TYPE=SELECT FORM=ACTION:/entry/entryWizard?execution=e1s6 ATTR=ID:timeselect_from_1 CONTENT=%10:00
+TAG POS=1 TYPE=SELECT FORM=ACTION:/entry/entryWizard?execution=e1s6 ATTR=ID:timeselect_to_1 CONTENT=%13:00
+TAG POS=1 TYPE=SELECT FORM=ACTION:/entry/entryWizard?execution=e1s6 ATTR=ID:timeselect_from_2 CONTENT=%14:00
+TAG POS=1 TYPE=SELECT FORM=ACTION:/entry/entryWizard?execution=e1s6 ATTR=ID:timeselect_to_2 CONTENT=%18:00
+TAG POS=1 TYPE=A ATTR=ID:Donnerstag
+TAG POS=1 TYPE=SELECT FORM=ACTION:/entry/entryWizard?execution=e1s6 ATTR=ID:timeselect_from_1 CONTENT=%10:00
+TAG POS=1 TYPE=SELECT FORM=ACTION:/entry/entryWizard?execution=e1s6 ATTR=ID:timeselect_to_1 CONTENT=%13:00
+TAG POS=1 TYPE=SELECT FORM=ACTION:/entry/entryWizard?execution=e1s6 ATTR=ID:timeselect_from_2 CONTENT=%14:00
+TAG POS=1 TYPE=SELECT FORM=ACTION:/entry/entryWizard?execution=e1s6 ATTR=ID:timeselect_to_2 CONTENT=%18:00
+TAG POS=1 TYPE=A ATTR=ID:Freitag
+TAG POS=1 TYPE=SELECT FORM=ACTION:/entry/entryWizard?execution=e1s6 ATTR=ID:timeselect_from_1 CONTENT=%10:00
+TAG POS=1 TYPE=SELECT FORM=ACTION:/entry/entryWizard?execution=e1s6 ATTR=ID:timeselect_to_1 CONTENT=%13:00
+TAG POS=1 TYPE=SELECT FORM=ACTION:/entry/entryWizard?execution=e1s6 ATTR=ID:timeselect_from_2 CONTENT=%14:00
+TAG POS=1 TYPE=SELECT FORM=ACTION:/entry/entryWizard?execution=e1s6 ATTR=ID:timeselect_to_2 CONTENT=%18:00
+TAG POS=1 TYPE=A ATTR=ID:Samstag
+TAG POS=1 TYPE=SELECT FORM=ACTION:/entry/entryWizard?execution=e1s6 ATTR=ID:timeselect_from_1 CONTENT=%10:00
+TAG POS=1 TYPE=SELECT FORM=ACTION:/entry/entryWizard?execution=e1s6 ATTR=ID:timeselect_to_1 CONTENT=%13:00
+TAG POS=1 TYPE=SELECT FORM=ACTION:/entry/entryWizard?execution=e1s6 ATTR=ID:timeselect_from_2 CONTENT=%14:00
+TAG POS=1 TYPE=SELECT FORM=ACTION:/entry/entryWizard?execution=e1s6 ATTR=ID:timeselect_to_2 CONTENT=%18:00
+TAG POS=1 TYPE=A ATTR=ID:Sonntag
+TAG POS=1 TYPE=SELECT FORM=ACTION:/entry/entryWizard?execution=e1s6 ATTR=ID:timeselect_from_1 CONTENT=%10:00
+TAG POS=1 TYPE=SELECT FORM=ACTION:/entry/entryWizard?execution=e1s6 ATTR=ID:timeselect_to_1 CONTENT=%13:00
+TAG POS=1 TYPE=SELECT FORM=ACTION:/entry/entryWizard?execution=e1s6 ATTR=ID:timeselect_from_2 CONTENT=%14:00
+TAG POS=1 TYPE=SELECT FORM=ACTION:/entry/entryWizard?execution=e1s6 ATTR=ID:timeselect_to_2 CONTENT=%18:00
+SAVEAS TYPE=PNG FOLDER=* FILE={{COL4}}<SP>({{COL7}})<SP>-<SP>DasTelefonbuch<SP>-<SP>OH<SP>-{{!NOW:dd.mm.yyyy,<SP>hh.nn.ss}}<SP>Uhr.png
+
+**********************************************************************************************
+
+Zeitpunkt: 11:20:05.4514400
+Kunde: test company y
+Verzeichnis: DasTelefonbuch
+Benutzer: Niklas
+Meldung: Öffnungszeiten: 
+mon: split|10:00-13:00~14:00-18:00
+tue: split|10:00-13:00~14:00-18:00
+wen: split|10:00-13:00~14:00-18:00
+thu: split|10:00-13:00~14:00-18:00
+fri: split|10:00-13:00~14:00-18:00
+sat: split|10:00-13:00~14:00-18:00
+sun: split|10:00-13:00~14:00-18:00
+
+MacroCode: CODE: TAG POS=1 TYPE=A ATTR=ID:Montag
+TAG POS=1 TYPE=SELECT FORM=ACTION:/entry/entryWizard?execution=e1s6 ATTR=ID:timeselect_from_1 CONTENT=%10:00
+TAG POS=1 TYPE=SELECT FORM=ACTION:/entry/entryWizard?execution=e1s6 ATTR=ID:timeselect_to_1 CONTENT=%13:00
+TAG POS=1 TYPE=SELECT FORM=ACTION:/entry/entryWizard?execution=e1s6 ATTR=ID:timeselect_from_2 CONTENT=%14:00
+TAG POS=1 TYPE=SELECT FORM=ACTION:/entry/entryWizard?execution=e1s6 ATTR=ID:timeselect_to_2 CONTENT=%18:00
+TAG POS=1 TYPE=A ATTR=ID:Dienstag
+TAG POS=1 TYPE=SELECT FORM=ACTION:/entry/entryWizard?execution=e1s6 ATTR=ID:timeselect_from_1 CONTENT=%10:00
+TAG POS=1 TYPE=SELECT FORM=ACTION:/entry/entryWizard?execution=e1s6 ATTR=ID:timeselect_to_1 CONTENT=%13:00
+TAG POS=1 TYPE=SELECT FORM=ACTION:/entry/entryWizard?execution=e1s6 ATTR=ID:timeselect_from_2 CONTENT=%14:00
+TAG POS=1 TYPE=SELECT FORM=ACTION:/entry/entryWizard?execution=e1s6 ATTR=ID:timeselect_to_2 CONTENT=%18:00
+TAG POS=1 TYPE=A ATTR=ID:Mittwoch
+TAG POS=1 TYPE=SELECT FORM=ACTION:/entry/entryWizard?execution=e1s6 ATTR=ID:timeselect_from_1 CONTENT=%10:00
+TAG POS=1 TYPE=SELECT FORM=ACTION:/entry/entryWizard?execution=e1s6 ATTR=ID:timeselect_to_1 CONTENT=%13:00
+TAG POS=1 TYPE=SELECT FORM=ACTION:/entry/entryWizard?execution=e1s6 ATTR=ID:timeselect_from_2 CONTENT=%14:00
+TAG POS=1 TYPE=SELECT FORM=ACTION:/entry/entryWizard?execution=e1s6 ATTR=ID:timeselect_to_2 CONTENT=%18:00
+TAG POS=1 TYPE=A ATTR=ID:Donnerstag
+TAG POS=1 TYPE=SELECT FORM=ACTION:/entry/entryWizard?execution=e1s6 ATTR=ID:timeselect_from_1 CONTENT=%10:00
+TAG POS=1 TYPE=SELECT FORM=ACTION:/entry/entryWizard?execution=e1s6 ATTR=ID:timeselect_to_1 CONTENT=%13:00
+TAG POS=1 TYPE=SELECT FORM=ACTION:/entry/entryWizard?execution=e1s6 ATTR=ID:timeselect_from_2 CONTENT=%14:00
+TAG POS=1 TYPE=SELECT FORM=ACTION:/entry/entryWizard?execution=e1s6 ATTR=ID:timeselect_to_2 CONTENT=%18:00
+TAG POS=1 TYPE=A ATTR=ID:Freitag
+TAG POS=1 TYPE=SELECT FORM=ACTION:/entry/entryWizard?execution=e1s6 ATTR=ID:timeselect_from_1 CONTENT=%10:00
+TAG POS=1 TYPE=SELECT FORM=ACTION:/entry/entryWizard?execution=e1s6 ATTR=ID:timeselect_to_1 CONTENT=%13:00
+TAG POS=1 TYPE=SELECT FORM=ACTION:/entry/entryWizard?execution=e1s6 ATTR=ID:timeselect_from_2 CONTENT=%14:00
+TAG POS=1 TYPE=SELECT FORM=ACTION:/entry/entryWizard?execution=e1s6 ATTR=ID:timeselect_to_2 CONTENT=%18:00
+TAG POS=1 TYPE=A ATTR=ID:Samstag
+TAG POS=1 TYPE=SELECT FORM=ACTION:/entry/entryWizard?execution=e1s6 ATTR=ID:timeselect_from_1 CONTENT=%10:00
+TAG POS=1 TYPE=SELECT FORM=ACTION:/entry/entryWizard?execution=e1s6 ATTR=ID:timeselect_to_1 CONTENT=%13:00
+TAG POS=1 TYPE=SELECT FORM=ACTION:/entry/entryWizard?execution=e1s6 ATTR=ID:timeselect_from_2 CONTENT=%14:00
+TAG POS=1 TYPE=SELECT FORM=ACTION:/entry/entryWizard?execution=e1s6 ATTR=ID:timeselect_to_2 CONTENT=%18:00
+TAG POS=1 TYPE=A ATTR=ID:Sonntag
+TAG POS=1 TYPE=SELECT FORM=ACTION:/entry/entryWizard?execution=e1s6 ATTR=ID:timeselect_from_1 CONTENT=%10:00
+TAG POS=1 TYPE=SELECT FORM=ACTION:/entry/entryWizard?execution=e1s6 ATTR=ID:timeselect_to_1 CONTENT=%13:00
+TAG POS=1 TYPE=SELECT FORM=ACTION:/entry/entryWizard?execution=e1s6 ATTR=ID:timeselect_from_2 CONTENT=%14:00
+TAG POS=1 TYPE=SELECT FORM=ACTION:/entry/entryWizard?execution=e1s6 ATTR=ID:timeselect_to_2 CONTENT=%18:00
+SAVEAS TYPE=PNG FOLDER=* FILE={{COL4}}<SP>({{COL7}})<SP>-<SP>DasTelefonbuch<SP>-<SP>OH<SP>-{{!NOW:dd.mm.yyyy,<SP>hh.nn.ss}}<SP>Uhr.png
+
+**********************************************************************************************
+
+Zeitpunkt: 11:20:06.2084833
+Kunde: test company y
+Verzeichnis: DasTelefonbuch
+Benutzer: Niklas
+Meldung: Öffnungszeiten: 
+mon: split|10:00-13:00~14:00-18:00
+tue: split|10:00-13:00~14:00-18:00
+wen: split|10:00-13:00~14:00-18:00
+thu: split|10:00-13:00~14:00-18:00
+fri: split|10:00-13:00~14:00-18:00
+sat: split|10:00-13:00~14:00-18:00
+sun: split|10:00-13:00~14:00-18:00
+
+MacroCode: CODE: TAG POS=1 TYPE=A ATTR=ID:Montag
+TAG POS=1 TYPE=SELECT FORM=ACTION:/entry/entryWizard?execution=e1s6 ATTR=ID:timeselect_from_1 CONTENT=%10:00
+TAG POS=1 TYPE=SELECT FORM=ACTION:/entry/entryWizard?execution=e1s6 ATTR=ID:timeselect_to_1 CONTENT=%13:00
+TAG POS=1 TYPE=SELECT FORM=ACTION:/entry/entryWizard?execution=e1s6 ATTR=ID:timeselect_from_2 CONTENT=%14:00
+TAG POS=1 TYPE=SELECT FORM=ACTION:/entry/entryWizard?execution=e1s6 ATTR=ID:timeselect_to_2 CONTENT=%18:00
+TAG POS=1 TYPE=A ATTR=ID:Dienstag
+TAG POS=1 TYPE=SELECT FORM=ACTION:/entry/entryWizard?execution=e1s6 ATTR=ID:timeselect_from_1 CONTENT=%10:00
+TAG POS=1 TYPE=SELECT FORM=ACTION:/entry/entryWizard?execution=e1s6 ATTR=ID:timeselect_to_1 CONTENT=%13:00
+TAG POS=1 TYPE=SELECT FORM=ACTION:/entry/entryWizard?execution=e1s6 ATTR=ID:timeselect_from_2 CONTENT=%14:00
+TAG POS=1 TYPE=SELECT FORM=ACTION:/entry/entryWizard?execution=e1s6 ATTR=ID:timeselect_to_2 CONTENT=%18:00
+TAG POS=1 TYPE=A ATTR=ID:Mittwoch
+TAG POS=1 TYPE=SELECT FORM=ACTION:/entry/entryWizard?execution=e1s6 ATTR=ID:timeselect_from_1 CONTENT=%10:00
+TAG POS=1 TYPE=SELECT FORM=ACTION:/entry/entryWizard?execution=e1s6 ATTR=ID:timeselect_to_1 CONTENT=%13:00
+TAG POS=1 TYPE=SELECT FORM=ACTION:/entry/entryWizard?execution=e1s6 ATTR=ID:timeselect_from_2 CONTENT=%14:00
+TAG POS=1 TYPE=SELECT FORM=ACTION:/entry/entryWizard?execution=e1s6 ATTR=ID:timeselect_to_2 CONTENT=%18:00
+TAG POS=1 TYPE=A ATTR=ID:Donnerstag
+TAG POS=1 TYPE=SELECT FORM=ACTION:/entry/entryWizard?execution=e1s6 ATTR=ID:timeselect_from_1 CONTENT=%10:00
+TAG POS=1 TYPE=SELECT FORM=ACTION:/entry/entryWizard?execution=e1s6 ATTR=ID:timeselect_to_1 CONTENT=%13:00
+TAG POS=1 TYPE=SELECT FORM=ACTION:/entry/entryWizard?execution=e1s6 ATTR=ID:timeselect_from_2 CONTENT=%14:00
+TAG POS=1 TYPE=SELECT FORM=ACTION:/entry/entryWizard?execution=e1s6 ATTR=ID:timeselect_to_2 CONTENT=%18:00
+TAG POS=1 TYPE=A ATTR=ID:Freitag
+TAG POS=1 TYPE=SELECT FORM=ACTION:/entry/entryWizard?execution=e1s6 ATTR=ID:timeselect_from_1 CONTENT=%10:00
+TAG POS=1 TYPE=SELECT FORM=ACTION:/entry/entryWizard?execution=e1s6 ATTR=ID:timeselect_to_1 CONTENT=%13:00
+TAG POS=1 TYPE=SELECT FORM=ACTION:/entry/entryWizard?execution=e1s6 ATTR=ID:timeselect_from_2 CONTENT=%14:00
+TAG POS=1 TYPE=SELECT FORM=ACTION:/entry/entryWizard?execution=e1s6 ATTR=ID:timeselect_to_2 CONTENT=%18:00
+TAG POS=1 TYPE=A ATTR=ID:Samstag
+TAG POS=1 TYPE=SELECT FORM=ACTION:/entry/entryWizard?execution=e1s6 ATTR=ID:timeselect_from_1 CONTENT=%10:00
+TAG POS=1 TYPE=SELECT FORM=ACTION:/entry/entryWizard?execution=e1s6 ATTR=ID:timeselect_to_1 CONTENT=%13:00
+TAG POS=1 TYPE=SELECT FORM=ACTION:/entry/entryWizard?execution=e1s6 ATTR=ID:timeselect_from_2 CONTENT=%14:00
+TAG POS=1 TYPE=SELECT FORM=ACTION:/entry/entryWizard?execution=e1s6 ATTR=ID:timeselect_to_2 CONTENT=%18:00
+TAG POS=1 TYPE=A ATTR=ID:Sonntag
+TAG POS=1 TYPE=SELECT FORM=ACTION:/entry/entryWizard?execution=e1s6 ATTR=ID:timeselect_from_1 CONTENT=%10:00
+TAG POS=1 TYPE=SELECT FORM=ACTION:/entry/entryWizard?execution=e1s6 ATTR=ID:timeselect_to_1 CONTENT=%13:00
+TAG POS=1 TYPE=SELECT FORM=ACTION:/entry/entryWizard?execution=e1s6 ATTR=ID:timeselect_from_2 CONTENT=%14:00
+TAG POS=1 TYPE=SELECT FORM=ACTION:/entry/entryWizard?execution=e1s6 ATTR=ID:timeselect_to_2 CONTENT=%18:00
+SAVEAS TYPE=PNG FOLDER=* FILE={{COL4}}<SP>({{COL7}})<SP>-<SP>DasTelefonbuch<SP>-<SP>OH<SP>-{{!NOW:dd.mm.yyyy,<SP>hh.nn.ss}}<SP>Uhr.png
+
+**********************************************************************************************
+
+Zeitpunkt: 11:20:08.0845906
+Kunde: test company y
+Verzeichnis: DasTelefonbuch
+Benutzer: Niklas
+Meldung: Öffnungszeiten: 
+mon: split|10:00-13:00~14:00-18:00
+tue: split|10:00-13:00~14:00-18:00
+wen: split|10:00-13:00~14:00-18:00
+thu: split|10:00-13:00~14:00-18:00
+fri: split|10:00-13:00~14:00-18:00
+sat: split|10:00-13:00~14:00-18:00
+sun: split|10:00-13:00~14:00-18:00
+
+MacroCode: CODE: TAG POS=1 TYPE=A ATTR=ID:Montag
+TAG POS=1 TYPE=SELECT FORM=ACTION:/entry/entryWizard?execution=e1s6 ATTR=ID:timeselect_from_1 CONTENT=%10:00
+TAG POS=1 TYPE=SELECT FORM=ACTION:/entry/entryWizard?execution=e1s6 ATTR=ID:timeselect_to_1 CONTENT=%13:00
+TAG POS=1 TYPE=SELECT FORM=ACTION:/entry/entryWizard?execution=e1s6 ATTR=ID:timeselect_from_2 CONTENT=%14:00
+TAG POS=1 TYPE=SELECT FORM=ACTION:/entry/entryWizard?execution=e1s6 ATTR=ID:timeselect_to_2 CONTENT=%18:00
+TAG POS=1 TYPE=A ATTR=ID:Dienstag
+TAG POS=1 TYPE=SELECT FORM=ACTION:/entry/entryWizard?execution=e1s6 ATTR=ID:timeselect_from_1 CONTENT=%10:00
+TAG POS=1 TYPE=SELECT FORM=ACTION:/entry/entryWizard?execution=e1s6 ATTR=ID:timeselect_to_1 CONTENT=%13:00
+TAG POS=1 TYPE=SELECT FORM=ACTION:/entry/entryWizard?execution=e1s6 ATTR=ID:timeselect_from_2 CONTENT=%14:00
+TAG POS=1 TYPE=SELECT FORM=ACTION:/entry/entryWizard?execution=e1s6 ATTR=ID:timeselect_to_2 CONTENT=%18:00
+TAG POS=1 TYPE=A ATTR=ID:Mittwoch
+TAG POS=1 TYPE=SELECT FORM=ACTION:/entry/entryWizard?execution=e1s6 ATTR=ID:timeselect_from_1 CONTENT=%10:00
+TAG POS=1 TYPE=SELECT FORM=ACTION:/entry/entryWizard?execution=e1s6 ATTR=ID:timeselect_to_1 CONTENT=%13:00
+TAG POS=1 TYPE=SELECT FORM=ACTION:/entry/entryWizard?execution=e1s6 ATTR=ID:timeselect_from_2 CONTENT=%14:00
+TAG POS=1 TYPE=SELECT FORM=ACTION:/entry/entryWizard?execution=e1s6 ATTR=ID:timeselect_to_2 CONTENT=%18:00
+TAG POS=1 TYPE=A ATTR=ID:Donnerstag
+TAG POS=1 TYPE=SELECT FORM=ACTION:/entry/entryWizard?execution=e1s6 ATTR=ID:timeselect_from_1 CONTENT=%10:00
+TAG POS=1 TYPE=SELECT FORM=ACTION:/entry/entryWizard?execution=e1s6 ATTR=ID:timeselect_to_1 CONTENT=%13:00
+TAG POS=1 TYPE=SELECT FORM=ACTION:/entry/entryWizard?execution=e1s6 ATTR=ID:timeselect_from_2 CONTENT=%14:00
+TAG POS=1 TYPE=SELECT FORM=ACTION:/entry/entryWizard?execution=e1s6 ATTR=ID:timeselect_to_2 CONTENT=%18:00
+TAG POS=1 TYPE=A ATTR=ID:Freitag
+TAG POS=1 TYPE=SELECT FORM=ACTION:/entry/entryWizard?execution=e1s6 ATTR=ID:timeselect_from_1 CONTENT=%10:00
+TAG POS=1 TYPE=SELECT FORM=ACTION:/entry/entryWizard?execution=e1s6 ATTR=ID:timeselect_to_1 CONTENT=%13:00
+TAG POS=1 TYPE=SELECT FORM=ACTION:/entry/entryWizard?execution=e1s6 ATTR=ID:timeselect_from_2 CONTENT=%14:00
+TAG POS=1 TYPE=SELECT FORM=ACTION:/entry/entryWizard?execution=e1s6 ATTR=ID:timeselect_to_2 CONTENT=%18:00
+TAG POS=1 TYPE=A ATTR=ID:Samstag
+TAG POS=1 TYPE=SELECT FORM=ACTION:/entry/entryWizard?execution=e1s6 ATTR=ID:timeselect_from_1 CONTENT=%10:00
+TAG POS=1 TYPE=SELECT FORM=ACTION:/entry/entryWizard?execution=e1s6 ATTR=ID:timeselect_to_1 CONTENT=%13:00
+TAG POS=1 TYPE=SELECT FORM=ACTION:/entry/entryWizard?execution=e1s6 ATTR=ID:timeselect_from_2 CONTENT=%14:00
+TAG POS=1 TYPE=SELECT FORM=ACTION:/entry/entryWizard?execution=e1s6 ATTR=ID:timeselect_to_2 CONTENT=%18:00
+TAG POS=1 TYPE=A ATTR=ID:Sonntag
+TAG POS=1 TYPE=SELECT FORM=ACTION:/entry/entryWizard?execution=e1s6 ATTR=ID:timeselect_from_1 CONTENT=%10:00
+TAG POS=1 TYPE=SELECT FORM=ACTION:/entry/entryWizard?execution=e1s6 ATTR=ID:timeselect_to_1 CONTENT=%13:00
+TAG POS=1 TYPE=SELECT FORM=ACTION:/entry/entryWizard?execution=e1s6 ATTR=ID:timeselect_from_2 CONTENT=%14:00
+TAG POS=1 TYPE=SELECT FORM=ACTION:/entry/entryWizard?execution=e1s6 ATTR=ID:timeselect_to_2 CONTENT=%18:00
+SAVEAS TYPE=PNG FOLDER=* FILE={{COL4}}<SP>({{COL7}})<SP>-<SP>DasTelefonbuch<SP>-<SP>OH<SP>-{{!NOW:dd.mm.yyyy,<SP>hh.nn.ss}}<SP>Uhr.png
+
+**********************************************************************************************
+
+Zeitpunkt: 11:20:08.6376222
+Kunde: test company y
+Verzeichnis: DasTelefonbuch
+Benutzer: Niklas
+Meldung: Öffnungszeiten: 
+mon: split|10:00-13:00~14:00-18:00
+tue: split|10:00-13:00~14:00-18:00
+wen: split|10:00-13:00~14:00-18:00
+thu: split|10:00-13:00~14:00-18:00
+fri: split|10:00-13:00~14:00-18:00
+sat: split|10:00-13:00~14:00-18:00
+sun: split|10:00-13:00~14:00-18:00
+
+MacroCode: CODE: TAG POS=1 TYPE=A ATTR=ID:Montag
+TAG POS=1 TYPE=SELECT FORM=ACTION:/entry/entryWizard?execution=e1s6 ATTR=ID:timeselect_from_1 CONTENT=%10:00
+TAG POS=1 TYPE=SELECT FORM=ACTION:/entry/entryWizard?execution=e1s6 ATTR=ID:timeselect_to_1 CONTENT=%13:00
+TAG POS=1 TYPE=SELECT FORM=ACTION:/entry/entryWizard?execution=e1s6 ATTR=ID:timeselect_from_2 CONTENT=%14:00
+TAG POS=1 TYPE=SELECT FORM=ACTION:/entry/entryWizard?execution=e1s6 ATTR=ID:timeselect_to_2 CONTENT=%18:00
+TAG POS=1 TYPE=A ATTR=ID:Dienstag
+TAG POS=1 TYPE=SELECT FORM=ACTION:/entry/entryWizard?execution=e1s6 ATTR=ID:timeselect_from_1 CONTENT=%10:00
+TAG POS=1 TYPE=SELECT FORM=ACTION:/entry/entryWizard?execution=e1s6 ATTR=ID:timeselect_to_1 CONTENT=%13:00
+TAG POS=1 TYPE=SELECT FORM=ACTION:/entry/entryWizard?execution=e1s6 ATTR=ID:timeselect_from_2 CONTENT=%14:00
+TAG POS=1 TYPE=SELECT FORM=ACTION:/entry/entryWizard?execution=e1s6 ATTR=ID:timeselect_to_2 CONTENT=%18:00
+TAG POS=1 TYPE=A ATTR=ID:Mittwoch
+TAG POS=1 TYPE=SELECT FORM=ACTION:/entry/entryWizard?execution=e1s6 ATTR=ID:timeselect_from_1 CONTENT=%10:00
+TAG POS=1 TYPE=SELECT FORM=ACTION:/entry/entryWizard?execution=e1s6 ATTR=ID:timeselect_to_1 CONTENT=%13:00
+TAG POS=1 TYPE=SELECT FORM=ACTION:/entry/entryWizard?execution=e1s6 ATTR=ID:timeselect_from_2 CONTENT=%14:00
+TAG POS=1 TYPE=SELECT FORM=ACTION:/entry/entryWizard?execution=e1s6 ATTR=ID:timeselect_to_2 CONTENT=%18:00
+TAG POS=1 TYPE=A ATTR=ID:Donnerstag
+TAG POS=1 TYPE=SELECT FORM=ACTION:/entry/entryWizard?execution=e1s6 ATTR=ID:timeselect_from_1 CONTENT=%10:00
+TAG POS=1 TYPE=SELECT FORM=ACTION:/entry/entryWizard?execution=e1s6 ATTR=ID:timeselect_to_1 CONTENT=%13:00
+TAG POS=1 TYPE=SELECT FORM=ACTION:/entry/entryWizard?execution=e1s6 ATTR=ID:timeselect_from_2 CONTENT=%14:00
+TAG POS=1 TYPE=SELECT FORM=ACTION:/entry/entryWizard?execution=e1s6 ATTR=ID:timeselect_to_2 CONTENT=%18:00
+TAG POS=1 TYPE=A ATTR=ID:Freitag
+TAG POS=1 TYPE=SELECT FORM=ACTION:/entry/entryWizard?execution=e1s6 ATTR=ID:timeselect_from_1 CONTENT=%10:00
+TAG POS=1 TYPE=SELECT FORM=ACTION:/entry/entryWizard?execution=e1s6 ATTR=ID:timeselect_to_1 CONTENT=%13:00
+TAG POS=1 TYPE=SELECT FORM=ACTION:/entry/entryWizard?execution=e1s6 ATTR=ID:timeselect_from_2 CONTENT=%14:00
+TAG POS=1 TYPE=SELECT FORM=ACTION:/entry/entryWizard?execution=e1s6 ATTR=ID:timeselect_to_2 CONTENT=%18:00
+TAG POS=1 TYPE=A ATTR=ID:Samstag
+TAG POS=1 TYPE=SELECT FORM=ACTION:/entry/entryWizard?execution=e1s6 ATTR=ID:timeselect_from_1 CONTENT=%10:00
+TAG POS=1 TYPE=SELECT FORM=ACTION:/entry/entryWizard?execution=e1s6 ATTR=ID:timeselect_to_1 CONTENT=%13:00
+TAG POS=1 TYPE=SELECT FORM=ACTION:/entry/entryWizard?execution=e1s6 ATTR=ID:timeselect_from_2 CONTENT=%14:00
+TAG POS=1 TYPE=SELECT FORM=ACTION:/entry/entryWizard?execution=e1s6 ATTR=ID:timeselect_to_2 CONTENT=%18:00
+TAG POS=1 TYPE=A ATTR=ID:Sonntag
+TAG POS=1 TYPE=SELECT FORM=ACTION:/entry/entryWizard?execution=e1s6 ATTR=ID:timeselect_from_1 CONTENT=%10:00
+TAG POS=1 TYPE=SELECT FORM=ACTION:/entry/entryWizard?execution=e1s6 ATTR=ID:timeselect_to_1 CONTENT=%13:00
+TAG POS=1 TYPE=SELECT FORM=ACTION:/entry/entryWizard?execution=e1s6 ATTR=ID:timeselect_from_2 CONTENT=%14:00
+TAG POS=1 TYPE=SELECT FORM=ACTION:/entry/entryWizard?execution=e1s6 ATTR=ID:timeselect_to_2 CONTENT=%18:00
+SAVEAS TYPE=PNG FOLDER=* FILE={{COL4}}<SP>({{COL7}})<SP>-<SP>DasTelefonbuch<SP>-<SP>OH<SP>-{{!NOW:dd.mm.yyyy,<SP>hh.nn.ss}}<SP>Uhr.png
+
+**********************************************************************************************
+
+Zeitpunkt: 11:20:21.7903745
+Kunde: test company y
+Verzeichnis: DasTelefonbuch
+Benutzer: Niklas
+Meldung: Öffnungszeiten: 
+mon: split|10:00-13:00~14:00-18:00
+tue: split|10:00-13:00~14:00-18:00
+wen: split|10:00-13:00~14:00-18:00
+thu: split|10:00-13:00~14:00-18:00
+fri: split|10:00-13:00~14:00-18:00
+sat: split|10:00-13:00~14:00-18:00
+sun: split|10:00-13:00~14:00-18:00
+
+MacroCode: CODE: TAG POS=1 TYPE=A ATTR=ID:Montag
+TAG POS=1 TYPE=SELECT FORM=ACTION:/entry/entryWizard?execution=e1s6 ATTR=ID:timeselect_from_1 CONTENT=%10:00
+TAG POS=1 TYPE=SELECT FORM=ACTION:/entry/entryWizard?execution=e1s6 ATTR=ID:timeselect_to_1 CONTENT=%13:00
+TAG POS=1 TYPE=SELECT FORM=ACTION:/entry/entryWizard?execution=e1s6 ATTR=ID:timeselect_from_2 CONTENT=%14:00
+TAG POS=1 TYPE=SELECT FORM=ACTION:/entry/entryWizard?execution=e1s6 ATTR=ID:timeselect_to_2 CONTENT=%18:00
+TAG POS=1 TYPE=A ATTR=ID:Dienstag
+TAG POS=1 TYPE=SELECT FORM=ACTION:/entry/entryWizard?execution=e1s6 ATTR=ID:timeselect_from_1 CONTENT=%10:00
+TAG POS=1 TYPE=SELECT FORM=ACTION:/entry/entryWizard?execution=e1s6 ATTR=ID:timeselect_to_1 CONTENT=%13:00
+TAG POS=1 TYPE=SELECT FORM=ACTION:/entry/entryWizard?execution=e1s6 ATTR=ID:timeselect_from_2 CONTENT=%14:00
+TAG POS=1 TYPE=SELECT FORM=ACTION:/entry/entryWizard?execution=e1s6 ATTR=ID:timeselect_to_2 CONTENT=%18:00
+TAG POS=1 TYPE=A ATTR=ID:Mittwoch
+TAG POS=1 TYPE=SELECT FORM=ACTION:/entry/entryWizard?execution=e1s6 ATTR=ID:timeselect_from_1 CONTENT=%10:00
+TAG POS=1 TYPE=SELECT FORM=ACTION:/entry/entryWizard?execution=e1s6 ATTR=ID:timeselect_to_1 CONTENT=%13:00
+TAG POS=1 TYPE=SELECT FORM=ACTION:/entry/entryWizard?execution=e1s6 ATTR=ID:timeselect_from_2 CONTENT=%14:00
+TAG POS=1 TYPE=SELECT FORM=ACTION:/entry/entryWizard?execution=e1s6 ATTR=ID:timeselect_to_2 CONTENT=%18:00
+TAG POS=1 TYPE=A ATTR=ID:Donnerstag
+TAG POS=1 TYPE=SELECT FORM=ACTION:/entry/entryWizard?execution=e1s6 ATTR=ID:timeselect_from_1 CONTENT=%10:00
+TAG POS=1 TYPE=SELECT FORM=ACTION:/entry/entryWizard?execution=e1s6 ATTR=ID:timeselect_to_1 CONTENT=%13:00
+TAG POS=1 TYPE=SELECT FORM=ACTION:/entry/entryWizard?execution=e1s6 ATTR=ID:timeselect_from_2 CONTENT=%14:00
+TAG POS=1 TYPE=SELECT FORM=ACTION:/entry/entryWizard?execution=e1s6 ATTR=ID:timeselect_to_2 CONTENT=%18:00
+TAG POS=1 TYPE=A ATTR=ID:Freitag
+TAG POS=1 TYPE=SELECT FORM=ACTION:/entry/entryWizard?execution=e1s6 ATTR=ID:timeselect_from_1 CONTENT=%10:00
+TAG POS=1 TYPE=SELECT FORM=ACTION:/entry/entryWizard?execution=e1s6 ATTR=ID:timeselect_to_1 CONTENT=%13:00
+TAG POS=1 TYPE=SELECT FORM=ACTION:/entry/entryWizard?execution=e1s6 ATTR=ID:timeselect_from_2 CONTENT=%14:00
+TAG POS=1 TYPE=SELECT FORM=ACTION:/entry/entryWizard?execution=e1s6 ATTR=ID:timeselect_to_2 CONTENT=%18:00
+TAG POS=1 TYPE=A ATTR=ID:Samstag
+TAG POS=1 TYPE=SELECT FORM=ACTION:/entry/entryWizard?execution=e1s6 ATTR=ID:timeselect_from_1 CONTENT=%10:00
+TAG POS=1 TYPE=SELECT FORM=ACTION:/entry/entryWizard?execution=e1s6 ATTR=ID:timeselect_to_1 CONTENT=%13:00
+TAG POS=1 TYPE=SELECT FORM=ACTION:/entry/entryWizard?execution=e1s6 ATTR=ID:timeselect_from_2 CONTENT=%14:00
+TAG POS=1 TYPE=SELECT FORM=ACTION:/entry/entryWizard?execution=e1s6 ATTR=ID:timeselect_to_2 CONTENT=%18:00
+TAG POS=1 TYPE=A ATTR=ID:Sonntag
+TAG POS=1 TYPE=SELECT FORM=ACTION:/entry/entryWizard?execution=e1s6 ATTR=ID:timeselect_from_1 CONTENT=%10:00
+TAG POS=1 TYPE=SELECT FORM=ACTION:/entry/entryWizard?execution=e1s6 ATTR=ID:timeselect_to_1 CONTENT=%13:00
+TAG POS=1 TYPE=SELECT FORM=ACTION:/entry/entryWizard?execution=e1s6 ATTR=ID:timeselect_from_2 CONTENT=%14:00
+TAG POS=1 TYPE=SELECT FORM=ACTION:/entry/entryWizard?execution=e1s6 ATTR=ID:timeselect_to_2 CONTENT=%18:00
+SAVEAS TYPE=PNG FOLDER=* FILE={{COL4}}<SP>({{COL7}})<SP>-<SP>DasTelefonbuch<SP>-<SP>OH<SP>-{{!NOW:dd.mm.yyyy,<SP>hh.nn.ss}}<SP>Uhr.png
+
+**********************************************************************************************
+
+Zeitpunkt: 11:20:22.2904031
+Kunde: test company y
+Verzeichnis: DasTelefonbuch
+Benutzer: Niklas
+Meldung: Öffnungszeiten: 
+mon: split|10:00-13:00~14:00-18:00
+tue: split|10:00-13:00~14:00-18:00
+wen: split|10:00-13:00~14:00-18:00
+thu: split|10:00-13:00~14:00-18:00
+fri: split|10:00-13:00~14:00-18:00
+sat: split|10:00-13:00~14:00-18:00
+sun: split|10:00-13:00~14:00-18:00
+
+MacroCode: CODE: TAG POS=1 TYPE=A ATTR=ID:Montag
+TAG POS=1 TYPE=SELECT FORM=ACTION:/entry/entryWizard?execution=e1s6 ATTR=ID:timeselect_from_1 CONTENT=%10:00
+TAG POS=1 TYPE=SELECT FORM=ACTION:/entry/entryWizard?execution=e1s6 ATTR=ID:timeselect_to_1 CONTENT=%13:00
+TAG POS=1 TYPE=SELECT FORM=ACTION:/entry/entryWizard?execution=e1s6 ATTR=ID:timeselect_from_2 CONTENT=%14:00
+TAG POS=1 TYPE=SELECT FORM=ACTION:/entry/entryWizard?execution=e1s6 ATTR=ID:timeselect_to_2 CONTENT=%18:00
+TAG POS=1 TYPE=A ATTR=ID:Dienstag
+TAG POS=1 TYPE=SELECT FORM=ACTION:/entry/entryWizard?execution=e1s6 ATTR=ID:timeselect_from_1 CONTENT=%10:00
+TAG POS=1 TYPE=SELECT FORM=ACTION:/entry/entryWizard?execution=e1s6 ATTR=ID:timeselect_to_1 CONTENT=%13:00
+TAG POS=1 TYPE=SELECT FORM=ACTION:/entry/entryWizard?execution=e1s6 ATTR=ID:timeselect_from_2 CONTENT=%14:00
+TAG POS=1 TYPE=SELECT FORM=ACTION:/entry/entryWizard?execution=e1s6 ATTR=ID:timeselect_to_2 CONTENT=%18:00
+TAG POS=1 TYPE=A ATTR=ID:Mittwoch
+TAG POS=1 TYPE=SELECT FORM=ACTION:/entry/entryWizard?execution=e1s6 ATTR=ID:timeselect_from_1 CONTENT=%10:00
+TAG POS=1 TYPE=SELECT FORM=ACTION:/entry/entryWizard?execution=e1s6 ATTR=ID:timeselect_to_1 CONTENT=%13:00
+TAG POS=1 TYPE=SELECT FORM=ACTION:/entry/entryWizard?execution=e1s6 ATTR=ID:timeselect_from_2 CONTENT=%14:00
+TAG POS=1 TYPE=SELECT FORM=ACTION:/entry/entryWizard?execution=e1s6 ATTR=ID:timeselect_to_2 CONTENT=%18:00
+TAG POS=1 TYPE=A ATTR=ID:Donnerstag
+TAG POS=1 TYPE=SELECT FORM=ACTION:/entry/entryWizard?execution=e1s6 ATTR=ID:timeselect_from_1 CONTENT=%10:00
+TAG POS=1 TYPE=SELECT FORM=ACTION:/entry/entryWizard?execution=e1s6 ATTR=ID:timeselect_to_1 CONTENT=%13:00
+TAG POS=1 TYPE=SELECT FORM=ACTION:/entry/entryWizard?execution=e1s6 ATTR=ID:timeselect_from_2 CONTENT=%14:00
+TAG POS=1 TYPE=SELECT FORM=ACTION:/entry/entryWizard?execution=e1s6 ATTR=ID:timeselect_to_2 CONTENT=%18:00
+TAG POS=1 TYPE=A ATTR=ID:Freitag
+TAG POS=1 TYPE=SELECT FORM=ACTION:/entry/entryWizard?execution=e1s6 ATTR=ID:timeselect_from_1 CONTENT=%10:00
+TAG POS=1 TYPE=SELECT FORM=ACTION:/entry/entryWizard?execution=e1s6 ATTR=ID:timeselect_to_1 CONTENT=%13:00
+TAG POS=1 TYPE=SELECT FORM=ACTION:/entry/entryWizard?execution=e1s6 ATTR=ID:timeselect_from_2 CONTENT=%14:00
+TAG POS=1 TYPE=SELECT FORM=ACTION:/entry/entryWizard?execution=e1s6 ATTR=ID:timeselect_to_2 CONTENT=%18:00
+TAG POS=1 TYPE=A ATTR=ID:Samstag
+TAG POS=1 TYPE=SELECT FORM=ACTION:/entry/entryWizard?execution=e1s6 ATTR=ID:timeselect_from_1 CONTENT=%10:00
+TAG POS=1 TYPE=SELECT FORM=ACTION:/entry/entryWizard?execution=e1s6 ATTR=ID:timeselect_to_1 CONTENT=%13:00
+TAG POS=1 TYPE=SELECT FORM=ACTION:/entry/entryWizard?execution=e1s6 ATTR=ID:timeselect_from_2 CONTENT=%14:00
+TAG POS=1 TYPE=SELECT FORM=ACTION:/entry/entryWizard?execution=e1s6 ATTR=ID:timeselect_to_2 CONTENT=%18:00
+TAG POS=1 TYPE=A ATTR=ID:Sonntag
+TAG POS=1 TYPE=SELECT FORM=ACTION:/entry/entryWizard?execution=e1s6 ATTR=ID:timeselect_from_1 CONTENT=%10:00
+TAG POS=1 TYPE=SELECT FORM=ACTION:/entry/entryWizard?execution=e1s6 ATTR=ID:timeselect_to_1 CONTENT=%13:00
+TAG POS=1 TYPE=SELECT FORM=ACTION:/entry/entryWizard?execution=e1s6 ATTR=ID:timeselect_from_2 CONTENT=%14:00
+TAG POS=1 TYPE=SELECT FORM=ACTION:/entry/entryWizard?execution=e1s6 ATTR=ID:timeselect_to_2 CONTENT=%18:00
+SAVEAS TYPE=PNG FOLDER=* FILE={{COL4}}<SP>({{COL7}})<SP>-<SP>DasTelefonbuch<SP>-<SP>OH<SP>-{{!NOW:dd.mm.yyyy,<SP>hh.nn.ss}}<SP>Uhr.png
+
+**********************************************************************************************
+
+Zeitpunkt: 11:21:55.6767445
+Kunde: test company y
+Verzeichnis: GewusstWo
+Benutzer: Niklas
+Meldung: Öffnungszeiten: 
+mon: split|10:00-13:00~14:00-18:00
+tue: split|10:00-13:00~14:00-18:00
+wen: split|10:00-13:00~14:00-18:00
+thu: split|10:00-13:00~14:00-18:00
+fri: split|10:00-13:00~14:00-18:00
+sat: split|10:00-13:00~14:00-18:00
+sun: split|10:00-13:00~14:00-18:00
+
+MacroCode: CODE: TAG POS=1 TYPE=INPUT:TEXT FORM=ACTION:/ ATTR=NAME:_ot_mo_fr_from CONTENT=10:00
+TAG POS=1 TYPE=INPUT:TEXT FORM=ACTION:/ ATTR=NAME:_ot_mo_fr_to CONTENT=18:00
+TAG POS=1 TYPE=INPUT:TEXT FORM=ACTION:/ ATTR=NAME:_ot_sa_from CONTENT=10:00
+TAG POS=1 TYPE=INPUT:TEXT FORM=ACTION:/ ATTR=NAME:_ot_sa_to CONTENT=18:00
+TAG POS=1 TYPE=INPUT:TEXT FORM=ACTION:/ ATTR=NAME:_ot_so_from CONTENT=10:00
+TAG POS=1 TYPE=INPUT:TEXT FORM=ACTION:/ ATTR=NAME:_ot_so_to CONTENT=18:00
+
+
+**********************************************************************************************
+
+Zeitpunkt: 11:21:57.4468457
+Kunde: test company y
+Verzeichnis: GewusstWo
+Benutzer: Niklas
+Meldung: Öffnungszeiten: 
+mon: split|10:00-13:00~14:00-18:00
+tue: split|10:00-13:00~14:00-18:00
+wen: split|10:00-13:00~14:00-18:00
+thu: split|10:00-13:00~14:00-18:00
+fri: split|10:00-13:00~14:00-18:00
+sat: split|10:00-13:00~14:00-18:00
+sun: split|10:00-13:00~14:00-18:00
+
+MacroCode: CODE: TAG POS=1 TYPE=INPUT:TEXT FORM=ACTION:/ ATTR=NAME:_ot_mo_fr_from CONTENT=10:00
+TAG POS=1 TYPE=INPUT:TEXT FORM=ACTION:/ ATTR=NAME:_ot_mo_fr_to CONTENT=18:00
+TAG POS=1 TYPE=INPUT:TEXT FORM=ACTION:/ ATTR=NAME:_ot_sa_from CONTENT=10:00
+TAG POS=1 TYPE=INPUT:TEXT FORM=ACTION:/ ATTR=NAME:_ot_sa_to CONTENT=18:00
+TAG POS=1 TYPE=INPUT:TEXT FORM=ACTION:/ ATTR=NAME:_ot_so_from CONTENT=10:00
+TAG POS=1 TYPE=INPUT:TEXT FORM=ACTION:/ ATTR=NAME:_ot_so_to CONTENT=18:00
+
+
+**********************************************************************************************
+
+Zeitpunkt: 11:21:57.7368623
+Kunde: test company y
+Verzeichnis: GewusstWo
+Benutzer: Niklas
+Meldung: Öffnungszeiten: 
+mon: split|10:00-13:00~14:00-18:00
+tue: split|10:00-13:00~14:00-18:00
+wen: split|10:00-13:00~14:00-18:00
+thu: split|10:00-13:00~14:00-18:00
+fri: split|10:00-13:00~14:00-18:00
+sat: split|10:00-13:00~14:00-18:00
+sun: split|10:00-13:00~14:00-18:00
+
+MacroCode: CODE: TAG POS=1 TYPE=INPUT:TEXT FORM=ACTION:/ ATTR=NAME:_ot_mo_fr_from CONTENT=10:00
+TAG POS=1 TYPE=INPUT:TEXT FORM=ACTION:/ ATTR=NAME:_ot_mo_fr_to CONTENT=18:00
+TAG POS=1 TYPE=INPUT:TEXT FORM=ACTION:/ ATTR=NAME:_ot_sa_from CONTENT=10:00
+TAG POS=1 TYPE=INPUT:TEXT FORM=ACTION:/ ATTR=NAME:_ot_sa_to CONTENT=18:00
+TAG POS=1 TYPE=INPUT:TEXT FORM=ACTION:/ ATTR=NAME:_ot_so_from CONTENT=10:00
+TAG POS=1 TYPE=INPUT:TEXT FORM=ACTION:/ ATTR=NAME:_ot_so_to CONTENT=18:00
+
+
+**********************************************************************************************
+
+Zeitpunkt: 11:26:26.5262362
+Kunde: test company x
+Verzeichnis: GewusstWo
+Benutzer: Niklas
+Meldung: Öffnungszeiten: 
+mon: open|00:00-00:00
+tue: split|00:00-00:00~00:00-00:00
+wen: closed|
+thu: closed|
+fri: closed|
+sat: closed|
+sun: closed|
+
+MacroCode: CODE: PROMPT 1.)Öffnungszeiten<SP>manuell<SP>prüfen:<BR><BR>2.)Macro<SP>fortführen
+PAUSE
+
+
+**********************************************************************************************
+
+Zeitpunkt: 11:26:28.0603239
+Kunde: test company x
+Verzeichnis: GewusstWo
+Benutzer: Niklas
+Meldung: Öffnungszeiten: 
+mon: open|00:00-00:00
+tue: split|00:00-00:00~00:00-00:00
+wen: closed|
+thu: closed|
+fri: closed|
+sat: closed|
+sun: closed|
+
+MacroCode: CODE: PROMPT 1.)Öffnungszeiten<SP>manuell<SP>prüfen:<BR><BR>2.)Macro<SP>fortführen
+PAUSE
+
+
+**********************************************************************************************
+
+Zeitpunkt: 11:26:39.5379804
+Kunde: test company x
+Verzeichnis: GewusstWo
+Benutzer: Niklas
+Meldung: Öffnungszeiten: 
+mon: open|00:00-00:00
+tue: split|00:00-00:00~00:00-00:00
+wen: closed|
+thu: closed|
+fri: closed|
+sat: closed|
+sun: closed|
+
+MacroCode: CODE: PROMPT 1.)Öffnungszeiten<SP>manuell<SP>prüfen:<BR><BR>2.)Macro<SP>fortführen
+PAUSE
+
+
+**********************************************************************************************
+
+Zeitpunkt: 11:27:42.0895582
+Kunde: test company x
+Verzeichnis: GewusstWo
+Benutzer: Niklas
+Meldung: Öffnungszeiten: 
+mon: open|00:00-00:00
+tue: split|00:00-00:00~00:00-00:00
+wen: closed|
+thu: closed|
+fri: closed|
+sat: closed|
+sun: closed|
+
+MacroCode: CODE: PROMPT 1.)Öffnungszeiten<SP>manuell<SP>prüfen:<BR><BR>2.)Macro<SP>fortführen
+PAUSE
+
+
+**********************************************************************************************
+
+Zeitpunkt: 11:27:43.1686199
+Kunde: test company x
+Verzeichnis: GewusstWo
+Benutzer: Niklas
+Meldung: Öffnungszeiten: 
+mon: open|00:00-00:00
+tue: split|00:00-00:00~00:00-00:00
+wen: closed|
+thu: closed|
+fri: closed|
+sat: closed|
+sun: closed|
+
+MacroCode: CODE: PROMPT 1.)Öffnungszeiten<SP>manuell<SP>prüfen:<BR><BR>2.)Macro<SP>fortführen
+PAUSE
+
+
+**********************************************************************************************
+
+Zeitpunkt: 11:27:51.1820782
+Kunde: test company x
+Verzeichnis: GewusstWo
+Benutzer: Niklas
+Meldung: Öffnungszeiten: 
+mon: open|00:00-00:00
+tue: split|00:00-00:00~00:00-00:00
+wen: closed|
+thu: closed|
+fri: closed|
+sat: closed|
+sun: closed|
+
+MacroCode: CODE: PROMPT 1.)Öffnungszeiten<SP>manuell<SP>prüfen:<BR><BR>2.)Macro<SP>fortführen
+PAUSE
+
+
+**********************************************************************************************
+
+Zeitpunkt: 11:29:57.1992860
+Kunde: test company x
+Verzeichnis: GewusstWo
+Benutzer: Niklas
+Meldung: Öffnungszeiten: 
+mon: open|00:00-00:00
+tue: split|00:00-00:00~00:00-00:00
+wen: closed|
+thu: closed|
+fri: closed|
+sat: closed|
+sun: closed|
+
+MacroCode: CODE: PROMPT 1.)Öffnungszeiten<SP>manuell<SP>prüfen:<BR><BR>2.)Macro<SP>fortführen
+PAUSE
+
+
+**********************************************************************************************
+
+Zeitpunkt: 11:29:58.3013490
+Kunde: test company x
+Verzeichnis: GewusstWo
+Benutzer: Niklas
+Meldung: Öffnungszeiten: 
+mon: open|00:00-00:00
+tue: split|00:00-00:00~00:00-00:00
+wen: closed|
+thu: closed|
+fri: closed|
+sat: closed|
+sun: closed|
+
+MacroCode: CODE: PROMPT 1.)Öffnungszeiten<SP>manuell<SP>prüfen:<BR><BR>2.)Macro<SP>fortführen
+PAUSE
+
+
+**********************************************************************************************
+
+Zeitpunkt: 11:34:42.8586248
+Kunde: test company x
+Verzeichnis: Stadtbranchenbuch
+Benutzer: Niklas
+Meldung: Öffnungszeiten: 
+mon: open|00:00-00:00
+tue: split|00:00-00:00~00:00-00:00
+wen: closed|
+thu: closed|
+fri: closed|
+sat: closed|
+sun: closed|
+
+MacroCode: CODE: TAG POS=1 TYPE=INPUT:RADIO FORM=ID:step1 ATTR=ID:noOhB
+TAG POS=1 TYPE=SELECT FORM=ID:step1 ATTR=ID:von1mo CONTENT=%00:00
+TAG POS=1 TYPE=SELECT FORM=ID:step1 ATTR=ID:bis1mo CONTENT=%00:00
+TAG POS=1 TYPE=SELECT FORM=ID:step1 ATTR=ID:von1di CONTENT=%00:00
+TAG POS=1 TYPE=SELECT FORM=ID:step1 ATTR=ID:bis1di CONTENT=%00:00
+SAVEAS TYPE=PNG FOLDER=* FILE={{COL4}}<SP>({{COL7}})<SP>-<SP>Stadtbranchenbuch<SP>-<SP>OH<SP>-{{!NOW:dd.mm.yyyy,<SP>hh.nn.ss}}<SP>Uhr.png
+
+**********************************************************************************************
+
+Zeitpunkt: 11:35:08.2920795
+Kunde: test company x
+Verzeichnis: Stadtbranchenbuch
+Benutzer: Niklas
+Meldung: Öffnungszeiten: 
+mon: open|00:00-00:00
+tue: split|00:00-00:00~00:00-00:00
+wen: closed|
+thu: closed|
+fri: closed|
+sat: closed|
+sun: closed|
+
+MacroCode: CODE: TAG POS=1 TYPE=INPUT:RADIO FORM=ID:step1 ATTR=ID:noOhB
+TAG POS=1 TYPE=SELECT FORM=ID:step1 ATTR=ID:von1mo CONTENT=%00:00
+TAG POS=1 TYPE=SELECT FORM=ID:step1 ATTR=ID:bis1mo CONTENT=%00:00
+TAG POS=1 TYPE=SELECT FORM=ID:step1 ATTR=ID:von1di CONTENT=%00:00
+TAG POS=1 TYPE=SELECT FORM=ID:step1 ATTR=ID:bis1di CONTENT=%00:00
+SAVEAS TYPE=PNG FOLDER=* FILE={{COL4}}<SP>({{COL7}})<SP>-<SP>Stadtbranchenbuch<SP>-<SP>OH<SP>-{{!NOW:dd.mm.yyyy,<SP>hh.nn.ss}}<SP>Uhr.png
+
+**********************************************************************************************
+
+Zeitpunkt: 11:35:08.6901023
+Kunde: test company x
+Verzeichnis: Stadtbranchenbuch
+Benutzer: Niklas
+Meldung: Öffnungszeiten: 
+mon: open|00:00-00:00
+tue: split|00:00-00:00~00:00-00:00
+wen: closed|
+thu: closed|
+fri: closed|
+sat: closed|
+sun: closed|
+
+MacroCode: CODE: TAG POS=1 TYPE=INPUT:RADIO FORM=ID:step1 ATTR=ID:noOhB
+TAG POS=1 TYPE=SELECT FORM=ID:step1 ATTR=ID:von1mo CONTENT=%00:00
+TAG POS=1 TYPE=SELECT FORM=ID:step1 ATTR=ID:bis1mo CONTENT=%00:00
+TAG POS=1 TYPE=SELECT FORM=ID:step1 ATTR=ID:von1di CONTENT=%00:00
+TAG POS=1 TYPE=SELECT FORM=ID:step1 ATTR=ID:bis1di CONTENT=%00:00
+SAVEAS TYPE=PNG FOLDER=* FILE={{COL4}}<SP>({{COL7}})<SP>-<SP>Stadtbranchenbuch<SP>-<SP>OH<SP>-{{!NOW:dd.mm.yyyy,<SP>hh.nn.ss}}<SP>Uhr.png
+
+**********************************************************************************************
+
+Zeitpunkt: 11:42:03.6358358
+Kunde: test company x
+Verzeichnis: Stadtbranchenbuch
+Benutzer: Niklas
+Meldung: Öffnungszeiten: 
+mon: open|00:00-00:00
+tue: split|00:00-00:00~00:00-00:00
+wen: closed|
+thu: closed|
+fri: open|10:00-17:00
+sat: closed|
+sun: closed|
+
+MacroCode: CODE: TAG POS=1 TYPE=INPUT:RADIO FORM=ID:step1 ATTR=ID:noOhB
+TAG POS=1 TYPE=SELECT FORM=ID:step1 ATTR=ID:von1mo CONTENT=%00:00
+TAG POS=1 TYPE=SELECT FORM=ID:step1 ATTR=ID:bis1mo CONTENT=%00:00
+TAG POS=1 TYPE=SELECT FORM=ID:step1 ATTR=ID:von1di CONTENT=%00:00
+TAG POS=1 TYPE=SELECT FORM=ID:step1 ATTR=ID:bis1di CONTENT=%00:00
+TAG POS=1 TYPE=SELECT FORM=ID:step1 ATTR=ID:von1fr CONTENT=%10:00
+TAG POS=1 TYPE=SELECT FORM=ID:step1 ATTR=ID:bis1fr CONTENT=%17:00
+SAVEAS TYPE=PNG FOLDER=* FILE={{COL4}}<SP>({{COL7}})<SP>-<SP>Stadtbranchenbuch<SP>-<SP>OH<SP>-{{!NOW:dd.mm.yyyy,<SP>hh.nn.ss}}<SP>Uhr.png
+
+**********************************************************************************************
+
+Zeitpunkt: 11:42:18.0386596
+Kunde: test company x
+Verzeichnis: Stadtbranchenbuch
+Benutzer: Niklas
+Meldung: Öffnungszeiten: 
+mon: open|00:00-00:00
+tue: split|00:00-00:00~00:00-00:00
+wen: closed|
+thu: closed|
+fri: open|10:00-17:00
+sat: closed|
+sun: closed|
+
+MacroCode: CODE: TAG POS=1 TYPE=INPUT:RADIO FORM=ID:step1 ATTR=ID:noOhB
+TAG POS=1 TYPE=SELECT FORM=ID:step1 ATTR=ID:von1mo CONTENT=%00:00
+TAG POS=1 TYPE=SELECT FORM=ID:step1 ATTR=ID:bis1mo CONTENT=%00:00
+TAG POS=1 TYPE=SELECT FORM=ID:step1 ATTR=ID:von1di CONTENT=%00:00
+TAG POS=1 TYPE=SELECT FORM=ID:step1 ATTR=ID:bis1di CONTENT=%00:00
+TAG POS=1 TYPE=SELECT FORM=ID:step1 ATTR=ID:von1fr CONTENT=%10:00
+TAG POS=1 TYPE=SELECT FORM=ID:step1 ATTR=ID:bis1fr CONTENT=%17:00
+SAVEAS TYPE=PNG FOLDER=* FILE={{COL4}}<SP>({{COL7}})<SP>-<SP>Stadtbranchenbuch<SP>-<SP>OH<SP>-{{!NOW:dd.mm.yyyy,<SP>hh.nn.ss}}<SP>Uhr.png
+
+**********************************************************************************************
+
+Zeitpunkt: 11:42:18.4976859
+Kunde: test company x
+Verzeichnis: Stadtbranchenbuch
+Benutzer: Niklas
+Meldung: Öffnungszeiten: 
+mon: open|00:00-00:00
+tue: split|00:00-00:00~00:00-00:00
+wen: closed|
+thu: closed|
+fri: open|10:00-17:00
+sat: closed|
+sun: closed|
+
+MacroCode: CODE: TAG POS=1 TYPE=INPUT:RADIO FORM=ID:step1 ATTR=ID:noOhB
+TAG POS=1 TYPE=SELECT FORM=ID:step1 ATTR=ID:von1mo CONTENT=%00:00
+TAG POS=1 TYPE=SELECT FORM=ID:step1 ATTR=ID:bis1mo CONTENT=%00:00
+TAG POS=1 TYPE=SELECT FORM=ID:step1 ATTR=ID:von1di CONTENT=%00:00
+TAG POS=1 TYPE=SELECT FORM=ID:step1 ATTR=ID:bis1di CONTENT=%00:00
+TAG POS=1 TYPE=SELECT FORM=ID:step1 ATTR=ID:von1fr CONTENT=%10:00
+TAG POS=1 TYPE=SELECT FORM=ID:step1 ATTR=ID:bis1fr CONTENT=%17:00
+SAVEAS TYPE=PNG FOLDER=* FILE={{COL4}}<SP>({{COL7}})<SP>-<SP>Stadtbranchenbuch<SP>-<SP>OH<SP>-{{!NOW:dd.mm.yyyy,<SP>hh.nn.ss}}<SP>Uhr.png
+
+**********************************************************************************************
+
+Zeitpunkt: 11:51:26.7800458
+Kunde: test company x
+Verzeichnis: Stadtbranchenbuch
+Benutzer: Niklas
+Meldung: Öffnungszeiten: 
+mon: open|00:00-00:00
+tue: split|00:00-00:00~00:00-00:00
+wen: closed|
+thu: closed|
+fri: open|10:00-17:00
+sat: closed|
+sun: closed|
+
+MacroCode: CODE: TAG POS=1 TYPE=INPUT:RADIO FORM=ID:step1 ATTR=ID:noOhB
+TAG POS=1 TYPE=SELECT FORM=ID:step1 ATTR=ID:von1mo CONTENT=%00:00
+TAG POS=1 TYPE=SELECT FORM=ID:step1 ATTR=ID:bis1mo CONTENT=%00:00
+TAG POS=1 TYPE=SELECT FORM=ID:step1 ATTR=ID:von1di CONTENT=%00:00
+TAG POS=1 TYPE=SELECT FORM=ID:step1 ATTR=ID:bis1di CONTENT=%00:00
+TAG POS=1 TYPE=SELECT FORM=ID:step1 ATTR=ID:von1fr CONTENT=%10:00
+TAG POS=1 TYPE=SELECT FORM=ID:step1 ATTR=ID:bis1fr CONTENT=%17:00
+SAVEAS TYPE=PNG FOLDER=* FILE={{COL4}}<SP>({{COL7}})<SP>-<SP>Stadtbranchenbuch<SP>-<SP>OH<SP>-{{!NOW:dd.mm.yyyy,<SP>hh.nn.ss}}<SP>Uhr.png
+
+**********************************************************************************************
+
+Zeitpunkt: 11:52:33.3338525
+Kunde: test company y
+Verzeichnis: Stadtbranchenbuch
+Benutzer: Niklas
+Meldung: Öffnungszeiten: 
+mon: split|10:00-13:00~14:00-18:00
+tue: split|10:00-13:00~14:00-18:00
+wen: split|10:00-13:00~14:00-18:00
+thu: split|10:00-13:00~14:00-18:00
+fri: split|10:00-13:00~14:00-18:00
+sat: split|10:00-13:00~14:00-18:00
+sun: split|10:00-13:00~14:00-18:00
+
+MacroCode: CODE: TAG POS=1 TYPE=INPUT:RADIO FORM=ID:step1 ATTR=ID:noOhB
+PROMPT 1.)folgende<SP>Zeiten<SP>manuell<SP>setzen:<BR>mon<SP>(10:00-13:00~14:00-18:00)<BR>tue<SP>(10:00-13:00~14:00-18:00)<BR>wen<SP>(10:00-13:00~14:00-18:00)<BR>thu<SP>(10:00-13:00~14:00-18:00)<BR>fri<SP>(10:00-13:00~14:00-18:00)<BR>sat<SP>(10:00-13:00~14:00-18:00)<BR>sun<SP>(10:00-13:00~14:00-18:00)<BR><BR>2.)Macro<SP>fortführen
+PAUSE
+SAVEAS TYPE=PNG FOLDER=* FILE={{COL4}}<SP>({{COL7}})<SP>-<SP>Stadtbranchenbuch<SP>-<SP>OH<SP>-{{!NOW:dd.mm.yyyy,<SP>hh.nn.ss}}<SP>Uhr.png
+
+**********************************************************************************************
+
+Zeitpunkt: 11:52:45.6855589
+Kunde: test company y
+Verzeichnis: Stadtbranchenbuch
+Benutzer: Niklas
+Meldung: Öffnungszeiten: 
+mon: split|10:00-13:00~14:00-18:00
+tue: split|10:00-13:00~14:00-18:00
+wen: split|10:00-13:00~14:00-18:00
+thu: split|10:00-13:00~14:00-18:00
+fri: split|10:00-13:00~14:00-18:00
+sat: split|10:00-13:00~14:00-18:00
+sun: split|10:00-13:00~14:00-18:00
+
+MacroCode: CODE: TAG POS=1 TYPE=INPUT:RADIO FORM=ID:step1 ATTR=ID:noOhB
+PROMPT 1.)folgende<SP>Zeiten<SP>manuell<SP>setzen:<BR>mon<SP>(10:00-13:00~14:00-18:00)<BR>tue<SP>(10:00-13:00~14:00-18:00)<BR>wen<SP>(10:00-13:00~14:00-18:00)<BR>thu<SP>(10:00-13:00~14:00-18:00)<BR>fri<SP>(10:00-13:00~14:00-18:00)<BR>sat<SP>(10:00-13:00~14:00-18:00)<BR>sun<SP>(10:00-13:00~14:00-18:00)<BR><BR>2.)Macro<SP>fortführen
+PAUSE
+SAVEAS TYPE=PNG FOLDER=* FILE={{COL4}}<SP>({{COL7}})<SP>-<SP>Stadtbranchenbuch<SP>-<SP>OH<SP>-{{!NOW:dd.mm.yyyy,<SP>hh.nn.ss}}<SP>Uhr.png
+
+**********************************************************************************************
+
+Zeitpunkt: 11:54:13.2495673
+Kunde: test company y
+Verzeichnis: Stadtbranchenbuch
+Benutzer: Niklas
+Meldung: Öffnungszeiten: 
+mon: split|10:00-13:00~14:00-18:00
+tue: split|10:00-13:00~14:00-18:00
+wen: split|10:00-13:00~14:00-18:00
+thu: split|10:00-13:00~14:00-18:00
+fri: split|10:00-13:00~14:00-18:00
+sat: split|10:00-13:00~14:00-18:00
+sun: split|10:00-13:00~14:00-18:00
+
+MacroCode: CODE: TAG POS=1 TYPE=INPUT:RADIO FORM=ID:step1 ATTR=ID:noOhB
+PROMPT 1.)folgende<SP>Zeiten<SP>manuell<SP>setzen:<BR>mon<SP>(10:00-13:00~14:00-18:00)<BR>tue<SP>(10:00-13:00~14:00-18:00)<BR>wen<SP>(10:00-13:00~14:00-18:00)<BR>thu<SP>(10:00-13:00~14:00-18:00)<BR>fri<SP>(10:00-13:00~14:00-18:00)<BR>sat<SP>(10:00-13:00~14:00-18:00)<BR>sun<SP>(10:00-13:00~14:00-18:00)<BR><BR>2.)Macro<SP>fortführen
+PAUSE
+SAVEAS TYPE=PNG FOLDER=* FILE={{COL4}}<SP>({{COL7}})<SP>-<SP>Stadtbranchenbuch<SP>-<SP>OH<SP>-{{!NOW:dd.mm.yyyy,<SP>hh.nn.ss}}<SP>Uhr.png
+
+**********************************************************************************************
+
+Zeitpunkt: 11:54:30.2715409
+Kunde: test company y
+Verzeichnis: Stadtbranchenbuch
+Benutzer: Niklas
+Meldung: Öffnungszeiten: 
+mon: split|10:00-13:00~14:00-18:00
+tue: split|10:00-13:00~14:00-18:00
+wen: split|10:00-13:00~14:00-18:00
+thu: split|10:00-13:00~14:00-18:00
+fri: split|10:00-13:00~14:00-18:00
+sat: split|10:00-13:00~14:00-18:00
+sun: split|10:00-13:00~14:00-18:00
+
+MacroCode: CODE: TAG POS=1 TYPE=INPUT:RADIO FORM=ID:step1 ATTR=ID:noOhB
+PROMPT 1.)folgende<SP>Zeiten<SP>manuell<SP>setzen:<BR>mon<SP>(10:00-13:00~14:00-18:00)<BR>tue<SP>(10:00-13:00~14:00-18:00)<BR>wen<SP>(10:00-13:00~14:00-18:00)<BR>thu<SP>(10:00-13:00~14:00-18:00)<BR>fri<SP>(10:00-13:00~14:00-18:00)<BR>sat<SP>(10:00-13:00~14:00-18:00)<BR>sun<SP>(10:00-13:00~14:00-18:00)<BR><BR>2.)Macro<SP>fortführen
+PAUSE
+SAVEAS TYPE=PNG FOLDER=* FILE={{COL4}}<SP>({{COL7}})<SP>-<SP>Stadtbranchenbuch<SP>-<SP>OH<SP>-{{!NOW:dd.mm.yyyy,<SP>hh.nn.ss}}<SP>Uhr.png
+
+**********************************************************************************************
+
+Zeitpunkt: 11:57:33.3720137
+Kunde: test company y
+Verzeichnis: Stadtbranchenbuch
+Benutzer: Niklas
+Meldung: Öffnungszeiten: 
+mon: split|10:00-13:00~14:00-18:00
+tue: split|10:00-13:00~14:00-18:00
+wen: split|10:00-13:00~14:00-18:00
+thu: split|10:00-13:00~14:00-18:00
+fri: split|10:00-13:00~14:00-18:00
+sat: split|10:00-13:00~14:00-18:00
+sun: split|10:00-13:00~14:00-18:00
+
+MacroCode: CODE: TAG POS=1 TYPE=INPUT:RADIO FORM=ID:step1 ATTR=ID:noOhB
+PROMPT 1.)folgende<SP>Zeiten<SP>manuell<SP>setzen:<BR>mon<SP>(10:00-13:00~14:00-18:00)<BR>tue<SP>(10:00-13:00~14:00-18:00)<BR>wen<SP>(10:00-13:00~14:00-18:00)<BR>thu<SP>(10:00-13:00~14:00-18:00)<BR>fri<SP>(10:00-13:00~14:00-18:00)<BR>sat<SP>(10:00-13:00~14:00-18:00)<BR>sun<SP>(10:00-13:00~14:00-18:00)<BR><BR>2.)Macro<SP>fortführen
+PAUSE
+SAVEAS TYPE=PNG FOLDER=* FILE={{COL4}}<SP>({{COL7}})<SP>-<SP>Stadtbranchenbuch<SP>-<SP>OH<SP>-{{!NOW:dd.mm.yyyy,<SP>hh.nn.ss}}<SP>Uhr.png
+
+**********************************************************************************************
+
+Zeitpunkt: 12:01:16.7477900
+Kunde: test company y
+Verzeichnis: DasTelefonbuch
+Benutzer: Niklas
+Meldung: Öffnungszeiten: 
+mon: split|10:00-13:45~14:00-18:00
+tue: split|10:00-13:45~14:00-18:00
+wen: split|10:00-13:45~14:00-18:00
+thu: split|10:00-13:45~14:00-18:00
+fri: split|10:00-13:45~14:00-18:00
+sat: split|10:00-13:00~14:00-18:00
+sun: split|10:00-13:00~14:00-18:00
+
+MacroCode: CODE: TAG POS=1 TYPE=A ATTR=ID:Montag
+TAG POS=1 TYPE=SELECT FORM=ACTION:/entry/entryWizard?execution=e1s6 ATTR=ID:timeselect_from_1 CONTENT=%10:00
+TAG POS=1 TYPE=SELECT FORM=ACTION:/entry/entryWizard?execution=e1s6 ATTR=ID:timeselect_to_1 CONTENT=%13:45
+TAG POS=1 TYPE=SELECT FORM=ACTION:/entry/entryWizard?execution=e1s6 ATTR=ID:timeselect_from_2 CONTENT=%14:00
+TAG POS=1 TYPE=SELECT FORM=ACTION:/entry/entryWizard?execution=e1s6 ATTR=ID:timeselect_to_2 CONTENT=%18:00
+TAG POS=1 TYPE=A ATTR=ID:Dienstag
+TAG POS=1 TYPE=SELECT FORM=ACTION:/entry/entryWizard?execution=e1s6 ATTR=ID:timeselect_from_1 CONTENT=%10:00
+TAG POS=1 TYPE=SELECT FORM=ACTION:/entry/entryWizard?execution=e1s6 ATTR=ID:timeselect_to_1 CONTENT=%13:45
+TAG POS=1 TYPE=SELECT FORM=ACTION:/entry/entryWizard?execution=e1s6 ATTR=ID:timeselect_from_2 CONTENT=%14:00
+TAG POS=1 TYPE=SELECT FORM=ACTION:/entry/entryWizard?execution=e1s6 ATTR=ID:timeselect_to_2 CONTENT=%18:00
+TAG POS=1 TYPE=A ATTR=ID:Mittwoch
+TAG POS=1 TYPE=SELECT FORM=ACTION:/entry/entryWizard?execution=e1s6 ATTR=ID:timeselect_from_1 CONTENT=%10:00
+TAG POS=1 TYPE=SELECT FORM=ACTION:/entry/entryWizard?execution=e1s6 ATTR=ID:timeselect_to_1 CONTENT=%13:45
+TAG POS=1 TYPE=SELECT FORM=ACTION:/entry/entryWizard?execution=e1s6 ATTR=ID:timeselect_from_2 CONTENT=%14:00
+TAG POS=1 TYPE=SELECT FORM=ACTION:/entry/entryWizard?execution=e1s6 ATTR=ID:timeselect_to_2 CONTENT=%18:00
+TAG POS=1 TYPE=A ATTR=ID:Donnerstag
+TAG POS=1 TYPE=SELECT FORM=ACTION:/entry/entryWizard?execution=e1s6 ATTR=ID:timeselect_from_1 CONTENT=%10:00
+TAG POS=1 TYPE=SELECT FORM=ACTION:/entry/entryWizard?execution=e1s6 ATTR=ID:timeselect_to_1 CONTENT=%13:45
+TAG POS=1 TYPE=SELECT FORM=ACTION:/entry/entryWizard?execution=e1s6 ATTR=ID:timeselect_from_2 CONTENT=%14:00
+TAG POS=1 TYPE=SELECT FORM=ACTION:/entry/entryWizard?execution=e1s6 ATTR=ID:timeselect_to_2 CONTENT=%18:00
+TAG POS=1 TYPE=A ATTR=ID:Freitag
+TAG POS=1 TYPE=SELECT FORM=ACTION:/entry/entryWizard?execution=e1s6 ATTR=ID:timeselect_from_1 CONTENT=%10:00
+TAG POS=1 TYPE=SELECT FORM=ACTION:/entry/entryWizard?execution=e1s6 ATTR=ID:timeselect_to_1 CONTENT=%13:45
+TAG POS=1 TYPE=SELECT FORM=ACTION:/entry/entryWizard?execution=e1s6 ATTR=ID:timeselect_from_2 CONTENT=%14:00
+TAG POS=1 TYPE=SELECT FORM=ACTION:/entry/entryWizard?execution=e1s6 ATTR=ID:timeselect_to_2 CONTENT=%18:00
+TAG POS=1 TYPE=A ATTR=ID:Samstag
+TAG POS=1 TYPE=SELECT FORM=ACTION:/entry/entryWizard?execution=e1s6 ATTR=ID:timeselect_from_1 CONTENT=%10:00
+TAG POS=1 TYPE=SELECT FORM=ACTION:/entry/entryWizard?execution=e1s6 ATTR=ID:timeselect_to_1 CONTENT=%13:00
+TAG POS=1 TYPE=SELECT FORM=ACTION:/entry/entryWizard?execution=e1s6 ATTR=ID:timeselect_from_2 CONTENT=%14:00
+TAG POS=1 TYPE=SELECT FORM=ACTION:/entry/entryWizard?execution=e1s6 ATTR=ID:timeselect_to_2 CONTENT=%18:00
+TAG POS=1 TYPE=A ATTR=ID:Sonntag
+TAG POS=1 TYPE=SELECT FORM=ACTION:/entry/entryWizard?execution=e1s6 ATTR=ID:timeselect_from_1 CONTENT=%10:00
+TAG POS=1 TYPE=SELECT FORM=ACTION:/entry/entryWizard?execution=e1s6 ATTR=ID:timeselect_to_1 CONTENT=%13:00
+TAG POS=1 TYPE=SELECT FORM=ACTION:/entry/entryWizard?execution=e1s6 ATTR=ID:timeselect_from_2 CONTENT=%14:00
+TAG POS=1 TYPE=SELECT FORM=ACTION:/entry/entryWizard?execution=e1s6 ATTR=ID:timeselect_to_2 CONTENT=%18:00
+SAVEAS TYPE=PNG FOLDER=* FILE={{COL4}}<SP>({{COL7}})<SP>-<SP>DasTelefonbuch<SP>-<SP>OH<SP>-{{!NOW:dd.mm.yyyy,<SP>hh.nn.ss}}<SP>Uhr.png
+
+**********************************************************************************************
+
+Zeitpunkt: 12:01:20.6420128
+Kunde: test company y
+Verzeichnis: DasTelefonbuch
+Benutzer: Niklas
+Meldung: Öffnungszeiten: 
+mon: split|10:00-13:45~14:00-18:00
+tue: split|10:00-13:45~14:00-18:00
+wen: split|10:00-13:45~14:00-18:00
+thu: split|10:00-13:45~14:00-18:00
+fri: split|10:00-13:45~14:00-18:00
+sat: split|10:00-13:00~14:00-18:00
+sun: split|10:00-13:00~14:00-18:00
+
+MacroCode: CODE: TAG POS=1 TYPE=A ATTR=ID:Montag
+TAG POS=1 TYPE=SELECT FORM=ACTION:/entry/entryWizard?execution=e1s6 ATTR=ID:timeselect_from_1 CONTENT=%10:00
+TAG POS=1 TYPE=SELECT FORM=ACTION:/entry/entryWizard?execution=e1s6 ATTR=ID:timeselect_to_1 CONTENT=%13:45
+TAG POS=1 TYPE=SELECT FORM=ACTION:/entry/entryWizard?execution=e1s6 ATTR=ID:timeselect_from_2 CONTENT=%14:00
+TAG POS=1 TYPE=SELECT FORM=ACTION:/entry/entryWizard?execution=e1s6 ATTR=ID:timeselect_to_2 CONTENT=%18:00
+TAG POS=1 TYPE=A ATTR=ID:Dienstag
+TAG POS=1 TYPE=SELECT FORM=ACTION:/entry/entryWizard?execution=e1s6 ATTR=ID:timeselect_from_1 CONTENT=%10:00
+TAG POS=1 TYPE=SELECT FORM=ACTION:/entry/entryWizard?execution=e1s6 ATTR=ID:timeselect_to_1 CONTENT=%13:45
+TAG POS=1 TYPE=SELECT FORM=ACTION:/entry/entryWizard?execution=e1s6 ATTR=ID:timeselect_from_2 CONTENT=%14:00
+TAG POS=1 TYPE=SELECT FORM=ACTION:/entry/entryWizard?execution=e1s6 ATTR=ID:timeselect_to_2 CONTENT=%18:00
+TAG POS=1 TYPE=A ATTR=ID:Mittwoch
+TAG POS=1 TYPE=SELECT FORM=ACTION:/entry/entryWizard?execution=e1s6 ATTR=ID:timeselect_from_1 CONTENT=%10:00
+TAG POS=1 TYPE=SELECT FORM=ACTION:/entry/entryWizard?execution=e1s6 ATTR=ID:timeselect_to_1 CONTENT=%13:45
+TAG POS=1 TYPE=SELECT FORM=ACTION:/entry/entryWizard?execution=e1s6 ATTR=ID:timeselect_from_2 CONTENT=%14:00
+TAG POS=1 TYPE=SELECT FORM=ACTION:/entry/entryWizard?execution=e1s6 ATTR=ID:timeselect_to_2 CONTENT=%18:00
+TAG POS=1 TYPE=A ATTR=ID:Donnerstag
+TAG POS=1 TYPE=SELECT FORM=ACTION:/entry/entryWizard?execution=e1s6 ATTR=ID:timeselect_from_1 CONTENT=%10:00
+TAG POS=1 TYPE=SELECT FORM=ACTION:/entry/entryWizard?execution=e1s6 ATTR=ID:timeselect_to_1 CONTENT=%13:45
+TAG POS=1 TYPE=SELECT FORM=ACTION:/entry/entryWizard?execution=e1s6 ATTR=ID:timeselect_from_2 CONTENT=%14:00
+TAG POS=1 TYPE=SELECT FORM=ACTION:/entry/entryWizard?execution=e1s6 ATTR=ID:timeselect_to_2 CONTENT=%18:00
+TAG POS=1 TYPE=A ATTR=ID:Freitag
+TAG POS=1 TYPE=SELECT FORM=ACTION:/entry/entryWizard?execution=e1s6 ATTR=ID:timeselect_from_1 CONTENT=%10:00
+TAG POS=1 TYPE=SELECT FORM=ACTION:/entry/entryWizard?execution=e1s6 ATTR=ID:timeselect_to_1 CONTENT=%13:45
+TAG POS=1 TYPE=SELECT FORM=ACTION:/entry/entryWizard?execution=e1s6 ATTR=ID:timeselect_from_2 CONTENT=%14:00
+TAG POS=1 TYPE=SELECT FORM=ACTION:/entry/entryWizard?execution=e1s6 ATTR=ID:timeselect_to_2 CONTENT=%18:00
+TAG POS=1 TYPE=A ATTR=ID:Samstag
+TAG POS=1 TYPE=SELECT FORM=ACTION:/entry/entryWizard?execution=e1s6 ATTR=ID:timeselect_from_1 CONTENT=%10:00
+TAG POS=1 TYPE=SELECT FORM=ACTION:/entry/entryWizard?execution=e1s6 ATTR=ID:timeselect_to_1 CONTENT=%13:00
+TAG POS=1 TYPE=SELECT FORM=ACTION:/entry/entryWizard?execution=e1s6 ATTR=ID:timeselect_from_2 CONTENT=%14:00
+TAG POS=1 TYPE=SELECT FORM=ACTION:/entry/entryWizard?execution=e1s6 ATTR=ID:timeselect_to_2 CONTENT=%18:00
+TAG POS=1 TYPE=A ATTR=ID:Sonntag
+TAG POS=1 TYPE=SELECT FORM=ACTION:/entry/entryWizard?execution=e1s6 ATTR=ID:timeselect_from_1 CONTENT=%10:00
+TAG POS=1 TYPE=SELECT FORM=ACTION:/entry/entryWizard?execution=e1s6 ATTR=ID:timeselect_to_1 CONTENT=%13:00
+TAG POS=1 TYPE=SELECT FORM=ACTION:/entry/entryWizard?execution=e1s6 ATTR=ID:timeselect_from_2 CONTENT=%14:00
+TAG POS=1 TYPE=SELECT FORM=ACTION:/entry/entryWizard?execution=e1s6 ATTR=ID:timeselect_to_2 CONTENT=%18:00
+SAVEAS TYPE=PNG FOLDER=* FILE={{COL4}}<SP>({{COL7}})<SP>-<SP>DasTelefonbuch<SP>-<SP>OH<SP>-{{!NOW:dd.mm.yyyy,<SP>hh.nn.ss}}<SP>Uhr.png
+
+**********************************************************************************************
+
+Zeitpunkt: 12:01:22.0070909
+Kunde: test company y
+Verzeichnis: DasTelefonbuch
+Benutzer: Niklas
+Meldung: Öffnungszeiten: 
+mon: split|10:00-13:45~14:00-18:00
+tue: split|10:00-13:45~14:00-18:00
+wen: split|10:00-13:45~14:00-18:00
+thu: split|10:00-13:45~14:00-18:00
+fri: split|10:00-13:45~14:00-18:00
+sat: split|10:00-13:00~14:00-18:00
+sun: split|10:00-13:00~14:00-18:00
+
+MacroCode: CODE: TAG POS=1 TYPE=A ATTR=ID:Montag
+TAG POS=1 TYPE=SELECT FORM=ACTION:/entry/entryWizard?execution=e1s6 ATTR=ID:timeselect_from_1 CONTENT=%10:00
+TAG POS=1 TYPE=SELECT FORM=ACTION:/entry/entryWizard?execution=e1s6 ATTR=ID:timeselect_to_1 CONTENT=%13:45
+TAG POS=1 TYPE=SELECT FORM=ACTION:/entry/entryWizard?execution=e1s6 ATTR=ID:timeselect_from_2 CONTENT=%14:00
+TAG POS=1 TYPE=SELECT FORM=ACTION:/entry/entryWizard?execution=e1s6 ATTR=ID:timeselect_to_2 CONTENT=%18:00
+TAG POS=1 TYPE=A ATTR=ID:Dienstag
+TAG POS=1 TYPE=SELECT FORM=ACTION:/entry/entryWizard?execution=e1s6 ATTR=ID:timeselect_from_1 CONTENT=%10:00
+TAG POS=1 TYPE=SELECT FORM=ACTION:/entry/entryWizard?execution=e1s6 ATTR=ID:timeselect_to_1 CONTENT=%13:45
+TAG POS=1 TYPE=SELECT FORM=ACTION:/entry/entryWizard?execution=e1s6 ATTR=ID:timeselect_from_2 CONTENT=%14:00
+TAG POS=1 TYPE=SELECT FORM=ACTION:/entry/entryWizard?execution=e1s6 ATTR=ID:timeselect_to_2 CONTENT=%18:00
+TAG POS=1 TYPE=A ATTR=ID:Mittwoch
+TAG POS=1 TYPE=SELECT FORM=ACTION:/entry/entryWizard?execution=e1s6 ATTR=ID:timeselect_from_1 CONTENT=%10:00
+TAG POS=1 TYPE=SELECT FORM=ACTION:/entry/entryWizard?execution=e1s6 ATTR=ID:timeselect_to_1 CONTENT=%13:45
+TAG POS=1 TYPE=SELECT FORM=ACTION:/entry/entryWizard?execution=e1s6 ATTR=ID:timeselect_from_2 CONTENT=%14:00
+TAG POS=1 TYPE=SELECT FORM=ACTION:/entry/entryWizard?execution=e1s6 ATTR=ID:timeselect_to_2 CONTENT=%18:00
+TAG POS=1 TYPE=A ATTR=ID:Donnerstag
+TAG POS=1 TYPE=SELECT FORM=ACTION:/entry/entryWizard?execution=e1s6 ATTR=ID:timeselect_from_1 CONTENT=%10:00
+TAG POS=1 TYPE=SELECT FORM=ACTION:/entry/entryWizard?execution=e1s6 ATTR=ID:timeselect_to_1 CONTENT=%13:45
+TAG POS=1 TYPE=SELECT FORM=ACTION:/entry/entryWizard?execution=e1s6 ATTR=ID:timeselect_from_2 CONTENT=%14:00
+TAG POS=1 TYPE=SELECT FORM=ACTION:/entry/entryWizard?execution=e1s6 ATTR=ID:timeselect_to_2 CONTENT=%18:00
+TAG POS=1 TYPE=A ATTR=ID:Freitag
+TAG POS=1 TYPE=SELECT FORM=ACTION:/entry/entryWizard?execution=e1s6 ATTR=ID:timeselect_from_1 CONTENT=%10:00
+TAG POS=1 TYPE=SELECT FORM=ACTION:/entry/entryWizard?execution=e1s6 ATTR=ID:timeselect_to_1 CONTENT=%13:45
+TAG POS=1 TYPE=SELECT FORM=ACTION:/entry/entryWizard?execution=e1s6 ATTR=ID:timeselect_from_2 CONTENT=%14:00
+TAG POS=1 TYPE=SELECT FORM=ACTION:/entry/entryWizard?execution=e1s6 ATTR=ID:timeselect_to_2 CONTENT=%18:00
+TAG POS=1 TYPE=A ATTR=ID:Samstag
+TAG POS=1 TYPE=SELECT FORM=ACTION:/entry/entryWizard?execution=e1s6 ATTR=ID:timeselect_from_1 CONTENT=%10:00
+TAG POS=1 TYPE=SELECT FORM=ACTION:/entry/entryWizard?execution=e1s6 ATTR=ID:timeselect_to_1 CONTENT=%13:00
+TAG POS=1 TYPE=SELECT FORM=ACTION:/entry/entryWizard?execution=e1s6 ATTR=ID:timeselect_from_2 CONTENT=%14:00
+TAG POS=1 TYPE=SELECT FORM=ACTION:/entry/entryWizard?execution=e1s6 ATTR=ID:timeselect_to_2 CONTENT=%18:00
+TAG POS=1 TYPE=A ATTR=ID:Sonntag
+TAG POS=1 TYPE=SELECT FORM=ACTION:/entry/entryWizard?execution=e1s6 ATTR=ID:timeselect_from_1 CONTENT=%10:00
+TAG POS=1 TYPE=SELECT FORM=ACTION:/entry/entryWizard?execution=e1s6 ATTR=ID:timeselect_to_1 CONTENT=%13:00
+TAG POS=1 TYPE=SELECT FORM=ACTION:/entry/entryWizard?execution=e1s6 ATTR=ID:timeselect_from_2 CONTENT=%14:00
+TAG POS=1 TYPE=SELECT FORM=ACTION:/entry/entryWizard?execution=e1s6 ATTR=ID:timeselect_to_2 CONTENT=%18:00
+SAVEAS TYPE=PNG FOLDER=* FILE={{COL4}}<SP>({{COL7}})<SP>-<SP>DasTelefonbuch<SP>-<SP>OH<SP>-{{!NOW:dd.mm.yyyy,<SP>hh.nn.ss}}<SP>Uhr.png
+
+**********************************************************************************************
+
+Zeitpunkt: 12:01:22.5601225
+Kunde: test company y
+Verzeichnis: DasTelefonbuch
+Benutzer: Niklas
+Meldung: Öffnungszeiten: 
+mon: split|10:00-13:45~14:00-18:00
+tue: split|10:00-13:45~14:00-18:00
+wen: split|10:00-13:45~14:00-18:00
+thu: split|10:00-13:45~14:00-18:00
+fri: split|10:00-13:45~14:00-18:00
+sat: split|10:00-13:00~14:00-18:00
+sun: split|10:00-13:00~14:00-18:00
+
+MacroCode: CODE: TAG POS=1 TYPE=A ATTR=ID:Montag
+TAG POS=1 TYPE=SELECT FORM=ACTION:/entry/entryWizard?execution=e1s6 ATTR=ID:timeselect_from_1 CONTENT=%10:00
+TAG POS=1 TYPE=SELECT FORM=ACTION:/entry/entryWizard?execution=e1s6 ATTR=ID:timeselect_to_1 CONTENT=%13:45
+TAG POS=1 TYPE=SELECT FORM=ACTION:/entry/entryWizard?execution=e1s6 ATTR=ID:timeselect_from_2 CONTENT=%14:00
+TAG POS=1 TYPE=SELECT FORM=ACTION:/entry/entryWizard?execution=e1s6 ATTR=ID:timeselect_to_2 CONTENT=%18:00
+TAG POS=1 TYPE=A ATTR=ID:Dienstag
+TAG POS=1 TYPE=SELECT FORM=ACTION:/entry/entryWizard?execution=e1s6 ATTR=ID:timeselect_from_1 CONTENT=%10:00
+TAG POS=1 TYPE=SELECT FORM=ACTION:/entry/entryWizard?execution=e1s6 ATTR=ID:timeselect_to_1 CONTENT=%13:45
+TAG POS=1 TYPE=SELECT FORM=ACTION:/entry/entryWizard?execution=e1s6 ATTR=ID:timeselect_from_2 CONTENT=%14:00
+TAG POS=1 TYPE=SELECT FORM=ACTION:/entry/entryWizard?execution=e1s6 ATTR=ID:timeselect_to_2 CONTENT=%18:00
+TAG POS=1 TYPE=A ATTR=ID:Mittwoch
+TAG POS=1 TYPE=SELECT FORM=ACTION:/entry/entryWizard?execution=e1s6 ATTR=ID:timeselect_from_1 CONTENT=%10:00
+TAG POS=1 TYPE=SELECT FORM=ACTION:/entry/entryWizard?execution=e1s6 ATTR=ID:timeselect_to_1 CONTENT=%13:45
+TAG POS=1 TYPE=SELECT FORM=ACTION:/entry/entryWizard?execution=e1s6 ATTR=ID:timeselect_from_2 CONTENT=%14:00
+TAG POS=1 TYPE=SELECT FORM=ACTION:/entry/entryWizard?execution=e1s6 ATTR=ID:timeselect_to_2 CONTENT=%18:00
+TAG POS=1 TYPE=A ATTR=ID:Donnerstag
+TAG POS=1 TYPE=SELECT FORM=ACTION:/entry/entryWizard?execution=e1s6 ATTR=ID:timeselect_from_1 CONTENT=%10:00
+TAG POS=1 TYPE=SELECT FORM=ACTION:/entry/entryWizard?execution=e1s6 ATTR=ID:timeselect_to_1 CONTENT=%13:45
+TAG POS=1 TYPE=SELECT FORM=ACTION:/entry/entryWizard?execution=e1s6 ATTR=ID:timeselect_from_2 CONTENT=%14:00
+TAG POS=1 TYPE=SELECT FORM=ACTION:/entry/entryWizard?execution=e1s6 ATTR=ID:timeselect_to_2 CONTENT=%18:00
+TAG POS=1 TYPE=A ATTR=ID:Freitag
+TAG POS=1 TYPE=SELECT FORM=ACTION:/entry/entryWizard?execution=e1s6 ATTR=ID:timeselect_from_1 CONTENT=%10:00
+TAG POS=1 TYPE=SELECT FORM=ACTION:/entry/entryWizard?execution=e1s6 ATTR=ID:timeselect_to_1 CONTENT=%13:45
+TAG POS=1 TYPE=SELECT FORM=ACTION:/entry/entryWizard?execution=e1s6 ATTR=ID:timeselect_from_2 CONTENT=%14:00
+TAG POS=1 TYPE=SELECT FORM=ACTION:/entry/entryWizard?execution=e1s6 ATTR=ID:timeselect_to_2 CONTENT=%18:00
+TAG POS=1 TYPE=A ATTR=ID:Samstag
+TAG POS=1 TYPE=SELECT FORM=ACTION:/entry/entryWizard?execution=e1s6 ATTR=ID:timeselect_from_1 CONTENT=%10:00
+TAG POS=1 TYPE=SELECT FORM=ACTION:/entry/entryWizard?execution=e1s6 ATTR=ID:timeselect_to_1 CONTENT=%13:00
+TAG POS=1 TYPE=SELECT FORM=ACTION:/entry/entryWizard?execution=e1s6 ATTR=ID:timeselect_from_2 CONTENT=%14:00
+TAG POS=1 TYPE=SELECT FORM=ACTION:/entry/entryWizard?execution=e1s6 ATTR=ID:timeselect_to_2 CONTENT=%18:00
+TAG POS=1 TYPE=A ATTR=ID:Sonntag
+TAG POS=1 TYPE=SELECT FORM=ACTION:/entry/entryWizard?execution=e1s6 ATTR=ID:timeselect_from_1 CONTENT=%10:00
+TAG POS=1 TYPE=SELECT FORM=ACTION:/entry/entryWizard?execution=e1s6 ATTR=ID:timeselect_to_1 CONTENT=%13:00
+TAG POS=1 TYPE=SELECT FORM=ACTION:/entry/entryWizard?execution=e1s6 ATTR=ID:timeselect_from_2 CONTENT=%14:00
+TAG POS=1 TYPE=SELECT FORM=ACTION:/entry/entryWizard?execution=e1s6 ATTR=ID:timeselect_to_2 CONTENT=%18:00
+SAVEAS TYPE=PNG FOLDER=* FILE={{COL4}}<SP>({{COL7}})<SP>-<SP>DasTelefonbuch<SP>-<SP>OH<SP>-{{!NOW:dd.mm.yyyy,<SP>hh.nn.ss}}<SP>Uhr.png
+
+**********************************************************************************************
+
+Zeitpunkt: 12:01:24.1152114
+Kunde: test company y
+Verzeichnis: DasTelefonbuch
+Benutzer: Niklas
+Meldung: Öffnungszeiten: 
+mon: split|10:00-13:45~14:00-18:00
+tue: split|10:00-13:45~14:00-18:00
+wen: split|10:00-13:45~14:00-18:00
+thu: split|10:00-13:45~14:00-18:00
+fri: split|10:00-13:45~14:00-18:00
+sat: split|10:00-13:00~14:00-18:00
+sun: split|10:00-13:00~14:00-18:00
+
+MacroCode: CODE: TAG POS=1 TYPE=A ATTR=ID:Montag
+TAG POS=1 TYPE=SELECT FORM=ACTION:/entry/entryWizard?execution=e1s6 ATTR=ID:timeselect_from_1 CONTENT=%10:00
+TAG POS=1 TYPE=SELECT FORM=ACTION:/entry/entryWizard?execution=e1s6 ATTR=ID:timeselect_to_1 CONTENT=%13:45
+TAG POS=1 TYPE=SELECT FORM=ACTION:/entry/entryWizard?execution=e1s6 ATTR=ID:timeselect_from_2 CONTENT=%14:00
+TAG POS=1 TYPE=SELECT FORM=ACTION:/entry/entryWizard?execution=e1s6 ATTR=ID:timeselect_to_2 CONTENT=%18:00
+TAG POS=1 TYPE=A ATTR=ID:Dienstag
+TAG POS=1 TYPE=SELECT FORM=ACTION:/entry/entryWizard?execution=e1s6 ATTR=ID:timeselect_from_1 CONTENT=%10:00
+TAG POS=1 TYPE=SELECT FORM=ACTION:/entry/entryWizard?execution=e1s6 ATTR=ID:timeselect_to_1 CONTENT=%13:45
+TAG POS=1 TYPE=SELECT FORM=ACTION:/entry/entryWizard?execution=e1s6 ATTR=ID:timeselect_from_2 CONTENT=%14:00
+TAG POS=1 TYPE=SELECT FORM=ACTION:/entry/entryWizard?execution=e1s6 ATTR=ID:timeselect_to_2 CONTENT=%18:00
+TAG POS=1 TYPE=A ATTR=ID:Mittwoch
+TAG POS=1 TYPE=SELECT FORM=ACTION:/entry/entryWizard?execution=e1s6 ATTR=ID:timeselect_from_1 CONTENT=%10:00
+TAG POS=1 TYPE=SELECT FORM=ACTION:/entry/entryWizard?execution=e1s6 ATTR=ID:timeselect_to_1 CONTENT=%13:45
+TAG POS=1 TYPE=SELECT FORM=ACTION:/entry/entryWizard?execution=e1s6 ATTR=ID:timeselect_from_2 CONTENT=%14:00
+TAG POS=1 TYPE=SELECT FORM=ACTION:/entry/entryWizard?execution=e1s6 ATTR=ID:timeselect_to_2 CONTENT=%18:00
+TAG POS=1 TYPE=A ATTR=ID:Donnerstag
+TAG POS=1 TYPE=SELECT FORM=ACTION:/entry/entryWizard?execution=e1s6 ATTR=ID:timeselect_from_1 CONTENT=%10:00
+TAG POS=1 TYPE=SELECT FORM=ACTION:/entry/entryWizard?execution=e1s6 ATTR=ID:timeselect_to_1 CONTENT=%13:45
+TAG POS=1 TYPE=SELECT FORM=ACTION:/entry/entryWizard?execution=e1s6 ATTR=ID:timeselect_from_2 CONTENT=%14:00
+TAG POS=1 TYPE=SELECT FORM=ACTION:/entry/entryWizard?execution=e1s6 ATTR=ID:timeselect_to_2 CONTENT=%18:00
+TAG POS=1 TYPE=A ATTR=ID:Freitag
+TAG POS=1 TYPE=SELECT FORM=ACTION:/entry/entryWizard?execution=e1s6 ATTR=ID:timeselect_from_1 CONTENT=%10:00
+TAG POS=1 TYPE=SELECT FORM=ACTION:/entry/entryWizard?execution=e1s6 ATTR=ID:timeselect_to_1 CONTENT=%13:45
+TAG POS=1 TYPE=SELECT FORM=ACTION:/entry/entryWizard?execution=e1s6 ATTR=ID:timeselect_from_2 CONTENT=%14:00
+TAG POS=1 TYPE=SELECT FORM=ACTION:/entry/entryWizard?execution=e1s6 ATTR=ID:timeselect_to_2 CONTENT=%18:00
+TAG POS=1 TYPE=A ATTR=ID:Samstag
+TAG POS=1 TYPE=SELECT FORM=ACTION:/entry/entryWizard?execution=e1s6 ATTR=ID:timeselect_from_1 CONTENT=%10:00
+TAG POS=1 TYPE=SELECT FORM=ACTION:/entry/entryWizard?execution=e1s6 ATTR=ID:timeselect_to_1 CONTENT=%13:00
+TAG POS=1 TYPE=SELECT FORM=ACTION:/entry/entryWizard?execution=e1s6 ATTR=ID:timeselect_from_2 CONTENT=%14:00
+TAG POS=1 TYPE=SELECT FORM=ACTION:/entry/entryWizard?execution=e1s6 ATTR=ID:timeselect_to_2 CONTENT=%18:00
+TAG POS=1 TYPE=A ATTR=ID:Sonntag
+TAG POS=1 TYPE=SELECT FORM=ACTION:/entry/entryWizard?execution=e1s6 ATTR=ID:timeselect_from_1 CONTENT=%10:00
+TAG POS=1 TYPE=SELECT FORM=ACTION:/entry/entryWizard?execution=e1s6 ATTR=ID:timeselect_to_1 CONTENT=%13:00
+TAG POS=1 TYPE=SELECT FORM=ACTION:/entry/entryWizard?execution=e1s6 ATTR=ID:timeselect_from_2 CONTENT=%14:00
+TAG POS=1 TYPE=SELECT FORM=ACTION:/entry/entryWizard?execution=e1s6 ATTR=ID:timeselect_to_2 CONTENT=%18:00
+SAVEAS TYPE=PNG FOLDER=* FILE={{COL4}}<SP>({{COL7}})<SP>-<SP>DasTelefonbuch<SP>-<SP>OH<SP>-{{!NOW:dd.mm.yyyy,<SP>hh.nn.ss}}<SP>Uhr.png
+
+**********************************************************************************************
+
+Zeitpunkt: 12:01:24.6602426
+Kunde: test company y
+Verzeichnis: DasTelefonbuch
+Benutzer: Niklas
+Meldung: Öffnungszeiten: 
+mon: split|10:00-13:45~14:00-18:00
+tue: split|10:00-13:45~14:00-18:00
+wen: split|10:00-13:45~14:00-18:00
+thu: split|10:00-13:45~14:00-18:00
+fri: split|10:00-13:45~14:00-18:00
+sat: split|10:00-13:00~14:00-18:00
+sun: split|10:00-13:00~14:00-18:00
+
+MacroCode: CODE: TAG POS=1 TYPE=A ATTR=ID:Montag
+TAG POS=1 TYPE=SELECT FORM=ACTION:/entry/entryWizard?execution=e1s6 ATTR=ID:timeselect_from_1 CONTENT=%10:00
+TAG POS=1 TYPE=SELECT FORM=ACTION:/entry/entryWizard?execution=e1s6 ATTR=ID:timeselect_to_1 CONTENT=%13:45
+TAG POS=1 TYPE=SELECT FORM=ACTION:/entry/entryWizard?execution=e1s6 ATTR=ID:timeselect_from_2 CONTENT=%14:00
+TAG POS=1 TYPE=SELECT FORM=ACTION:/entry/entryWizard?execution=e1s6 ATTR=ID:timeselect_to_2 CONTENT=%18:00
+TAG POS=1 TYPE=A ATTR=ID:Dienstag
+TAG POS=1 TYPE=SELECT FORM=ACTION:/entry/entryWizard?execution=e1s6 ATTR=ID:timeselect_from_1 CONTENT=%10:00
+TAG POS=1 TYPE=SELECT FORM=ACTION:/entry/entryWizard?execution=e1s6 ATTR=ID:timeselect_to_1 CONTENT=%13:45
+TAG POS=1 TYPE=SELECT FORM=ACTION:/entry/entryWizard?execution=e1s6 ATTR=ID:timeselect_from_2 CONTENT=%14:00
+TAG POS=1 TYPE=SELECT FORM=ACTION:/entry/entryWizard?execution=e1s6 ATTR=ID:timeselect_to_2 CONTENT=%18:00
+TAG POS=1 TYPE=A ATTR=ID:Mittwoch
+TAG POS=1 TYPE=SELECT FORM=ACTION:/entry/entryWizard?execution=e1s6 ATTR=ID:timeselect_from_1 CONTENT=%10:00
+TAG POS=1 TYPE=SELECT FORM=ACTION:/entry/entryWizard?execution=e1s6 ATTR=ID:timeselect_to_1 CONTENT=%13:45
+TAG POS=1 TYPE=SELECT FORM=ACTION:/entry/entryWizard?execution=e1s6 ATTR=ID:timeselect_from_2 CONTENT=%14:00
+TAG POS=1 TYPE=SELECT FORM=ACTION:/entry/entryWizard?execution=e1s6 ATTR=ID:timeselect_to_2 CONTENT=%18:00
+TAG POS=1 TYPE=A ATTR=ID:Donnerstag
+TAG POS=1 TYPE=SELECT FORM=ACTION:/entry/entryWizard?execution=e1s6 ATTR=ID:timeselect_from_1 CONTENT=%10:00
+TAG POS=1 TYPE=SELECT FORM=ACTION:/entry/entryWizard?execution=e1s6 ATTR=ID:timeselect_to_1 CONTENT=%13:45
+TAG POS=1 TYPE=SELECT FORM=ACTION:/entry/entryWizard?execution=e1s6 ATTR=ID:timeselect_from_2 CONTENT=%14:00
+TAG POS=1 TYPE=SELECT FORM=ACTION:/entry/entryWizard?execution=e1s6 ATTR=ID:timeselect_to_2 CONTENT=%18:00
+TAG POS=1 TYPE=A ATTR=ID:Freitag
+TAG POS=1 TYPE=SELECT FORM=ACTION:/entry/entryWizard?execution=e1s6 ATTR=ID:timeselect_from_1 CONTENT=%10:00
+TAG POS=1 TYPE=SELECT FORM=ACTION:/entry/entryWizard?execution=e1s6 ATTR=ID:timeselect_to_1 CONTENT=%13:45
+TAG POS=1 TYPE=SELECT FORM=ACTION:/entry/entryWizard?execution=e1s6 ATTR=ID:timeselect_from_2 CONTENT=%14:00
+TAG POS=1 TYPE=SELECT FORM=ACTION:/entry/entryWizard?execution=e1s6 ATTR=ID:timeselect_to_2 CONTENT=%18:00
+TAG POS=1 TYPE=A ATTR=ID:Samstag
+TAG POS=1 TYPE=SELECT FORM=ACTION:/entry/entryWizard?execution=e1s6 ATTR=ID:timeselect_from_1 CONTENT=%10:00
+TAG POS=1 TYPE=SELECT FORM=ACTION:/entry/entryWizard?execution=e1s6 ATTR=ID:timeselect_to_1 CONTENT=%13:00
+TAG POS=1 TYPE=SELECT FORM=ACTION:/entry/entryWizard?execution=e1s6 ATTR=ID:timeselect_from_2 CONTENT=%14:00
+TAG POS=1 TYPE=SELECT FORM=ACTION:/entry/entryWizard?execution=e1s6 ATTR=ID:timeselect_to_2 CONTENT=%18:00
+TAG POS=1 TYPE=A ATTR=ID:Sonntag
+TAG POS=1 TYPE=SELECT FORM=ACTION:/entry/entryWizard?execution=e1s6 ATTR=ID:timeselect_from_1 CONTENT=%10:00
+TAG POS=1 TYPE=SELECT FORM=ACTION:/entry/entryWizard?execution=e1s6 ATTR=ID:timeselect_to_1 CONTENT=%13:00
+TAG POS=1 TYPE=SELECT FORM=ACTION:/entry/entryWizard?execution=e1s6 ATTR=ID:timeselect_from_2 CONTENT=%14:00
+TAG POS=1 TYPE=SELECT FORM=ACTION:/entry/entryWizard?execution=e1s6 ATTR=ID:timeselect_to_2 CONTENT=%18:00
+SAVEAS TYPE=PNG FOLDER=* FILE={{COL4}}<SP>({{COL7}})<SP>-<SP>DasTelefonbuch<SP>-<SP>OH<SP>-{{!NOW:dd.mm.yyyy,<SP>hh.nn.ss}}<SP>Uhr.png
+
+**********************************************************************************************
+
+Zeitpunkt: 12:01:35.5658664
+Kunde: test company y
+Verzeichnis: DasTelefonbuch
+Benutzer: Niklas
+Meldung: Öffnungszeiten: 
+mon: split|10:00-13:45~14:00-18:00
+tue: split|10:00-13:45~14:00-18:00
+wen: split|10:00-13:45~14:00-18:00
+thu: split|10:00-13:45~14:00-18:00
+fri: split|10:00-13:45~14:00-18:00
+sat: split|10:00-13:00~14:00-18:00
+sun: split|10:00-13:00~14:00-18:00
+
+MacroCode: CODE: TAG POS=1 TYPE=A ATTR=ID:Montag
+TAG POS=1 TYPE=SELECT FORM=ACTION:/entry/entryWizard?execution=e1s6 ATTR=ID:timeselect_from_1 CONTENT=%10:00
+TAG POS=1 TYPE=SELECT FORM=ACTION:/entry/entryWizard?execution=e1s6 ATTR=ID:timeselect_to_1 CONTENT=%13:45
+TAG POS=1 TYPE=SELECT FORM=ACTION:/entry/entryWizard?execution=e1s6 ATTR=ID:timeselect_from_2 CONTENT=%14:00
+TAG POS=1 TYPE=SELECT FORM=ACTION:/entry/entryWizard?execution=e1s6 ATTR=ID:timeselect_to_2 CONTENT=%18:00
+TAG POS=1 TYPE=A ATTR=ID:Dienstag
+TAG POS=1 TYPE=SELECT FORM=ACTION:/entry/entryWizard?execution=e1s6 ATTR=ID:timeselect_from_1 CONTENT=%10:00
+TAG POS=1 TYPE=SELECT FORM=ACTION:/entry/entryWizard?execution=e1s6 ATTR=ID:timeselect_to_1 CONTENT=%13:45
+TAG POS=1 TYPE=SELECT FORM=ACTION:/entry/entryWizard?execution=e1s6 ATTR=ID:timeselect_from_2 CONTENT=%14:00
+TAG POS=1 TYPE=SELECT FORM=ACTION:/entry/entryWizard?execution=e1s6 ATTR=ID:timeselect_to_2 CONTENT=%18:00
+TAG POS=1 TYPE=A ATTR=ID:Mittwoch
+TAG POS=1 TYPE=SELECT FORM=ACTION:/entry/entryWizard?execution=e1s6 ATTR=ID:timeselect_from_1 CONTENT=%10:00
+TAG POS=1 TYPE=SELECT FORM=ACTION:/entry/entryWizard?execution=e1s6 ATTR=ID:timeselect_to_1 CONTENT=%13:45
+TAG POS=1 TYPE=SELECT FORM=ACTION:/entry/entryWizard?execution=e1s6 ATTR=ID:timeselect_from_2 CONTENT=%14:00
+TAG POS=1 TYPE=SELECT FORM=ACTION:/entry/entryWizard?execution=e1s6 ATTR=ID:timeselect_to_2 CONTENT=%18:00
+TAG POS=1 TYPE=A ATTR=ID:Donnerstag
+TAG POS=1 TYPE=SELECT FORM=ACTION:/entry/entryWizard?execution=e1s6 ATTR=ID:timeselect_from_1 CONTENT=%10:00
+TAG POS=1 TYPE=SELECT FORM=ACTION:/entry/entryWizard?execution=e1s6 ATTR=ID:timeselect_to_1 CONTENT=%13:45
+TAG POS=1 TYPE=SELECT FORM=ACTION:/entry/entryWizard?execution=e1s6 ATTR=ID:timeselect_from_2 CONTENT=%14:00
+TAG POS=1 TYPE=SELECT FORM=ACTION:/entry/entryWizard?execution=e1s6 ATTR=ID:timeselect_to_2 CONTENT=%18:00
+TAG POS=1 TYPE=A ATTR=ID:Freitag
+TAG POS=1 TYPE=SELECT FORM=ACTION:/entry/entryWizard?execution=e1s6 ATTR=ID:timeselect_from_1 CONTENT=%10:00
+TAG POS=1 TYPE=SELECT FORM=ACTION:/entry/entryWizard?execution=e1s6 ATTR=ID:timeselect_to_1 CONTENT=%13:45
+TAG POS=1 TYPE=SELECT FORM=ACTION:/entry/entryWizard?execution=e1s6 ATTR=ID:timeselect_from_2 CONTENT=%14:00
+TAG POS=1 TYPE=SELECT FORM=ACTION:/entry/entryWizard?execution=e1s6 ATTR=ID:timeselect_to_2 CONTENT=%18:00
+TAG POS=1 TYPE=A ATTR=ID:Samstag
+TAG POS=1 TYPE=SELECT FORM=ACTION:/entry/entryWizard?execution=e1s6 ATTR=ID:timeselect_from_1 CONTENT=%10:00
+TAG POS=1 TYPE=SELECT FORM=ACTION:/entry/entryWizard?execution=e1s6 ATTR=ID:timeselect_to_1 CONTENT=%13:00
+TAG POS=1 TYPE=SELECT FORM=ACTION:/entry/entryWizard?execution=e1s6 ATTR=ID:timeselect_from_2 CONTENT=%14:00
+TAG POS=1 TYPE=SELECT FORM=ACTION:/entry/entryWizard?execution=e1s6 ATTR=ID:timeselect_to_2 CONTENT=%18:00
+TAG POS=1 TYPE=A ATTR=ID:Sonntag
+TAG POS=1 TYPE=SELECT FORM=ACTION:/entry/entryWizard?execution=e1s6 ATTR=ID:timeselect_from_1 CONTENT=%10:00
+TAG POS=1 TYPE=SELECT FORM=ACTION:/entry/entryWizard?execution=e1s6 ATTR=ID:timeselect_to_1 CONTENT=%13:00
+TAG POS=1 TYPE=SELECT FORM=ACTION:/entry/entryWizard?execution=e1s6 ATTR=ID:timeselect_from_2 CONTENT=%14:00
+TAG POS=1 TYPE=SELECT FORM=ACTION:/entry/entryWizard?execution=e1s6 ATTR=ID:timeselect_to_2 CONTENT=%18:00
+SAVEAS TYPE=PNG FOLDER=* FILE={{COL4}}<SP>({{COL7}})<SP>-<SP>DasTelefonbuch<SP>-<SP>OH<SP>-{{!NOW:dd.mm.yyyy,<SP>hh.nn.ss}}<SP>Uhr.png
+
+**********************************************************************************************
+
+Zeitpunkt: 12:01:36.0998969
+Kunde: test company y
+Verzeichnis: DasTelefonbuch
+Benutzer: Niklas
+Meldung: Öffnungszeiten: 
+mon: split|10:00-13:45~14:00-18:00
+tue: split|10:00-13:45~14:00-18:00
+wen: split|10:00-13:45~14:00-18:00
+thu: split|10:00-13:45~14:00-18:00
+fri: split|10:00-13:45~14:00-18:00
+sat: split|10:00-13:00~14:00-18:00
+sun: split|10:00-13:00~14:00-18:00
+
+MacroCode: CODE: TAG POS=1 TYPE=A ATTR=ID:Montag
+TAG POS=1 TYPE=SELECT FORM=ACTION:/entry/entryWizard?execution=e1s6 ATTR=ID:timeselect_from_1 CONTENT=%10:00
+TAG POS=1 TYPE=SELECT FORM=ACTION:/entry/entryWizard?execution=e1s6 ATTR=ID:timeselect_to_1 CONTENT=%13:45
+TAG POS=1 TYPE=SELECT FORM=ACTION:/entry/entryWizard?execution=e1s6 ATTR=ID:timeselect_from_2 CONTENT=%14:00
+TAG POS=1 TYPE=SELECT FORM=ACTION:/entry/entryWizard?execution=e1s6 ATTR=ID:timeselect_to_2 CONTENT=%18:00
+TAG POS=1 TYPE=A ATTR=ID:Dienstag
+TAG POS=1 TYPE=SELECT FORM=ACTION:/entry/entryWizard?execution=e1s6 ATTR=ID:timeselect_from_1 CONTENT=%10:00
+TAG POS=1 TYPE=SELECT FORM=ACTION:/entry/entryWizard?execution=e1s6 ATTR=ID:timeselect_to_1 CONTENT=%13:45
+TAG POS=1 TYPE=SELECT FORM=ACTION:/entry/entryWizard?execution=e1s6 ATTR=ID:timeselect_from_2 CONTENT=%14:00
+TAG POS=1 TYPE=SELECT FORM=ACTION:/entry/entryWizard?execution=e1s6 ATTR=ID:timeselect_to_2 CONTENT=%18:00
+TAG POS=1 TYPE=A ATTR=ID:Mittwoch
+TAG POS=1 TYPE=SELECT FORM=ACTION:/entry/entryWizard?execution=e1s6 ATTR=ID:timeselect_from_1 CONTENT=%10:00
+TAG POS=1 TYPE=SELECT FORM=ACTION:/entry/entryWizard?execution=e1s6 ATTR=ID:timeselect_to_1 CONTENT=%13:45
+TAG POS=1 TYPE=SELECT FORM=ACTION:/entry/entryWizard?execution=e1s6 ATTR=ID:timeselect_from_2 CONTENT=%14:00
+TAG POS=1 TYPE=SELECT FORM=ACTION:/entry/entryWizard?execution=e1s6 ATTR=ID:timeselect_to_2 CONTENT=%18:00
+TAG POS=1 TYPE=A ATTR=ID:Donnerstag
+TAG POS=1 TYPE=SELECT FORM=ACTION:/entry/entryWizard?execution=e1s6 ATTR=ID:timeselect_from_1 CONTENT=%10:00
+TAG POS=1 TYPE=SELECT FORM=ACTION:/entry/entryWizard?execution=e1s6 ATTR=ID:timeselect_to_1 CONTENT=%13:45
+TAG POS=1 TYPE=SELECT FORM=ACTION:/entry/entryWizard?execution=e1s6 ATTR=ID:timeselect_from_2 CONTENT=%14:00
+TAG POS=1 TYPE=SELECT FORM=ACTION:/entry/entryWizard?execution=e1s6 ATTR=ID:timeselect_to_2 CONTENT=%18:00
+TAG POS=1 TYPE=A ATTR=ID:Freitag
+TAG POS=1 TYPE=SELECT FORM=ACTION:/entry/entryWizard?execution=e1s6 ATTR=ID:timeselect_from_1 CONTENT=%10:00
+TAG POS=1 TYPE=SELECT FORM=ACTION:/entry/entryWizard?execution=e1s6 ATTR=ID:timeselect_to_1 CONTENT=%13:45
+TAG POS=1 TYPE=SELECT FORM=ACTION:/entry/entryWizard?execution=e1s6 ATTR=ID:timeselect_from_2 CONTENT=%14:00
+TAG POS=1 TYPE=SELECT FORM=ACTION:/entry/entryWizard?execution=e1s6 ATTR=ID:timeselect_to_2 CONTENT=%18:00
+TAG POS=1 TYPE=A ATTR=ID:Samstag
+TAG POS=1 TYPE=SELECT FORM=ACTION:/entry/entryWizard?execution=e1s6 ATTR=ID:timeselect_from_1 CONTENT=%10:00
+TAG POS=1 TYPE=SELECT FORM=ACTION:/entry/entryWizard?execution=e1s6 ATTR=ID:timeselect_to_1 CONTENT=%13:00
+TAG POS=1 TYPE=SELECT FORM=ACTION:/entry/entryWizard?execution=e1s6 ATTR=ID:timeselect_from_2 CONTENT=%14:00
+TAG POS=1 TYPE=SELECT FORM=ACTION:/entry/entryWizard?execution=e1s6 ATTR=ID:timeselect_to_2 CONTENT=%18:00
+TAG POS=1 TYPE=A ATTR=ID:Sonntag
+TAG POS=1 TYPE=SELECT FORM=ACTION:/entry/entryWizard?execution=e1s6 ATTR=ID:timeselect_from_1 CONTENT=%10:00
+TAG POS=1 TYPE=SELECT FORM=ACTION:/entry/entryWizard?execution=e1s6 ATTR=ID:timeselect_to_1 CONTENT=%13:00
+TAG POS=1 TYPE=SELECT FORM=ACTION:/entry/entryWizard?execution=e1s6 ATTR=ID:timeselect_from_2 CONTENT=%14:00
+TAG POS=1 TYPE=SELECT FORM=ACTION:/entry/entryWizard?execution=e1s6 ATTR=ID:timeselect_to_2 CONTENT=%18:00
+SAVEAS TYPE=PNG FOLDER=* FILE={{COL4}}<SP>({{COL7}})<SP>-<SP>DasTelefonbuch<SP>-<SP>OH<SP>-{{!NOW:dd.mm.yyyy,<SP>hh.nn.ss}}<SP>Uhr.png
+
+**********************************************************************************************
+Notiz: Prompt ist nicht angezeigt worden
+Zeitpunkt: 12:05:25.5060182
+Kunde: test company y
+Verzeichnis: Yelp
+Benutzer: Niklas
+Meldung: Öffnungszeiten: 
+mon: split|10:00-13:45~14:00-18:00
+tue: split|10:00-13:45~14:00-18:00
+wen: split|10:00-13:45~14:00-18:00
+thu: split|10:00-13:45~14:00-18:00
+fri: split|10:00-13:45~14:00-18:00
+sat: split|10:00-13:00~14:00-18:00
+sun: split|10:00-13:00~14:00-18:00
+
+MacroCode: CODE: PROMPT 1.)folgende<SP>Zeiten<SP>manuell<SP>setzen:<BR>mon<SP>(10:00-13:45~14:00-18:00)<BR>tue<SP>(10:00-13:45~14:00-18:00)<BR>wen<SP>(10:00-13:45~14:00-18:00)<BR>thu<SP>(10:00-13:45~14:00-18:00)<BR>fri<SP>(10:00-13:45~14:00-18:00)<BR>sat<SP>(10:00-13:00~14:00-18:00)<BR>sun<SP>(10:00-13:00~14:00-18:00)<BR><BR>2.)Macro<SP>fortführen
+PAUSE
+
+
+**********************************************************************************************
+Notiz: Makrocode für Öffnungszeiten richtig erzeugt, allerdings nicht ausgeführt(gleiches gilt für Prompt)
+Zeitpunkt: 12:18:57.0794375
+Kunde: test company y
+Verzeichnis: Yelp
+Benutzer: Niklas
+Meldung: Öffnungszeiten: 
+mon: open|10:00-13:00
+tue: open|10:00-13:00
+wen: open|10:00-13:00
+thu: open|10:00-13:00
+fri: open|10:00-13:00
+sat: open|10:00-13:00
+sun: open|10:00-13:00
+
+MacroCode: CODE: TAG POS=1 TYPE=SELECT FORM=ID:biz-info-form ATTR=TXT:Mo.<SP>Di.<SP>Mi.<SP>Do.<SP>Fr.<SP>Sa.<SP>So. CONTENT=%0
+TAG POS=1 TYPE=SELECT FORM=ID:biz-info-form ATTR=TXT:06:00<SP>06:30<SP>07:00<SP>07:30<SP>08:00<SP>08:30<SP>09:00* CONTENT=%10
+TAG POS=2 TYPE=SELECT FORM=ID:biz-info-form ATTR=TXT:06:00<SP>06:30<SP>07:00<SP>07:30<SP>08:00<SP>08:30<SP>09:00* CONTENT=%13
+TAG POS=1 TYPE=BUTTON FORM=ID:biz-info-form ATTR=TXT:Zeiten<SP>hinzufügen
+TAG POS=1 TYPE=SELECT FORM=ID:biz-info-form ATTR=TXT:Mo.<SP>Di.<SP>Mi.<SP>Do.<SP>Fr.<SP>Sa.<SP>So. CONTENT=%1
+TAG POS=1 TYPE=SELECT FORM=ID:biz-info-form ATTR=TXT:06:00<SP>06:30<SP>07:00<SP>07:30<SP>08:00<SP>08:30<SP>09:00* CONTENT=%10
+TAG POS=2 TYPE=SELECT FORM=ID:biz-info-form ATTR=TXT:06:00<SP>06:30<SP>07:00<SP>07:30<SP>08:00<SP>08:30<SP>09:00* CONTENT=%13
+TAG POS=1 TYPE=BUTTON FORM=ID:biz-info-form ATTR=TXT:Zeiten<SP>hinzufügen
+TAG POS=1 TYPE=SELECT FORM=ID:biz-info-form ATTR=TXT:Mo.<SP>Di.<SP>Mi.<SP>Do.<SP>Fr.<SP>Sa.<SP>So. CONTENT=%2
+TAG POS=1 TYPE=SELECT FORM=ID:biz-info-form ATTR=TXT:06:00<SP>06:30<SP>07:00<SP>07:30<SP>08:00<SP>08:30<SP>09:00* CONTENT=%10
+TAG POS=2 TYPE=SELECT FORM=ID:biz-info-form ATTR=TXT:06:00<SP>06:30<SP>07:00<SP>07:30<SP>08:00<SP>08:30<SP>09:00* CONTENT=%13
+TAG POS=1 TYPE=BUTTON FORM=ID:biz-info-form ATTR=TXT:Zeiten<SP>hinzufügen
+TAG POS=1 TYPE=SELECT FORM=ID:biz-info-form ATTR=TXT:Mo.<SP>Di.<SP>Mi.<SP>Do.<SP>Fr.<SP>Sa.<SP>So. CONTENT=%3
+TAG POS=1 TYPE=SELECT FORM=ID:biz-info-form ATTR=TXT:06:00<SP>06:30<SP>07:00<SP>07:30<SP>08:00<SP>08:30<SP>09:00* CONTENT=%10
+TAG POS=2 TYPE=SELECT FORM=ID:biz-info-form ATTR=TXT:06:00<SP>06:30<SP>07:00<SP>07:30<SP>08:00<SP>08:30<SP>09:00* CONTENT=%13
+TAG POS=1 TYPE=BUTTON FORM=ID:biz-info-form ATTR=TXT:Zeiten<SP>hinzufügen
+TAG POS=1 TYPE=SELECT FORM=ID:biz-info-form ATTR=TXT:Mo.<SP>Di.<SP>Mi.<SP>Do.<SP>Fr.<SP>Sa.<SP>So. CONTENT=%4
+TAG POS=1 TYPE=SELECT FORM=ID:biz-info-form ATTR=TXT:06:00<SP>06:30<SP>07:00<SP>07:30<SP>08:00<SP>08:30<SP>09:00* CONTENT=%10
+TAG POS=2 TYPE=SELECT FORM=ID:biz-info-form ATTR=TXT:06:00<SP>06:30<SP>07:00<SP>07:30<SP>08:00<SP>08:30<SP>09:00* CONTENT=%13
+TAG POS=1 TYPE=BUTTON FORM=ID:biz-info-form ATTR=TXT:Zeiten<SP>hinzufügen
+TAG POS=1 TYPE=SELECT FORM=ID:biz-info-form ATTR=TXT:Mo.<SP>Di.<SP>Mi.<SP>Do.<SP>Fr.<SP>Sa.<SP>So. CONTENT=%5
+TAG POS=1 TYPE=SELECT FORM=ID:biz-info-form ATTR=TXT:06:00<SP>06:30<SP>07:00<SP>07:30<SP>08:00<SP>08:30<SP>09:00* CONTENT=%10
+TAG POS=2 TYPE=SELECT FORM=ID:biz-info-form ATTR=TXT:06:00<SP>06:30<SP>07:00<SP>07:30<SP>08:00<SP>08:30<SP>09:00* CONTENT=%13
+TAG POS=1 TYPE=BUTTON FORM=ID:biz-info-form ATTR=TXT:Zeiten<SP>hinzufügen
+TAG POS=1 TYPE=SELECT FORM=ID:biz-info-form ATTR=TXT:Mo.<SP>Di.<SP>Mi.<SP>Do.<SP>Fr.<SP>Sa.<SP>So. CONTENT=%6
+TAG POS=1 TYPE=SELECT FORM=ID:biz-info-form ATTR=TXT:06:00<SP>06:30<SP>07:00<SP>07:30<SP>08:00<SP>08:30<SP>09:00* CONTENT=%10
+TAG POS=2 TYPE=SELECT FORM=ID:biz-info-form ATTR=TXT:06:00<SP>06:30<SP>07:00<SP>07:30<SP>08:00<SP>08:30<SP>09:00* CONTENT=%13
+TAG POS=1 TYPE=BUTTON FORM=ID:biz-info-form ATTR=TXT:Zeiten<SP>hinzufügen
+
+
+**********************************************************************************************
+
+Zeitpunkt: 12:25:59.9786260
+Kunde: test company y
+Verzeichnis: GewusstWo
+Benutzer: Niklas
+Meldung: Öffnungszeiten: 
+mon: open|10:00-13:00
+tue: open|10:00-13:00
+wen: open|10:00-13:00
+thu: open|10:00-13:00
+fri: open|10:00-13:00
+sat: open|10:00-13:00
+sun: open|10:00-13:00
+
+MacroCode: CODE: TAG POS=1 TYPE=INPUT:TEXT FORM=ACTION:/ ATTR=NAME:_ot_mo_fr_from CONTENT=10:00
+TAG POS=1 TYPE=INPUT:TEXT FORM=ACTION:/ ATTR=NAME:_ot_mo_fr_to CONTENT=13:00
+TAG POS=1 TYPE=INPUT:TEXT FORM=ACTION:/ ATTR=NAME:_ot_sa_from CONTENT=10:00
+TAG POS=1 TYPE=INPUT:TEXT FORM=ACTION:/ ATTR=NAME:_ot_sa_to CONTENT=13:00
+TAG POS=1 TYPE=INPUT:TEXT FORM=ACTION:/ ATTR=NAME:_ot_so_from CONTENT=10:00
+TAG POS=1 TYPE=INPUT:TEXT FORM=ACTION:/ ATTR=NAME:_ot_so_to CONTENT=13:00
+
+
+**********************************************************************************************
+
+Zeitpunkt: 12:26:01.6907239
+Kunde: test company y
+Verzeichnis: GewusstWo
+Benutzer: Niklas
+Meldung: Öffnungszeiten: 
+mon: open|10:00-13:00
+tue: open|10:00-13:00
+wen: open|10:00-13:00
+thu: open|10:00-13:00
+fri: open|10:00-13:00
+sat: open|10:00-13:00
+sun: open|10:00-13:00
+
+MacroCode: CODE: TAG POS=1 TYPE=INPUT:TEXT FORM=ACTION:/ ATTR=NAME:_ot_mo_fr_from CONTENT=10:00
+TAG POS=1 TYPE=INPUT:TEXT FORM=ACTION:/ ATTR=NAME:_ot_mo_fr_to CONTENT=13:00
+TAG POS=1 TYPE=INPUT:TEXT FORM=ACTION:/ ATTR=NAME:_ot_sa_from CONTENT=10:00
+TAG POS=1 TYPE=INPUT:TEXT FORM=ACTION:/ ATTR=NAME:_ot_sa_to CONTENT=13:00
+TAG POS=1 TYPE=INPUT:TEXT FORM=ACTION:/ ATTR=NAME:_ot_so_from CONTENT=10:00
+TAG POS=1 TYPE=INPUT:TEXT FORM=ACTION:/ ATTR=NAME:_ot_so_to CONTENT=13:00
+
+
+**********************************************************************************************
+
+Zeitpunkt: 12:26:01.8627338
+Kunde: test company y
+Verzeichnis: GewusstWo
+Benutzer: Niklas
+Meldung: Öffnungszeiten: 
+mon: open|10:00-13:00
+tue: open|10:00-13:00
+wen: open|10:00-13:00
+thu: open|10:00-13:00
+fri: open|10:00-13:00
+sat: open|10:00-13:00
+sun: open|10:00-13:00
+
+MacroCode: CODE: TAG POS=1 TYPE=INPUT:TEXT FORM=ACTION:/ ATTR=NAME:_ot_mo_fr_from CONTENT=10:00
+TAG POS=1 TYPE=INPUT:TEXT FORM=ACTION:/ ATTR=NAME:_ot_mo_fr_to CONTENT=13:00
+TAG POS=1 TYPE=INPUT:TEXT FORM=ACTION:/ ATTR=NAME:_ot_sa_from CONTENT=10:00
+TAG POS=1 TYPE=INPUT:TEXT FORM=ACTION:/ ATTR=NAME:_ot_sa_to CONTENT=13:00
+TAG POS=1 TYPE=INPUT:TEXT FORM=ACTION:/ ATTR=NAME:_ot_so_from CONTENT=10:00
+TAG POS=1 TYPE=INPUT:TEXT FORM=ACTION:/ ATTR=NAME:_ot_so_to CONTENT=13:00
+
+
+**********************************************************************************************
+
+Zeitpunkt: 12:26:38.6628386
+Kunde: test company x
+Verzeichnis: GewusstWo
+Benutzer: Niklas
+Meldung: Öffnungszeiten: 
+mon: open|00:00-00:00
+tue: split|00:00-00:00~00:00-00:00
+wen: closed|
+thu: closed|
+fri: open|10:00-17:00
+sat: closed|
+sun: closed|
+
+MacroCode: CODE: PROMPT 1.)Öffnungszeiten<SP>manuell<SP>prüfen:<BR><BR>2.)Macro<SP>fortführen
+PAUSE
+
+
+**********************************************************************************************
+
+Zeitpunkt: 12:26:39.5548896
+Kunde: test company x
+Verzeichnis: GewusstWo
+Benutzer: Niklas
+Meldung: Öffnungszeiten: 
+mon: open|00:00-00:00
+tue: split|00:00-00:00~00:00-00:00
+wen: closed|
+thu: closed|
+fri: open|10:00-17:00
+sat: closed|
+sun: closed|
+
+MacroCode: CODE: PROMPT 1.)Öffnungszeiten<SP>manuell<SP>prüfen:<BR><BR>2.)Macro<SP>fortführen
+PAUSE
+
+
+**********************************************************************************************
+
+Zeitpunkt: 12:28:11.5441511
+Kunde: test company x
+Verzeichnis: GewusstWo
+Benutzer: Niklas
+Meldung: Öffnungszeiten: 
+mon: open|00:00-00:00
+tue: split|00:00-00:00~00:00-00:00
+wen: closed|
+thu: closed|
+fri: open|10:00-17:00
+sat: closed|
+sun: closed|
+
+MacroCode: CODE: PROMPT 1.)Öffnungszeiten<SP>manuell<SP>prüfen:<BR><BR>2.)Macro<SP>fortführen
+PAUSE
+
+
+**********************************************************************************************
+
+Zeitpunkt: 12:28:54.2955963
+Kunde: test company x
+Verzeichnis: GewusstWo
+Benutzer: Niklas
+Meldung: Öffnungszeiten: 
+mon: open|00:00-00:00
+tue: split|00:00-00:00~00:00-00:00
+wen: closed|
+thu: closed|
+fri: open|10:00-17:00
+sat: open|10:00-17:00
+sun: closed|
+
+MacroCode: CODE: PROMPT 1.)Öffnungszeiten<SP>manuell<SP>prüfen:<BR><BR>2.)Macro<SP>fortführen
+PAUSE
+
+
+**********************************************************************************************
+Notiz: Samstag wurde nicht eingetragen
+Zeitpunkt: 12:28:55.6116716
+Kunde: test company x
+Verzeichnis: GewusstWo
+Benutzer: Niklas
+Meldung: Öffnungszeiten: 
+mon: open|00:00-00:00
+tue: split|00:00-00:00~00:00-00:00
+wen: closed|
+thu: closed|
+fri: open|10:00-17:00
+sat: open|10:00-17:00
+sun: closed|
+
+MacroCode: CODE: PROMPT 1.)Öffnungszeiten<SP>manuell<SP>prüfen:<BR><BR>2.)Macro<SP>fortführen
+PAUSE
+
+
+**********************************************************************************************
+
+Notiz: Samstag,Sonntag wurden nicht eingetragen
+Zeitpunkt: 12:30:30.5020990
+Kunde: test company x
+Verzeichnis: GewusstWo
+Benutzer: Niklas
+Meldung: Öffnungszeiten: 
+mon: open|00:00-00:00
+tue: split|00:00-00:00~00:00-00:00
+wen: closed|
+thu: closed|
+fri: open|10:00-17:00
+sat: open|10:00-13:00
+sun: open|10:00-13:00
+
+MacroCode: CODE: PROMPT 1.)Öffnungszeiten<SP>manuell<SP>prüfen:<BR><BR>2.)Macro<SP>fortführen
+PAUSE
+
+
+**********************************************************************************************
+Notiz: Samstag,Sonntag wurden nicht eingetragen.
+Zeitpunkt: 12:30:31.7101681
+Kunde: test company x
+Verzeichnis: GewusstWo
+Benutzer: Niklas
+Meldung: Öffnungszeiten: 
+mon: open|00:00-00:00
+tue: split|00:00-00:00~00:00-00:00
+wen: closed|
+thu: closed|
+fri: open|10:00-17:00
+sat: open|10:00-13:00
+sun: open|10:00-13:00
+
+MacroCode: CODE: PROMPT 1.)Öffnungszeiten<SP>manuell<SP>prüfen:<BR><BR>2.)Macro<SP>fortführen
+PAUSE
+
+
+**********************************************************************************************
+Notiz: Samstag,Sonntag wurden nicht eingetragen.
+
+Zeitpunkt: 12:31:05.7991179
+Kunde: test company x
+Verzeichnis: GewusstWo
+Benutzer: Niklas
+Meldung: Öffnungszeiten: 
+mon: open|00:00-00:00
+tue: split|00:00-00:00~00:00-00:00
+wen: closed|
+thu: closed|
+fri: open|10:00-17:00
+sat: open|10:00-13:00
+sun: open|10:00-13:00
+
+MacroCode: CODE: PROMPT 1.)Öffnungszeiten<SP>manuell<SP>prüfen:<BR><BR>2.)Macro<SP>fortführen
+PAUSE
+
+
+**********************************************************************************************
+
+Zeitpunkt: 12:31:17.8208055
+Kunde: test company y
+Verzeichnis: GewusstWo
+Benutzer: Niklas
+Meldung: Öffnungszeiten: 
+mon: open|10:00-13:00
+tue: open|10:00-13:00
+wen: open|10:00-13:00
+thu: open|10:00-13:00
+fri: open|10:00-13:00
+sat: open|10:00-13:00
+sun: open|10:00-13:00
+
+MacroCode: CODE: TAG POS=1 TYPE=INPUT:TEXT FORM=ACTION:/ ATTR=NAME:_ot_mo_fr_from CONTENT=10:00
+TAG POS=1 TYPE=INPUT:TEXT FORM=ACTION:/ ATTR=NAME:_ot_mo_fr_to CONTENT=13:00
+TAG POS=1 TYPE=INPUT:TEXT FORM=ACTION:/ ATTR=NAME:_ot_sa_from CONTENT=10:00
+TAG POS=1 TYPE=INPUT:TEXT FORM=ACTION:/ ATTR=NAME:_ot_sa_to CONTENT=13:00
+TAG POS=1 TYPE=INPUT:TEXT FORM=ACTION:/ ATTR=NAME:_ot_so_from CONTENT=10:00
+TAG POS=1 TYPE=INPUT:TEXT FORM=ACTION:/ ATTR=NAME:_ot_so_to CONTENT=13:00
+
+
+**********************************************************************************************
+
+Zeitpunkt: 12:31:20.4149539
+Kunde: test company y
+Verzeichnis: GewusstWo
+Benutzer: Niklas
+Meldung: Öffnungszeiten: 
+mon: open|10:00-13:00
+tue: open|10:00-13:00
+wen: open|10:00-13:00
+thu: open|10:00-13:00
+fri: open|10:00-13:00
+sat: open|10:00-13:00
+sun: open|10:00-13:00
+
+MacroCode: CODE: TAG POS=1 TYPE=INPUT:TEXT FORM=ACTION:/ ATTR=NAME:_ot_mo_fr_from CONTENT=10:00
+TAG POS=1 TYPE=INPUT:TEXT FORM=ACTION:/ ATTR=NAME:_ot_mo_fr_to CONTENT=13:00
+TAG POS=1 TYPE=INPUT:TEXT FORM=ACTION:/ ATTR=NAME:_ot_sa_from CONTENT=10:00
+TAG POS=1 TYPE=INPUT:TEXT FORM=ACTION:/ ATTR=NAME:_ot_sa_to CONTENT=13:00
+TAG POS=1 TYPE=INPUT:TEXT FORM=ACTION:/ ATTR=NAME:_ot_so_from CONTENT=10:00
+TAG POS=1 TYPE=INPUT:TEXT FORM=ACTION:/ ATTR=NAME:_ot_so_to CONTENT=13:00
+
+
+**********************************************************************************************
+
+Zeitpunkt: 12:31:20.5559620
+Kunde: test company y
+Verzeichnis: GewusstWo
+Benutzer: Niklas
+Meldung: Öffnungszeiten: 
+mon: open|10:00-13:00
+tue: open|10:00-13:00
+wen: open|10:00-13:00
+thu: open|10:00-13:00
+fri: open|10:00-13:00
+sat: open|10:00-13:00
+sun: open|10:00-13:00
+
+MacroCode: CODE: TAG POS=1 TYPE=INPUT:TEXT FORM=ACTION:/ ATTR=NAME:_ot_mo_fr_from CONTENT=10:00
+TAG POS=1 TYPE=INPUT:TEXT FORM=ACTION:/ ATTR=NAME:_ot_mo_fr_to CONTENT=13:00
+TAG POS=1 TYPE=INPUT:TEXT FORM=ACTION:/ ATTR=NAME:_ot_sa_from CONTENT=10:00
+TAG POS=1 TYPE=INPUT:TEXT FORM=ACTION:/ ATTR=NAME:_ot_sa_to CONTENT=13:00
+TAG POS=1 TYPE=INPUT:TEXT FORM=ACTION:/ ATTR=NAME:_ot_so_from CONTENT=10:00
+TAG POS=1 TYPE=INPUT:TEXT FORM=ACTION:/ ATTR=NAME:_ot_so_to CONTENT=13:00
+
+
+**********************************************************************************************
+
+Zeitpunkt: 12:52:43.6903531
+Kunde: test company y
+Verzeichnis: Stadtbranchenbuch
+Benutzer: Niklas
+Meldung: Öffnungszeiten: 
+mon: open|10:00-13:00
+tue: open|10:00-13:00
+wen: open|10:00-13:00
+thu: open|10:00-13:00
+fri: open|10:00-13:00
+sat: open|10:00-13:00
+sun: open|10:00-13:00
+
+MacroCode: CODE: TAG POS=1 TYPE=INPUT:RADIO FORM=ID:step1 ATTR=ID:noOhB
+TAG POS=1 TYPE=SELECT FORM=ID:step1 ATTR=ID:von1mo CONTENT=%10:00
+TAG POS=1 TYPE=SELECT FORM=ID:step1 ATTR=ID:bis1mo CONTENT=%13:00
+TAG POS=1 TYPE=SELECT FORM=ID:step1 ATTR=ID:von1di CONTENT=%10:00
+TAG POS=1 TYPE=SELECT FORM=ID:step1 ATTR=ID:bis1di CONTENT=%13:00
+TAG POS=1 TYPE=SELECT FORM=ID:step1 ATTR=ID:von1mi CONTENT=%10:00
+TAG POS=1 TYPE=SELECT FORM=ID:step1 ATTR=ID:bis1mi CONTENT=%13:00
+TAG POS=1 TYPE=SELECT FORM=ID:step1 ATTR=ID:von1do CONTENT=%10:00
+TAG POS=1 TYPE=SELECT FORM=ID:step1 ATTR=ID:bis1do CONTENT=%13:00
+TAG POS=1 TYPE=SELECT FORM=ID:step1 ATTR=ID:von1fr CONTENT=%10:00
+TAG POS=1 TYPE=SELECT FORM=ID:step1 ATTR=ID:bis1fr CONTENT=%13:00
+TAG POS=1 TYPE=SELECT FORM=ID:step1 ATTR=ID:von1sa CONTENT=%10:00
+TAG POS=1 TYPE=SELECT FORM=ID:step1 ATTR=ID:bis1sa CONTENT=%13:00
+TAG POS=1 TYPE=SELECT FORM=ID:step1 ATTR=ID:von1so CONTENT=%10:00
+TAG POS=1 TYPE=SELECT FORM=ID:step1 ATTR=ID:bis1so CONTENT=%13:00
+SAVEAS TYPE=PNG FOLDER=* FILE={{COL4}}<SP>({{COL7}})<SP>-<SP>Stadtbranchenbuch<SP>-<SP>OH<SP>-{{!NOW:dd.mm.yyyy,<SP>hh.nn.ss}}<SP>Uhr.png
+
+**********************************************************************************************
+
+Zeitpunkt: 12:53:02.0124010
+Kunde: test company y
+Verzeichnis: Stadtbranchenbuch
+Benutzer: Niklas
+Meldung: Öffnungszeiten: 
+mon: open|10:00-13:00
+tue: open|10:00-13:00
+wen: open|10:00-13:00
+thu: open|10:00-13:00
+fri: open|10:00-13:00
+sat: open|10:00-13:00
+sun: open|10:00-13:00
+
+MacroCode: CODE: TAG POS=1 TYPE=INPUT:RADIO FORM=ID:step1 ATTR=ID:noOhB
+TAG POS=1 TYPE=SELECT FORM=ID:step1 ATTR=ID:von1mo CONTENT=%10:00
+TAG POS=1 TYPE=SELECT FORM=ID:step1 ATTR=ID:bis1mo CONTENT=%13:00
+TAG POS=1 TYPE=SELECT FORM=ID:step1 ATTR=ID:von1di CONTENT=%10:00
+TAG POS=1 TYPE=SELECT FORM=ID:step1 ATTR=ID:bis1di CONTENT=%13:00
+TAG POS=1 TYPE=SELECT FORM=ID:step1 ATTR=ID:von1mi CONTENT=%10:00
+TAG POS=1 TYPE=SELECT FORM=ID:step1 ATTR=ID:bis1mi CONTENT=%13:00
+TAG POS=1 TYPE=SELECT FORM=ID:step1 ATTR=ID:von1do CONTENT=%10:00
+TAG POS=1 TYPE=SELECT FORM=ID:step1 ATTR=ID:bis1do CONTENT=%13:00
+TAG POS=1 TYPE=SELECT FORM=ID:step1 ATTR=ID:von1fr CONTENT=%10:00
+TAG POS=1 TYPE=SELECT FORM=ID:step1 ATTR=ID:bis1fr CONTENT=%13:00
+TAG POS=1 TYPE=SELECT FORM=ID:step1 ATTR=ID:von1sa CONTENT=%10:00
+TAG POS=1 TYPE=SELECT FORM=ID:step1 ATTR=ID:bis1sa CONTENT=%13:00
+TAG POS=1 TYPE=SELECT FORM=ID:step1 ATTR=ID:von1so CONTENT=%10:00
+TAG POS=1 TYPE=SELECT FORM=ID:step1 ATTR=ID:bis1so CONTENT=%13:00
+SAVEAS TYPE=PNG FOLDER=* FILE={{COL4}}<SP>({{COL7}})<SP>-<SP>Stadtbranchenbuch<SP>-<SP>OH<SP>-{{!NOW:dd.mm.yyyy,<SP>hh.nn.ss}}<SP>Uhr.png
+
+**********************************************************************************************
+
+Zeitpunkt: 12:53:02.5124296
+Kunde: test company y
+Verzeichnis: Stadtbranchenbuch
+Benutzer: Niklas
+Meldung: Öffnungszeiten: 
+mon: open|10:00-13:00
+tue: open|10:00-13:00
+wen: open|10:00-13:00
+thu: open|10:00-13:00
+fri: open|10:00-13:00
+sat: open|10:00-13:00
+sun: open|10:00-13:00
+
+MacroCode: CODE: TAG POS=1 TYPE=INPUT:RADIO FORM=ID:step1 ATTR=ID:noOhB
+TAG POS=1 TYPE=SELECT FORM=ID:step1 ATTR=ID:von1mo CONTENT=%10:00
+TAG POS=1 TYPE=SELECT FORM=ID:step1 ATTR=ID:bis1mo CONTENT=%13:00
+TAG POS=1 TYPE=SELECT FORM=ID:step1 ATTR=ID:von1di CONTENT=%10:00
+TAG POS=1 TYPE=SELECT FORM=ID:step1 ATTR=ID:bis1di CONTENT=%13:00
+TAG POS=1 TYPE=SELECT FORM=ID:step1 ATTR=ID:von1mi CONTENT=%10:00
+TAG POS=1 TYPE=SELECT FORM=ID:step1 ATTR=ID:bis1mi CONTENT=%13:00
+TAG POS=1 TYPE=SELECT FORM=ID:step1 ATTR=ID:von1do CONTENT=%10:00
+TAG POS=1 TYPE=SELECT FORM=ID:step1 ATTR=ID:bis1do CONTENT=%13:00
+TAG POS=1 TYPE=SELECT FORM=ID:step1 ATTR=ID:von1fr CONTENT=%10:00
+TAG POS=1 TYPE=SELECT FORM=ID:step1 ATTR=ID:bis1fr CONTENT=%13:00
+TAG POS=1 TYPE=SELECT FORM=ID:step1 ATTR=ID:von1sa CONTENT=%10:00
+TAG POS=1 TYPE=SELECT FORM=ID:step1 ATTR=ID:bis1sa CONTENT=%13:00
+TAG POS=1 TYPE=SELECT FORM=ID:step1 ATTR=ID:von1so CONTENT=%10:00
+TAG POS=1 TYPE=SELECT FORM=ID:step1 ATTR=ID:bis1so CONTENT=%13:00
+SAVEAS TYPE=PNG FOLDER=* FILE={{COL4}}<SP>({{COL7}})<SP>-<SP>Stadtbranchenbuch<SP>-<SP>OH<SP>-{{!NOW:dd.mm.yyyy,<SP>hh.nn.ss}}<SP>Uhr.png
+
+**********************************************************************************************
+
+Zeitpunkt: 13:02:38.5733784
+Kunde: test company x
+Verzeichnis: Stadtbranchenbuch
+Benutzer: Niklas
+Meldung: Öffnungszeiten: 
+mon: split|10:00-13:00~14:00-18:00
+tue: split|10:00-13:00~14:00-18:00
+wen: split|10:00-13:00~14:00-18:00
+thu: split|10:00-13:00~14:00-18:00
+fri: split|10:00-13:00~14:00-18:00
+sat: split|10:00-13:00~14:00-18:00
+sun: split|10:00-13:00~14:00-18:00
+
+MacroCode: CODE: TAG POS=1 TYPE=INPUT:RADIO FORM=ID:step1 ATTR=ID:noOhB
+PROMPT 1.)folgende<SP>Zeiten<SP>manuell<SP>setzen:<BR>mon<SP>(10:00-13:00~14:00-18:00)<BR>tue<SP>(10:00-13:00~14:00-18:00)<BR>wen<SP>(10:00-13:00~14:00-18:00)<BR>thu<SP>(10:00-13:00~14:00-18:00)<BR>fri<SP>(10:00-13:00~14:00-18:00)<BR>sat<SP>(10:00-13:00~14:00-18:00)<BR>sun<SP>(10:00-13:00~14:00-18:00)<BR><BR>2.)Macro<SP>fortführen
+PAUSE
+SAVEAS TYPE=PNG FOLDER=* FILE={{COL4}}<SP>({{COL7}})<SP>-<SP>Stadtbranchenbuch<SP>-<SP>OH<SP>-{{!NOW:dd.mm.yyyy,<SP>hh.nn.ss}}<SP>Uhr.png
+
+**********************************************************************************************
+
+Zeitpunkt: 13:02:56.1163818
+Kunde: test company x
+Verzeichnis: Stadtbranchenbuch
+Benutzer: Niklas
+Meldung: Öffnungszeiten: 
+mon: split|10:00-13:00~14:00-18:00
+tue: split|10:00-13:00~14:00-18:00
+wen: split|10:00-13:00~14:00-18:00
+thu: split|10:00-13:00~14:00-18:00
+fri: split|10:00-13:00~14:00-18:00
+sat: split|10:00-13:00~14:00-18:00
+sun: split|10:00-13:00~14:00-18:00
+
+MacroCode: CODE: TAG POS=1 TYPE=INPUT:RADIO FORM=ID:step1 ATTR=ID:noOhB
+PROMPT 1.)folgende<SP>Zeiten<SP>manuell<SP>setzen:<BR>mon<SP>(10:00-13:00~14:00-18:00)<BR>tue<SP>(10:00-13:00~14:00-18:00)<BR>wen<SP>(10:00-13:00~14:00-18:00)<BR>thu<SP>(10:00-13:00~14:00-18:00)<BR>fri<SP>(10:00-13:00~14:00-18:00)<BR>sat<SP>(10:00-13:00~14:00-18:00)<BR>sun<SP>(10:00-13:00~14:00-18:00)<BR><BR>2.)Macro<SP>fortführen
+PAUSE
+SAVEAS TYPE=PNG FOLDER=* FILE={{COL4}}<SP>({{COL7}})<SP>-<SP>Stadtbranchenbuch<SP>-<SP>OH<SP>-{{!NOW:dd.mm.yyyy,<SP>hh.nn.ss}}<SP>Uhr.png
+
+**********************************************************************************************
+

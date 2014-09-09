@@ -1,0 +1,13 @@
+    <div class="member-search-container"></div>
+
+</div>
+<div class="column column-beta ">
+
+    <div id="msf-step-container" class="find-friends inner-content clearfix">
+        <span id="step-name" class="hidden"></span>
+        <div class="accepted-email-clients" data-component-bound="true">
+            <h2 class="address-book-title">
+
+                Wähle dein E-Mail-Konto von den folgenden Abietern
+
+            </h2>

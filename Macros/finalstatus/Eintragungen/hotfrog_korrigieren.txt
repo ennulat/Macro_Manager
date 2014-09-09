@@ -1,0 +1,5 @@
+<h2 class="ico-hdr">
+
+    Firmendetails
+
+</h2>

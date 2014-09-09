@@ -1,0 +1,15 @@
+﻿VERSION BUILD=9052613
+TAB T=1
+
+'SET !DATASOURCE Eintragungen.csv
+'SET !DATASOURCE_COLUMNS 22
+
+URL GOTO=https://admin.cylex.de/firma_signin.aspx?fir_nr=0&d=cylex.de&referrer=http%253a%252f%252fadmin.cylex.de%252ffirma_page.aspx%253faction%253dstartup%2526d%253dcylex.de
+TAG POS=4 TYPE=DIV FORM=NAME:aspnetForm ATTR=TXT:Anmelden<SP>Falsche<SP>oder<SP>fehlende<SP>Nummer<SP>Fehlendes<SP>Passwort<SP>Firmennummer<SP>oder<SP>Emai*
+TAG POS=1 TYPE=INPUT:TEXT FORM=NAME:aspnetForm ATTR=NAME:ctl00$ContentPlaceHolder1$SignIn$firma_id CONTENT={{COL20}}
+SET !ENCRYPTION NO
+TAG POS=1 TYPE=INPUT:PASSWORD FORM=NAME:aspnetForm ATTR=NAME:ctl00$ContentPlaceHolder1$SignIn$companypass1 CONTENT={{COL15}}
+TAG POS=1 TYPE=INPUT:SUBMIT FORM=NAME:aspnetForm ATTR=NAME:ctl00$ContentPlaceHolder1$SignIn$login
+'PROMPT Manuell<SP>"Firmendaten<SP>bearbeiten",<SP>"Öffnugszeiten"<SP>auswählen
+'PAUSE
+'TAG POS=1 TYPE=A FORM=NAME:aspnetForm ATTR=TXT:Öffnungszeiten

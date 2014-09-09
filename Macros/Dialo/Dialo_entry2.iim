@@ -1,0 +1,5 @@
+﻿PROMPT 1.)Captcha<SP>ausfüllen<BR>2.)Macro<SP>fortführen..
+PAUSE
+SAVEAS TYPE=PNG FOLDER=* FILE={{COL4}}<SP>({{COL7}})<SP>-<SP>Dialo_entry<SP>-<SP>{{!NOW:dd.mm.yyyy,<SP>hh.nn.ss}}<SP>Uhr.png
+TAG POS=1 TYPE=INPUT:SUBMIT FORM=ID:companyToConfirmForm ATTR=*
+TAG POS=1 TYPE=DIV ATTR=CLASS:messagetext EXTRACT=TXT

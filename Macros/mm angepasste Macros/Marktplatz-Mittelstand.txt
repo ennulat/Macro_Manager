@@ -1,0 +1,58 @@
+﻿VERSION BUILD=7210419 RECORDER=FX
+
+'CMDLINE !DATASOURCE Eintragungen.csv
+'SET !DATASOURCE_COLUMNS 22
+'SET !LOOP 1
+'SET !DATASOURCE_LINE {{LOOP}}
+
+TAB CLOSEALLOTHERS
+CLEAR
+
+TAB T=1
+URL GOTO=http://www.marktplatz-mittelstand.de/Firmeneintrag
+
+PROMPT !!Abmelden!!
+PAUSE
+URL GOTO=http://www.marktplatz-mittelstand.de/Firmeneintrag
+
+
+TAG POS=1 TYPE=INPUT:TEXT ATTR=NAME:lastname CONTENT={{COL3}}
+TAG POS=1 TYPE=INPUT:TEXT ATTR=NAME:company CONTENT={{COL4}}
+TAG POS=1 TYPE=INPUT:TEXT ATTR=NAME:address CONTENT={{COL5}}<SP>{{COL6}}
+TAG POS=1 TYPE=INPUT:TEXT ATTR=NAME:plz CONTENT={{COL7}}
+TAG POS=1 TYPE=INPUT:TEXT ATTR=NAME:ort CONTENT={{COL8}}
+TAG POS=1 TYPE=INPUT:TEXT ATTR=NAME:email CONTENT={{COL20}}
+TAG POS=1 TYPE=INPUT:PASSWORD ATTR=NAME:password CONTENT={{COL15}}
+TAG POS=1 TYPE=INPUT:CHECKBOX ATTR=NAME:agb[] CONTENT=YES
+TAG POS=1 TYPE=INPUT:TEXT ATTR=NAME:firstname CONTENT={{COL2}}
+PROMPT <SP>Herr<SP>/<SP>Frau<SP>anklicken
+SAVEAS TYPE=PNG FOLDER=* FILE={{COL4}}<SP>({{COL7}})<SP>-<SP>Marktplatz-Mittelstand<SP>-<SP>{{NOW:dd.mm.yyyy,<SP>hh.nn.ss}}<SP>Uhr.png
+PAUSE
+SET SINGLESTEP YES
+TAG POS=1 TYPE=INPUT:SUBMIT FORM=ACTION:https://mein.marktplatz-mittelstand.de/Register/step1save ATTR=ID:submit
+
+TAG POS=3 TYPE=SPAN ATTR=TXT:Registrieren
+
+URL GOTO=https://mein.marktplatz-mittelstand.de/Register/Cform
+
+
+PROMPT 1.)Keywords<SP>&<SP>Beschreibung<SP>manuell<SP>einfügen/speichern<BR>2.)Bild<SP>nach<SP>account<SP>aktivierung<SP>im<SP>Profil<SP>ergänzen!
+PAUSE
+
+
+TAG POS=4 TYPE=DIV ATTR=TXT:Bearbeiten
+TAG POS=1 TYPE=INPUT:TEXT ATTR=ID:uc_t_phone CONTENT={{COL10}}<SP>{{COL11}}
+TAG POS=4 TYPE=A ATTR=ID:save
+TAG POS=5 TYPE=DIV ATTR=TXT:Bearbeiten
+TAG POS=1 TYPE=INPUT:TEXT ATTR=ID:uc_t_fax CONTENT={{COL18}}<SP>{{COL19}}
+TAG POS=5 TYPE=A ATTR=ID:save
+TAG POS=6 TYPE=DIV ATTR=TXT:Bearbeiten
+TAG POS=1 TYPE=INPUT:TEXT ATTR=ID:uc_t_website CONTENT={{COL12}}
+TAG POS=6 TYPE=A ATTR=ID:save
+'TAG POS=1 TYPE=INPUT:TEXT ATTR=ID:profile-keyword-last_input CONTENT={{COL13}}
+TAG POS=8 TYPE=DIV ATTR=TXT:Bearbeiten
+TAG POS=1 TYPE=TEXTAREA ATTR=ID:uc_t_desc CONTENT={{COL21}}
+TAG POS=10 TYPE=A ATTR=ID:save
+
+TAG POS=1 TYPE=A ATTR=TXT:Profil<SP>bearbeiten
+SAVEAS TYPE=PNG FOLDER=* FILE={{COL4}}<SP>({{COL7}})<SP>-<SP>Marktplatz-Mittelstand<SP>-<SP>{{NOW:dd.mm.yyyy,<SP>hh.nn.ss}}<SP>Uhr.png

@@ -1,0 +1,91 @@
+﻿VERSION BUILD=9052613
+TAB T=1
+TAB CLOSEALLOTHERS
+URL GOTO=https://admin.cylex.de/firma_default.aspx?step=0&d=cylex.de
+'CMDLINE !DATASOURCE Eintragungen.csv
+SET !DATASOURCE Eintragungen.csv
+SET !DATASOURCE_COLUMNS 22
+
+
+SIZE X=1579 Y=884
+SET !REPLAYSPEED MEDIUM
+
+'Anfang Firmenname
+DS CMD=CLICK X=443 Y=627 CONTENT=
+DS CMD=KEY CONTENT={{!COL4}}
+'Ende
+'Anfang URL
+DS CMD=CLICK X=416 Y=813 CONTENT=
+DS CMD=KEY CONTENT={{!COL12}}
+'Ende
+PROMPT 1.)Ort<SP>einfügen<SP>+auswählen<BR>2.)Macro<SP>weiter<SP>ausführen
+PAUSE
+'Anfang Prüfbutton
+DS CMD=CLICK X=410 Y=877 CONTENT=
+'Ende
+PROMPT 1.)Vergleiche<SP>Firmendaten<SP>mit<SP>ähnlichen<SP>gelisteten<SP>Firmen..<BR>Firmendaten:PLZ<SP>gefunden:<SP>{{!EXTRACT}}<br><br>Firma:<SP>{{!COL4}}<br>Ansprechpartner:<SP>{{!COL2}}<SP>{{!COL3}}<BR>2.)Macro<SP>fortführen..
+SET !ERRORIGNORE NO
+PAUSE
+
+'Anfang "Firma hinzufügen"-button
+DS CMD=CLICK X=423 Y=808 CONTENT=
+'Ende
+'Anfang Passworteingabe
+DS CMD=CLICK X=725 Y=490 CONTENT=
+DS CMD=KEY CONTENT={{!COL15}}
+'Ende
+'Anfang Passworteingabe wiederholen
+DS CMD=CLICK X=705 Y=540 CONTENT=
+DS CMD=KEY CONTENT={{!COL15}}
+'Ende
+'Anfang Eingaben von Str und Nr.
+DS CMD=CLICK X=734 Y=706 CONTENT=
+DS CMD=KEY CONTENT={{!COL5}}<SP>{{!COL6}}
+'Ende
+'Da Ort schon gespeichert von vorheriger Eingabe, deswegen hier auskommentiert.
+'DS CMD=CLICK X=730 Y=868 CONTENT=
+'DS CMD=KEY CONTENT=ort
+URL GOTO=javascript:window.scrollBy(0,20000)
+'Anfang PLZ hinzufügen
+DS CMD=CLICK X=732 Y=160 CONTENT=
+DS CMD=KEY CONTENT={{!COL7}}
+'Ende
+'Da URL schon gespeichert von vorheriger Eingabe, deswegen hier auskommentiert.
+'DS CMD=CLICK X=804 Y=257 CONTENT=
+'DS CMD=KEY CONTENT={{!COL12}}
+'Anfang Eingabe der Premiummail
+DS CMD=CLICK X=710 Y=311 CONTENT=
+DS CMD=KEY CONTENT={{!COL20}}
+'Ende
+'Anfang Tel hinzufügen
+DS CMD=CLICK X=766 Y=420 CONTENT=
+DS CMD=KEY CONTENT={{!COL10}}<SP>{{!COL11}}
+'Ende
+'Anfang Fax hinzufügen
+DS CMD=CLICK X=716 Y=497 CONTENT=
+DS CMD=KEY CONTENT={{!COL18}}<SP>{{!COL19}}
+'Ende
+DS CMD=CLICK X=353 Y=602 CONTENT=
+PROMPT Captcha<SP>ausfüllen,<SP>makro<SP>fortfahren
+PAUSE
+'Anfang Button "Nächster Schritt"
+DS CMD=CLICK X=396 Y=807 CONTENT=
+'Ende
+'Anfang Branche hinzufügen
+DS CMD=CLICK X=507 Y=488 CONTENT=
+DS CMD=CLICK X=517 Y=518 CONTENT=
+DS CMD=KEY CONTENT={{!COL13}}
+DS CMD=CLICK X=473 Y=612 CONTENT=
+PROMPT ggf.Branche<SP>korrigieren
+PAUSE
+'Ende
+PROMPT ggf.Keywords<SP>hinzufügen
+PAUSE
+URL GOTO=javascript:window.scrollBy(0,20000)
+'Anfang Beschreibungstext hinzufügen
+DS CMD=CLICK X=538 Y=183 CONTENT=
+DS CMD=KEY CONTENT={{!COL21}}
+'Ende
+'Anfang "Basis-Eintrag anlegen"-button
+DS CMD=CLICK X=510 Y=809 CONTENT=
+'Ende

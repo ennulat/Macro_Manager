@@ -1,0 +1,5 @@
+<div id="poi-flash" class="notifier" style="display:none;">
+
+
+        
+          Vielen Dank! Schreib doch gleich einen…

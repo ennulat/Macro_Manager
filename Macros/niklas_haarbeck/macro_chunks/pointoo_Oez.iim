@@ -1,0 +1,5 @@
+﻿VERSION BUILD=8601111 RECORDER=FX
+TAB T=1
+URL GOTO=http://www.pointoo.de/poi_wizards/new/
+TAG POS=1 TYPE=TEXTAREA FORM=ID:poiWizardForm ATTR=ID:poi_wizard_opening_hours CONTENT=Mo:<SP>12-1,<SP>13-14<BR>Di:<SP>12-13,<SP>13-14<BR>Mi:<SP>12-1,<SP>13-13<BR>Do:<SP>12-13,<SP>13-<SP>18<BR>Fr:<SP>12-13,<SP>15-17<BR>Sa:<SP>17-18,<SP>18-19<BR>So:<SP>12-1,<SP>13-16<BR>
+TAG POS=1 TYPE=SPAN ATTR=TXT:abschließen

@@ -1,0 +1,5 @@
+<h1 class="headline_product">
+
+    Vielen Dank für Ihr Vertrauen in GoYellow
+
+</h1>

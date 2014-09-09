@@ -1,0 +1,5 @@
+<h1 style="font-size:20px; font-weight:normal; font-family:Arial, Lucida Grande, Lucida Sans unicode; color:#84C341;">
+
+    Ihr Eintrag im Branchenbuch
+
+</h1>

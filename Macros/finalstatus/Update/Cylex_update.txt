@@ -1,0 +1,25 @@
+
+<button id="writereview1" class="btn btn-yellow gutter-left">
+
+    <i class="icon-star"></i>
+
+    Bewerten
+
+</button>
+
+
+
+
+
+
+//alternative
+<div class="row vert-spacer">
+
+    <div class="col-xs-12 col-sm-4 text-muted">
+        <img alt="Bestätigter Eintrag, Aktualisiert vor 10 Sekunden" src="http://cdn.cylex.de/images/check.png"></img>
+        <small>
+
+            Bestätigter Eintrag
+			
+			
+			

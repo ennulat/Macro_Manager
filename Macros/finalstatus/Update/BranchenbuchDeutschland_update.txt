@@ -1,0 +1,8 @@
+<div style="float:left;overflow:hidden;width:400px;">
+
+    <div class="h_space_10"></div>
+    <h1 style="float:left;">
+
+        Vorschau
+
+    </h1>

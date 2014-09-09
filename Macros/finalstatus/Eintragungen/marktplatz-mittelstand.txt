@@ -1,0 +1,31 @@
+Bitte bestätigen Sie Ihre E-Mail-Adresse            
+
+<div class="message">
+                <h4>
+
+                    Bitte bestätigen Sie Ihre E-Mail-Adresse
+
+                </h4>
+                <p>
+
+                    Für die Freischaltung Ihres Firmenprofils müssen w…
+
+                    <b></b>
+
+                     eine Nachricht geschickt. Klicken Sie einfach auf…
+
+                    <br></br>
+                    <br></br>
+
+
+                                              Bei Fragen können Sie s…
+
+                    <a rel="facebox" href="/Kontakt"></a>
+                </p>
+            </div>
+            <div class="clear"></div>
+        </div>
+        <div class="btnSpace"></div>
+    </div>
+
+</div>

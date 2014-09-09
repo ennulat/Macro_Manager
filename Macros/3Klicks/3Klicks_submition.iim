@@ -1,0 +1,17 @@
+﻿TAG POS=1 TYPE=INPUT:SUBMIT FORM=NAME:anmeldung ATTR=NAME:Abschicken
+TAG POS=1 TYPE=INPUT:TEXT ATTR=NAME:sTerm CONTENT={{COL13}}
+
+TAG POS=1 TYPE=INPUT:IMAGE ATTR=NAME:image&&SRC:http://www.3klicks.de/images/buttons/button-midtones.gif
+
+PROMPT 1.)Branche<SP>auswählen<BR>2.)Macro<SP>fortführen...
+PAUSE
+
+TAG POS=1 TYPE=INPUT:SUBMIT ATTR=NAME:bestellen
+TAG POS=1 TYPE=INPUT:SUBMIT FORM=NAME:GratisAnm ATTR=NAME:btnPrintAnm2
+TAG POS=1 TYPE=P ATTR=TXT:Vielen<SP>Dank<SP>für<SP>Ihre<SP>Anmeldung!
+
+ADD !EXTRACT {{!URLCURRENT}}
+'TAG POS=1  TYPE=DIV  ATTR=CLASS:content EXTRACT=TXT
+
+
+

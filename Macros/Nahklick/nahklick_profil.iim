@@ -1,0 +1,72 @@
+﻿VERSION BUILD=7210419 RECORDER=FX
+
+'CMDLINE !DATASOURCE Eintragungen.csv
+'SET !LOOP 1
+'SET !DATASOURCE_LINE {{!LOOP}}
+
+TAB CLOSEALLOTHERS
+CLEAR
+
+
+TAB T=1
+
+PROMPT 1.)!!!ggf.ABMELDEN!!!<BR>2.)Macro<SP>fortführen...
+PAUSE
+
+URL GOTO=http://www.nahklick.de/index.php?c=s&id=2
+TAG POS=1 TYPE=INPUT:TEXT FORM=ID:user-login ATTR=ID:u CONTENT={{COL14}}
+SET !ENCRYPTION NO
+TAG POS=1 TYPE=INPUT:PASSWORD FORM=ID:user-login ATTR=ID:p CONTENT={{COL15}}
+TAG POS=1 TYPE=A ATTR=ID:signin-submit
+TAG POS=1 TYPE=IMG ATTR=SRC:http://www.nahklick.de/greybox/overlay_closer.gif
+TAG POS=1 TYPE=IMG ATTR=SRC:http://www.nahklick.de/gfxDWR/profilBearbeiten.png
+TAG POS=2 TYPE=DIV ATTR=TXT:Profilbild<SP>konfigurieren
+TAG POS=1 TYPE=A ATTR=TXT:Zum<SP>Ändern<SP>Ihres<SP>Profilbildes,<SP>klicken<SP>Sie*
+PROMPT 1.)ggf.Bild<SP>einfügen<SP>nur<SP>jpg!<BR>2.)Macro<SP>fortführen..
+PAUSE
+TAG POS=1 TYPE=IMG ATTR=SRC:http://www.nahklick.de/greybox/overlay_closer.gif
+
+PROMPT 1.)Bearbeiten<SP>anklicken..<BR>2.)Macro<SP>fortführen..
+PAUSE
+
+
+
+TAG POS=1 TYPE=INPUT:TEXT ATTR=NAME:firma CONTENT={{COL4}}
+TAG POS=1 TYPE=SELECT ATTR=NAME:anrede CONTENT=${{COL1}}
+
+TAG POS=1 TYPE=INPUT:TEXT ATTR=NAME:vorname CONTENT={{COL2}}
+TAG POS=1 TYPE=INPUT:TEXT ATTR=NAME:nachname CONTENT={{COL3}}
+TAG POS=1 TYPE=INPUT:TEXT ATTR=NAME:strasse CONTENT={{COL5}}
+TAG POS=1 TYPE=INPUT:TEXT ATTR=NAME:hausnr CONTENT={{COL6}}
+
+TAG POS=1 TYPE=INPUT:TEXT ATTR=NAME:plz CONTENT={{COL7}}
+TAG POS=1 TYPE=INPUT:TEXT ATTR=NAME:ort CONTENT={{COL8}}
+
+TAG POS=1 TYPE=INPUT:TEXT ATTR=NAME:vorfon1 CONTENT={{COL10}}
+TAG POS=1 TYPE=INPUT:TEXT ATTR=NAME:fon1 CONTENT={{COL11}}
+
+TAG POS=1 TYPE=INPUT:TEXT ATTR=NAME:vorfax CONTENT={{COL18}}
+TAG POS=1 TYPE=INPUT:TEXT ATTR=NAME:fax CONTENT={{COL19}}
+
+TAG POS=1 TYPE=INPUT:TEXT ATTR=NAME:website CONTENT={{COL12}}
+
+'TAG POS=1 TYPE=INPUT:CHECKBOX ATTR=NAME:mail CONTENT=NO
+TAG POS=1 TYPE=INPUT:TEXT ATTR=NAME:mail2 CONTENT={{COL9}}
+
+TAG POS=1 TYPE=INPUT:TEXT FORM=ID:configform ATTR=ID:gzeitextra CONTENT={{COL22}}
+TAG POS=1 TYPE=INPUT:CHECKBOX FORM=ID:configform ATTR=ID:anzzeitenextra CONTENT=YES
+
+
+SAVEAS TYPE=PNG FOLDER=* FILE={{COL4}}<SP>({{COL7}})<SP>-<SP>Nahklick_profile<SP>-<SP>{{!NOW:dd.mm.yyyy,<SP>hh.nn.ss}}<SP>Uhr.png
+
+PROMPT 1.)E-Mail1<SP>deaktivieren<BR>2.)ggf.öffentliche<SP>E-Mail2<SP>falls<SP>bekannt<SP>aktivieren.<BR>3.)Makro<SP>fortfahren<SP>für<SP>succsesslog
+PAUSE
+TAG POS=1 TYPE=INPUT:BUTTON FORM=ID:configform ATTR=ID:submitpc
+TAG POS=1 TYPE=A ATTR=TXT:Abmelden
+
+TAG POS=1 TYPE=SPAN ATTR=ID:notification_text EXTRACT=TXT
+
+'SET !EXTRACT {{!URLCURRENT}}
+
+
+

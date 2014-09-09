@@ -1,0 +1,127 @@
+﻿VERSION BUILD=9052613
+TAB T=1
+TAB CLOSEALLOTHERS
+URL GOTO=http://admin.cylex.de/firma_page.aspx?action=openinghours&d=cylex.de
+'Montag
+TAG POS=1 TYPE=SELECT FORM=NAME:aspnetForm ATTR=NAME:ctl00$ContentPlaceHolder1$Opening$Repeater1$ctl01$DropDownListCurrentDayHour CONTENT=%08
+TAG POS=1 TYPE=SELECT FORM=NAME:aspnetForm ATTR=NAME:ctl00$ContentPlaceHolder1$Opening$Repeater1$ctl01$DropDownListCurrentDayMinutes CONTENT=%15
+TAG POS=1 TYPE=SELECT FORM=NAME:aspnetForm ATTR=NAME:ctl00$ContentPlaceHolder1$Opening$Repeater1$ctl01$DropDownListCurrentDayHour2 CONTENT=%15
+TAG POS=1 TYPE=SELECT FORM=NAME:aspnetForm ATTR=NAME:ctl00$ContentPlaceHolder1$Opening$Repeater1$ctl01$DropDownListCurrentDayMinutes2 CONTENT=%25
+'Dienstag
+TAG POS=1 TYPE=INPUT:CHECKBOX FORM=NAME:aspnetForm ATTR=NAME:ctl00$ContentPlaceHolder1$Opening$Repeater1$ctl02$CheckBox CONTENT=NO
+TAG POS=1 TYPE=SELECT FORM=NAME:aspnetForm ATTR=NAME:ctl00$ContentPlaceHolder1$Opening$Repeater1$ctl02$DropDownListCurrentDayHour CONTENT=%08
+TAG POS=1 TYPE=SELECT FORM=NAME:aspnetForm ATTR=NAME:ctl00$ContentPlaceHolder1$Opening$Repeater1$ctl02$DropDownListCurrentDayMinutes CONTENT=%20
+TAG POS=1 TYPE=SELECT FORM=NAME:aspnetForm ATTR=NAME:ctl00$ContentPlaceHolder1$Opening$Repeater1$ctl02$DropDownListCurrentDayHour2 CONTENT=%14
+TAG POS=1 TYPE=SELECT FORM=NAME:aspnetForm ATTR=NAME:ctl00$ContentPlaceHolder1$Opening$Repeater1$ctl02$DropDownListCurrentDayMinutes2 CONTENT=%30
+'Mittwoch
+TAG POS=1 TYPE=INPUT:CHECKBOX FORM=NAME:aspnetForm ATTR=NAME:ctl00$ContentPlaceHolder1$Opening$Repeater1$ctl03$CheckBox CONTENT=NO
+TAG POS=1 TYPE=SELECT FORM=NAME:aspnetForm ATTR=NAME:ctl00$ContentPlaceHolder1$Opening$Repeater1$ctl03$DropDownListCurrentDayHour CONTENT=%08
+TAG POS=1 TYPE=SELECT FORM=NAME:aspnetForm ATTR=NAME:ctl00$ContentPlaceHolder1$Opening$Repeater1$ctl03$DropDownListCurrentDayMinutes CONTENT=%20
+TAG POS=1 TYPE=SELECT FORM=NAME:aspnetForm ATTR=NAME:ctl00$ContentPlaceHolder1$Opening$Repeater1$ctl03$DropDownListCurrentDayHour2 CONTENT=%15
+TAG POS=1 TYPE=SELECT FORM=NAME:aspnetForm ATTR=NAME:ctl00$ContentPlaceHolder1$Opening$Repeater1$ctl03$DropDownListCurrentDayMinutes2 CONTENT=%20
+'Donnerstag
+TAG POS=1 TYPE=INPUT:CHECKBOX FORM=NAME:aspnetForm ATTR=NAME:ctl00$ContentPlaceHolder1$Opening$Repeater1$ctl04$CheckBox CONTENT=NO
+TAG POS=1 TYPE=SELECT FORM=NAME:aspnetForm ATTR=NAME:ctl00$ContentPlaceHolder1$Opening$Repeater1$ctl04$DropDownListCurrentDayHour CONTENT=%11
+TAG POS=1 TYPE=SELECT FORM=NAME:aspnetForm ATTR=NAME:ctl00$ContentPlaceHolder1$Opening$Repeater1$ctl04$DropDownListCurrentDayMinutes CONTENT=%25
+TAG POS=1 TYPE=SELECT FORM=NAME:aspnetForm ATTR=NAME:ctl00$ContentPlaceHolder1$Opening$Repeater1$ctl04$DropDownListCurrentDayHour2 CONTENT=%17
+TAG POS=1 TYPE=SELECT FORM=NAME:aspnetForm ATTR=NAME:ctl00$ContentPlaceHolder1$Opening$Repeater1$ctl04$DropDownListCurrentDayMinutes2 CONTENT=%20
+'Freitag
+TAG POS=1 TYPE=INPUT:CHECKBOX FORM=NAME:aspnetForm ATTR=NAME:ctl00$ContentPlaceHolder1$Opening$Repeater1$ctl05$CheckBox CONTENT=NO
+TAG POS=1 TYPE=SELECT FORM=NAME:aspnetForm ATTR=NAME:ctl00$ContentPlaceHolder1$Opening$Repeater1$ctl05$DropDownListCurrentDayHour CONTENT=%13
+TAG POS=1 TYPE=SELECT FORM=NAME:aspnetForm ATTR=NAME:ctl00$ContentPlaceHolder1$Opening$Repeater1$ctl05$DropDownListCurrentDayMinutes CONTENT=%30
+TAG POS=1 TYPE=SELECT FORM=NAME:aspnetForm ATTR=NAME:ctl00$ContentPlaceHolder1$Opening$Repeater1$ctl05$DropDownListCurrentDayHour2 CONTENT=%16
+TAG POS=1 TYPE=SELECT FORM=NAME:aspnetForm ATTR=NAME:ctl00$ContentPlaceHolder1$Opening$Repeater1$ctl05$DropDownListCurrentDayMinutes2 CONTENT=%25
+TAG POS=6 TYPE=LABEL FORM=NAME:aspnetForm ATTR=TXT:Geschlossen
+'Samstag
+TAG POS=1 TYPE=INPUT:CHECKBOX FORM=NAME:aspnetForm ATTR=NAME:ctl00$ContentPlaceHolder1$Opening$Repeater1$ctl06$CheckBox CONTENT=NO
+TAG POS=1 TYPE=SELECT FORM=NAME:aspnetForm ATTR=NAME:ctl00$ContentPlaceHolder1$Opening$Repeater1$ctl06$DropDownListCurrentDayHour CONTENT=%08
+TAG POS=1 TYPE=SELECT FORM=NAME:aspnetForm ATTR=NAME:ctl00$ContentPlaceHolder1$Opening$Repeater1$ctl06$DropDownListCurrentDayMinutes CONTENT=%20
+TAG POS=1 TYPE=SELECT FORM=NAME:aspnetForm ATTR=NAME:ctl00$ContentPlaceHolder1$Opening$Repeater1$ctl06$DropDownListCurrentDayHour2 CONTENT=%14
+TAG POS=1 TYPE=SELECT FORM=NAME:aspnetForm ATTR=NAME:ctl00$ContentPlaceHolder1$Opening$Repeater1$ctl06$DropDownListCurrentDayMinutes2 CONTENT=%35
+'Sonntag
+TAG POS=1 TYPE=INPUT:CHECKBOX FORM=NAME:aspnetForm ATTR=NAME:ctl00$ContentPlaceHolder1$Opening$Repeater1$ctl07$CheckBox CONTENT=NO
+TAG POS=1 TYPE=SELECT FORM=NAME:aspnetForm ATTR=NAME:ctl00$ContentPlaceHolder1$Opening$Repeater1$ctl07$DropDownListCurrentDayHour CONTENT=%18
+TAG POS=1 TYPE=SELECT FORM=NAME:aspnetForm ATTR=NAME:ctl00$ContentPlaceHolder1$Opening$Repeater1$ctl07$DropDownListCurrentDayMinutes CONTENT=%30
+TAG POS=1 TYPE=SELECT FORM=NAME:aspnetForm ATTR=NAME:ctl00$ContentPlaceHolder1$Opening$Repeater1$ctl07$DropDownListCurrentDayHour2 CONTENT=%20
+TAG POS=1 TYPE=SELECT FORM=NAME:aspnetForm ATTR=NAME:ctl00$ContentPlaceHolder1$Opening$Repeater1$ctl07$DropDownListCurrentDayMinutes2 CONTENT=%30
+
+'NonStop
+TAG POS=1 TYPE=INPUT:CHECKBOX FORM=NAME:aspnetForm ATTR=NAME:ctl00$ContentPlaceHolder1$Opening$CheckBoxNonStop CONTENT=YES
+
+
+'Öffnungszeiten am Vor- und Nachmittag
+
+'Anfang Checkbox für Split-time
+TAG POS=1 TYPE=INPUT:CHECKBOX FORM=NAME:aspnetForm ATTR=NAME:ctl00$ContentPlaceHolder1$Opening$CheckBoxDouble CONTENT=YES
+'Ende
+
+'Montag
+TAG POS=1 TYPE=INPUT:CHECKBOX FORM=NAME:aspnetForm ATTR=NAME:ctl00$ContentPlaceHolder1$Opening$Repeater1$ctl01$CheckBox CONTENT=NO
+TAG POS=1 TYPE=SELECT FORM=NAME:aspnetForm ATTR=NAME:ctl00$ContentPlaceHolder1$Opening$Repeater1$ctl01$DropDownListCurrentDayHour CONTENT=%03
+TAG POS=1 TYPE=SELECT FORM=NAME:aspnetForm ATTR=NAME:ctl00$ContentPlaceHolder1$Opening$Repeater1$ctl01$DropDownListCurrentDayMinutes CONTENT=%20
+TAG POS=1 TYPE=SELECT FORM=NAME:aspnetForm ATTR=NAME:ctl00$ContentPlaceHolder1$Opening$Repeater1$ctl01$DropDownListCurrentDayHour2 CONTENT=%18
+TAG POS=1 TYPE=SELECT FORM=NAME:aspnetForm ATTR=NAME:ctl00$ContentPlaceHolder1$Opening$Repeater1$ctl01$DropDownListCurrentDayMinutes2 CONTENT=%30
+TAG POS=1 TYPE=SELECT FORM=NAME:aspnetForm ATTR=NAME:ctl00$ContentPlaceHolder1$Opening$Repeater1$ctl01$DropDownListCurrentDayHour11 CONTENT=%20
+TAG POS=3 TYPE=SELECT FORM=NAME:aspnetForm ATTR=NAME:ctl00$ContentPlaceHolder1$Opening$Repeater1$ctl01$DropDownListCurrentDayMinutes* CONTENT=%30
+TAG POS=1 TYPE=SELECT FORM=NAME:aspnetForm ATTR=NAME:ctl00$ContentPlaceHolder1$Opening$Repeater1$ctl01$DropDownListCurrentDayHour12 CONTENT=%11
+TAG POS=4 TYPE=SELECT FORM=NAME:aspnetForm ATTR=NAME:ctl00$ContentPlaceHolder1$Opening$Repeater1$ctl01$DropDownListCurrentDayMinutes* CONTENT=%30
+'Dienstag
+TAG POS=1 TYPE=INPUT:CHECKBOX FORM=NAME:aspnetForm ATTR=NAME:ctl00$ContentPlaceHolder1$Opening$Repeater1$ctl02$CheckBox CONTENT=NO
+TAG POS=1 TYPE=SELECT FORM=NAME:aspnetForm ATTR=NAME:ctl00$ContentPlaceHolder1$Opening$Repeater1$ctl02$DropDownListCurrentDayHour CONTENT=%08
+TAG POS=1 TYPE=SELECT FORM=NAME:aspnetForm ATTR=NAME:ctl00$ContentPlaceHolder1$Opening$Repeater1$ctl02$DropDownListCurrentDayMinutes CONTENT=%30
+TAG POS=1 TYPE=SELECT FORM=NAME:aspnetForm ATTR=NAME:ctl00$ContentPlaceHolder1$Opening$Repeater1$ctl02$DropDownListCurrentDayHour2 CONTENT=%12
+TAG POS=1 TYPE=SELECT FORM=NAME:aspnetForm ATTR=NAME:ctl00$ContentPlaceHolder1$Opening$Repeater1$ctl02$DropDownListCurrentDayMinutes2 CONTENT=%30
+TAG POS=1 TYPE=SELECT FORM=NAME:aspnetForm ATTR=NAME:ctl00$ContentPlaceHolder1$Opening$Repeater1$ctl02$DropDownListCurrentDayHour11 CONTENT=%14
+TAG POS=3 TYPE=SELECT FORM=NAME:aspnetForm ATTR=NAME:ctl00$ContentPlaceHolder1$Opening$Repeater1$ctl02$DropDownListCurrentDayMinutes* CONTENT=%25
+TAG POS=1 TYPE=SELECT FORM=NAME:aspnetForm ATTR=NAME:ctl00$ContentPlaceHolder1$Opening$Repeater1$ctl02$DropDownListCurrentDayHour12 CONTENT=%17
+TAG POS=4 TYPE=SELECT FORM=NAME:aspnetForm ATTR=NAME:ctl00$ContentPlaceHolder1$Opening$Repeater1$ctl02$DropDownListCurrentDayMinutes* CONTENT=%25
+'Mittwoch
+TAG POS=1 TYPE=INPUT:CHECKBOX FORM=NAME:aspnetForm ATTR=NAME:ctl00$ContentPlaceHolder1$Opening$Repeater1$ctl03$CheckBox CONTENT=NO
+TAG POS=1 TYPE=SELECT FORM=NAME:aspnetForm ATTR=NAME:ctl00$ContentPlaceHolder1$Opening$Repeater1$ctl03$DropDownListCurrentDayHour CONTENT=%08
+TAG POS=1 TYPE=SELECT FORM=NAME:aspnetForm ATTR=NAME:ctl00$ContentPlaceHolder1$Opening$Repeater1$ctl03$DropDownListCurrentDayMinutes CONTENT=%15
+TAG POS=1 TYPE=SELECT FORM=NAME:aspnetForm ATTR=NAME:ctl00$ContentPlaceHolder1$Opening$Repeater1$ctl03$DropDownListCurrentDayHour2 CONTENT=%12
+TAG POS=1 TYPE=SELECT FORM=NAME:aspnetForm ATTR=NAME:ctl00$ContentPlaceHolder1$Opening$Repeater1$ctl03$DropDownListCurrentDayMinutes2 CONTENT=%30
+TAG POS=1 TYPE=SELECT FORM=NAME:aspnetForm ATTR=NAME:ctl00$ContentPlaceHolder1$Opening$Repeater1$ctl03$DropDownListCurrentDayHour11 CONTENT=%14
+TAG POS=3 TYPE=SELECT FORM=NAME:aspnetForm ATTR=NAME:ctl00$ContentPlaceHolder1$Opening$Repeater1$ctl03$DropDownListCurrentDayMinutes* CONTENT=%30
+TAG POS=1 TYPE=SELECT FORM=NAME:aspnetForm ATTR=NAME:ctl00$ContentPlaceHolder1$Opening$Repeater1$ctl03$DropDownListCurrentDayHour12 CONTENT=%18
+TAG POS=4 TYPE=SELECT FORM=NAME:aspnetForm ATTR=NAME:ctl00$ContentPlaceHolder1$Opening$Repeater1$ctl03$DropDownListCurrentDayMinutes* CONTENT=%30
+'Donnerstag
+TAG POS=1 TYPE=INPUT:CHECKBOX FORM=NAME:aspnetForm ATTR=NAME:ctl00$ContentPlaceHolder1$Opening$Repeater1$ctl04$CheckBox CONTENT=NO
+TAG POS=1 TYPE=SELECT FORM=NAME:aspnetForm ATTR=NAME:ctl00$ContentPlaceHolder1$Opening$Repeater1$ctl04$DropDownListCurrentDayHour CONTENT=%08
+TAG POS=1 TYPE=SELECT FORM=NAME:aspnetForm ATTR=NAME:ctl00$ContentPlaceHolder1$Opening$Repeater1$ctl04$DropDownListCurrentDayMinutes CONTENT=%30
+TAG POS=1 TYPE=SELECT FORM=NAME:aspnetForm ATTR=NAME:ctl00$ContentPlaceHolder1$Opening$Repeater1$ctl04$DropDownListCurrentDayHour2 CONTENT=%12
+TAG POS=1 TYPE=SELECT FORM=NAME:aspnetForm ATTR=NAME:ctl00$ContentPlaceHolder1$Opening$Repeater1$ctl04$DropDownListCurrentDayMinutes2 CONTENT=%10
+TAG POS=1 TYPE=SELECT FORM=NAME:aspnetForm ATTR=NAME:ctl00$ContentPlaceHolder1$Opening$Repeater1$ctl04$DropDownListCurrentDayHour11 CONTENT=%12
+TAG POS=3 TYPE=SELECT FORM=NAME:aspnetForm ATTR=NAME:ctl00$ContentPlaceHolder1$Opening$Repeater1$ctl04$DropDownListCurrentDayMinutes* CONTENT=%45
+TAG POS=1 TYPE=SELECT FORM=NAME:aspnetForm ATTR=NAME:ctl00$ContentPlaceHolder1$Opening$Repeater1$ctl04$DropDownListCurrentDayHour12 CONTENT=%12
+TAG POS=4 TYPE=SELECT FORM=NAME:aspnetForm ATTR=NAME:ctl00$ContentPlaceHolder1$Opening$Repeater1$ctl04$DropDownListCurrentDayMinutes* CONTENT=%50
+'Freitag
+TAG POS=1 TYPE=INPUT:CHECKBOX FORM=NAME:aspnetForm ATTR=NAME:ctl00$ContentPlaceHolder1$Opening$Repeater1$ctl05$CheckBox CONTENT=NO
+TAG POS=1 TYPE=SELECT FORM=NAME:aspnetForm ATTR=NAME:ctl00$ContentPlaceHolder1$Opening$Repeater1$ctl05$DropDownListCurrentDayHour CONTENT=%08
+TAG POS=1 TYPE=SELECT FORM=NAME:aspnetForm ATTR=NAME:ctl00$ContentPlaceHolder1$Opening$Repeater1$ctl05$DropDownListCurrentDayMinutes CONTENT=%30
+TAG POS=1 TYPE=SELECT FORM=NAME:aspnetForm ATTR=NAME:ctl00$ContentPlaceHolder1$Opening$Repeater1$ctl05$DropDownListCurrentDayHour2 CONTENT=%12
+TAG POS=1 TYPE=SELECT FORM=NAME:aspnetForm ATTR=NAME:ctl00$ContentPlaceHolder1$Opening$Repeater1$ctl05$DropDownListCurrentDayMinutes2 CONTENT=%00
+TAG POS=1 TYPE=SELECT FORM=NAME:aspnetForm ATTR=NAME:ctl00$ContentPlaceHolder1$Opening$Repeater1$ctl05$DropDownListCurrentDayHour11 CONTENT=%14
+TAG POS=3 TYPE=SELECT FORM=NAME:aspnetForm ATTR=NAME:ctl00$ContentPlaceHolder1$Opening$Repeater1$ctl05$DropDownListCurrentDayMinutes* CONTENT=%00
+TAG POS=1 TYPE=SELECT FORM=NAME:aspnetForm ATTR=NAME:ctl00$ContentPlaceHolder1$Opening$Repeater1$ctl05$DropDownListCurrentDayHour12 CONTENT=%20
+TAG POS=4 TYPE=SELECT FORM=NAME:aspnetForm ATTR=NAME:ctl00$ContentPlaceHolder1$Opening$Repeater1$ctl05$DropDownListCurrentDayMinutes* CONTENT=%10
+'Samstag
+TAG POS=1 TYPE=INPUT:CHECKBOX FORM=NAME:aspnetForm ATTR=NAME:ctl00$ContentPlaceHolder1$Opening$Repeater1$ctl06$CheckBox CONTENT=NO
+TAG POS=1 TYPE=SELECT FORM=NAME:aspnetForm ATTR=NAME:ctl00$ContentPlaceHolder1$Opening$Repeater1$ctl06$DropDownListCurrentDayHour CONTENT=%08
+TAG POS=1 TYPE=SELECT FORM=NAME:aspnetForm ATTR=NAME:ctl00$ContentPlaceHolder1$Opening$Repeater1$ctl06$DropDownListCurrentDayMinutes CONTENT=%00
+TAG POS=1 TYPE=SELECT FORM=NAME:aspnetForm ATTR=NAME:ctl00$ContentPlaceHolder1$Opening$Repeater1$ctl06$DropDownListCurrentDayHour2 CONTENT=%13
+TAG POS=1 TYPE=SELECT FORM=NAME:aspnetForm ATTR=NAME:ctl00$ContentPlaceHolder1$Opening$Repeater1$ctl06$DropDownListCurrentDayMinutes2 CONTENT=%00
+TAG POS=1 TYPE=SELECT FORM=NAME:aspnetForm ATTR=NAME:ctl00$ContentPlaceHolder1$Opening$Repeater1$ctl06$DropDownListCurrentDayHour11 CONTENT=%14
+TAG POS=3 TYPE=SELECT FORM=NAME:aspnetForm ATTR=NAME:ctl00$ContentPlaceHolder1$Opening$Repeater1$ctl06$DropDownListCurrentDayMinutes* CONTENT=%30
+TAG POS=1 TYPE=SELECT FORM=NAME:aspnetForm ATTR=NAME:ctl00$ContentPlaceHolder1$Opening$Repeater1$ctl06$DropDownListCurrentDayHour12 CONTENT=%18
+TAG POS=4 TYPE=SELECT FORM=NAME:aspnetForm ATTR=NAME:ctl00$ContentPlaceHolder1$Opening$Repeater1$ctl06$DropDownListCurrentDayMinutes* CONTENT=%10
+'Sonntag
+TAG POS=1 TYPE=INPUT:CHECKBOX FORM=NAME:aspnetForm ATTR=NAME:ctl00$ContentPlaceHolder1$Opening$Repeater1$ctl07$CheckBox CONTENT=NO
+TAG POS=1 TYPE=SELECT FORM=NAME:aspnetForm ATTR=NAME:ctl00$ContentPlaceHolder1$Opening$Repeater1$ctl07$DropDownListCurrentDayHour CONTENT=%08
+TAG POS=1 TYPE=SELECT FORM=NAME:aspnetForm ATTR=NAME:ctl00$ContentPlaceHolder1$Opening$Repeater1$ctl07$DropDownListCurrentDayMinutes CONTENT=%00
+TAG POS=1 TYPE=SELECT FORM=NAME:aspnetForm ATTR=NAME:ctl00$ContentPlaceHolder1$Opening$Repeater1$ctl07$DropDownListCurrentDayHour2 CONTENT=%14
+TAG POS=1 TYPE=SELECT FORM=NAME:aspnetForm ATTR=NAME:ctl00$ContentPlaceHolder1$Opening$Repeater1$ctl07$DropDownListCurrentDayMinutes2 CONTENT=%30
+TAG POS=1 TYPE=SELECT FORM=NAME:aspnetForm ATTR=NAME:ctl00$ContentPlaceHolder1$Opening$Repeater1$ctl07$DropDownListCurrentDayHour11 CONTENT=%15
+TAG POS=3 TYPE=SELECT FORM=NAME:aspnetForm ATTR=NAME:ctl00$ContentPlaceHolder1$Opening$Repeater1$ctl07$DropDownListCurrentDayMinutes* CONTENT=%25
+TAG POS=1 TYPE=SELECT FORM=NAME:aspnetForm ATTR=NAME:ctl00$ContentPlaceHolder1$Opening$Repeater1$ctl07$DropDownListCurrentDayHour12 CONTENT=%12
+TAG POS=4 TYPE=SELECT FORM=NAME:aspnetForm ATTR=NAME:ctl00$ContentPlaceHolder1$Opening$Repeater1$ctl07$DropDownListCurrentDayMinutes* CONTENT=%25

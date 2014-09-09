@@ -1,0 +1,29 @@
+div id="alert-container">
+
+    <div class="alert alert-success">
+        <span class="offscreen">
+
+            Erfolgsnachricht:
+
+        </span>
+       
+
+
+
+
+
+###alternative###
+
+div id="alert-container">
+
+    <div class="alert alert-success">
+        <span class="offscreen">
+
+            Erfolgsnachricht:
+
+        </span>
+        <p class="alert-message">
+
+
+                            Vielen Dank! Bis bald auf Yelp!
+             …

@@ -1,0 +1,46 @@
+﻿VERSION BUILD=8601111 RECORDER=FX
+
+TAB T=1
+URL GOTO=http://www.hotfrog.de/Login.aspx
+
+CMDLINE !DATASOURCE Eintragungen.csv
+SET !DATASOURCE_COLUMNS 22
+SET !LOOP 1
+SET !DATASOURCE_LINE {{!LOOP}}
+
+PROMPT 1.)ggf.Abmelden!<BR>2.)Macro<SP>fortführen..
+PAUSE
+
+
+TAG POS=1 TYPE=INPUT:TEXT FORM=ID:aspnetForm ATTR=ID:ctl00_contentSection_EmailAddress CONTENT={{!COL20}}
+SET !ENCRYPTION NO
+TAG POS=1 TYPE=INPUT:PASSWORD FORM=ID:aspnetForm ATTR=ID:ctl00_contentSection_Password CONTENT={{!COL15}}
+TAG POS=1 TYPE=SPAN ATTR=TXT:Login
+TAG POS=1 TYPE=SPAN ATTR=TXT:Bearbeiten
+
+PROMPT 1.)Telemarketing<SP>deaktivieren!<BR>Macro<SP>fortführen..
+PAUSE
+
+TAG POS=1 TYPE=A ATTR=ID:ctl00_contentSection_ctrlContactDetails_EditOpeningHoursLink
+TAG POS=1 TYPE=SELECT FORM=ID:aspnetForm ATTR=ID:ctl00_contentSection_ctrlTradingHours_DayRepeater_ctl00_OpeningTime CONTENT=%08:00
+TAG POS=1 TYPE=SELECT FORM=ID:aspnetForm ATTR=ID:ctl00_contentSection_ctrlTradingHours_DayRepeater_ctl01_OpeningTime CONTENT=%08:00
+TAG POS=1 TYPE=SELECT FORM=ID:aspnetForm ATTR=ID:ctl00_contentSection_ctrlTradingHours_DayRepeater_ctl02_OpeningTime CONTENT=%08:00
+TAG POS=1 TYPE=SELECT FORM=ID:aspnetForm ATTR=ID:ctl00_contentSection_ctrlTradingHours_DayRepeater_ctl03_OpeningTime CONTENT=%08:00
+TAG POS=1 TYPE=SELECT FORM=ID:aspnetForm ATTR=ID:ctl00_contentSection_ctrlTradingHours_DayRepeater_ctl04_OpeningTime CONTENT=%08:00
+PROMPT 1.)Geschäftszeiten<SP>eintragen<SP>>{{!COL22}}<BR>2.)Senden<SP>klicken<BR>3.)Macro<SP>fortführen..
+PAUSE
+
+
+TAG POS=1 TYPE=SPAN ATTR=TXT:Senden
+TAG POS=1 TYPE=A ATTR=TXT:Firmenbilder<SP>hinzufügen
+PROMPT 1.)Bild(er)<SP>upload..<BR>2.)Macro<SP>fortführen..
+PAUSE
+
+TAG POS=1 TYPE=DIV ATTR=ID:content
+TAG POS=1 TYPE=A ATTR=TXT:Übersicht
+
+'URL GOTO=http://www.hotfrog.de/UpdateDetails.aspx?editSection=ContactDetails&CompanyID=10170517
+'TAG POS=1 TYPE=INPUT:CHECKBOX FORM=NAME:TestForm ATTR=ID:ctl00_contentSection_ctrlContactDetails_chbNoTelemarketers CONTENT=NO
+
+PROMPT 1.)Telemarkting<SP>inaktiv<SP>status<SP>prüfen(Firmendetails:bearbeiten!!!)<BR>2.)Next<SP>Loop..
+PAUSE

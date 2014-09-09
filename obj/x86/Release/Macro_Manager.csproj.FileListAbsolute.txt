@@ -1,0 +1,15 @@
+C:\Users\joe\Documents\Visual Studio 2010\Projects\Macro_Manager\bin\Release\Macro_Manager.exe
+C:\Users\joe\Documents\Visual Studio 2010\Projects\Macro_Manager\bin\Release\Macro_Manager.pdb
+C:\Users\joe\Documents\Visual Studio 2010\Projects\Macro_Manager\bin\Release\Interop.iMacros.dll
+C:\Users\joe\Documents\Visual Studio 2010\Projects\Macro_Manager\obj\x86\Release\Interop.iMacros.dll
+C:\Users\joe\Documents\Visual Studio 2010\Projects\Macro_Manager\obj\x86\Release\Macro_Manager.csproj.ResolveComReference.cache
+C:\Users\joe\Documents\Visual Studio 2010\Projects\Macro_Manager\obj\x86\Release\Macro_Manager.exe
+C:\Users\joe\Documents\Visual Studio 2010\Projects\Macro_Manager\obj\x86\Release\Macro_Manager.pdb
+C:\Users\Jes\Documents\Visual Studio 2010\Projects\Macro_Manager\bin\Release\Macro_Manager.exe
+C:\Users\Jes\Documents\Visual Studio 2010\Projects\Macro_Manager\bin\Release\Macro_Manager.pdb
+C:\Users\Jes\Documents\Visual Studio 2010\Projects\Macro_Manager\bin\Release\Interop.iMacros.dll
+C:\Users\Jes\Documents\Visual Studio 2010\Projects\Macro_Manager\obj\x86\Release\ResolveAssemblyReference.cache
+C:\Users\Jes\Documents\Visual Studio 2010\Projects\Macro_Manager\obj\x86\Release\Interop.iMacros.dll
+C:\Users\Jes\Documents\Visual Studio 2010\Projects\Macro_Manager\obj\x86\Release\Macro_Manager.csproj.ResolveComReference.cache
+C:\Users\Jes\Documents\Visual Studio 2010\Projects\Macro_Manager\obj\x86\Release\Macro_Manager.exe
+C:\Users\Jes\Documents\Visual Studio 2010\Projects\Macro_Manager\obj\x86\Release\Macro_Manager.pdb

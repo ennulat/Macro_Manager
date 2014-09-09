@@ -1,0 +1,13 @@
+        <span id="notification_event_title">
+
+            Aktivierung erforderlich!
+
+        </span>
+        <span id="notification_text">
+
+            Zur Aktivierung des registrierten Profils, bitte d…
+
+        </span>
+    </strong>
+
+</p>

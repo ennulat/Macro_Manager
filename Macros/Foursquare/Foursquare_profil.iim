@@ -1,0 +1,44 @@
+﻿VERSION BUILD=8601111 RECORDER=FX
+TAB T=1
+
+'CMDLINE !DATASOURCE Eintragungen.csv
+'SET !DATASOURCE_COLUMNS 22
+'SET !LOOP 1
+'SET !DATASOURCE_LINE {{LOOP}}
+
+
+URL GOTO=https://de.foursquare.com/add-place
+
+PROMPT 1.)!!!abmelden!!!<BR>Macro<SP>fortführen
+PAUSE
+
+URL GOTO=https://de.foursquare.com/add_venue
+
+TAG POS=1 TYPE=INPUT:TEXT ATTR=NAME:emailOrPhone CONTENT={{COL20}}
+TAG POS=1 TYPE=INPUT:PASSWORD ATTR=NAME:password CONTENT={{COL15}}
+TAG POS=1 TYPE=INPUT:SUBMIT FORM=ID:loginToFoursquare ATTR=ID:loginFormButton
+
+TAG POS=1 TYPE=INPUT:TEXT FORM=ID:addVenueForm ATTR=ID:nameField CONTENT={{COL4}}
+TAG POS=1 TYPE=INPUT:TEXT FORM=ID:addVenueForm ATTR=ID:addressField CONTENT={{COL5}}<SP>{{COL6}}
+TAG POS=1 TYPE=INPUT:TEXT FORM=ID:addVenueForm ATTR=ID:cityField CONTENT={{COL8}}
+TAG POS=1 TYPE=INPUT:TEXT FORM=ID:addVenueForm ATTR=ID:stateField CONTENT={{COL17}}
+TAG POS=1 TYPE=INPUT:TEXT FORM=ID:addVenueForm ATTR=ID:postalCodeField CONTENT={{COL7}}
+TAG POS=1 TYPE=SELECT FORM=ID:addVenueForm ATTR=ID:countryField CONTENT=%DE
+TAG POS=1 TYPE=INPUT:TEXT FORM=ID:addVenueForm ATTR=ID:phoneField CONTENT={{COL10}}<SP>{{COL11}}
+
+TAB OPEN
+TAB T=2
+URL GOTO=http://maps.google.de/maps?hl=de&tab=wl
+'TAG POS=1 TYPE=INPUT:TEXT ATTR=ID:gbqfq CONTENT={{COL5}}<SP>{{COL6}},<SP>{{COL7}}<SP>{{COL8}}
+'TAG POS=1 TYPE=BUTTON ATTR=ID:gbqfb
+'TAG POS=1 TYPE=DIV ATTR=JSACTION:outofbox.mapclose&&CLASS:out-of-box-white-out&&JSTCACHE:0&&TXT:
+TAG POS=1 TYPE=INPUT:TEXT FORM=ID:searchbox_form ATTR=ID:searchboxinput CONTENT={{COL5}}<SP>{{COL6}},<SP>{{COL7}}<SP>{{COL8}}
+TAG POS=1 TYPE=BUTTON ATTR=TABINDEX:3&&JSACTION:omnibox.search&&ARIA-LABEL:Suche&&CLASS:searchbutton&&TXT:
+PAUSE
+
+TAB T=1
+SAVEAS TYPE=PNG FOLDER=* FILE={{COL4}}<SP>({{COL7}})<SP>-<SP>Foursquare<SP>-<SP>{{!NOW:dd.mm.yyyy,<SP>hh.nn.ss}}<SP>Uhr.png
+PROMPT 1.)<SP>Branche<SP>"{{COL13}}"<SP>auswählen<BR>2.)Macro<SP>fortführen..<BR>3.)!!!ACHTUNG!!!:abmelden..
+PAUSE
+'TAG POS=1 TYPE=INPUT:TEXT FORM=ID:addVenueForm ATTR=ID:rootCategoryAutocomplete CONTENT=PROMPT<SP>Kategorie<SP>wählen
+TAG POS=1 TYPE=INPUT:SUBMIT FORM=ID:addVenueForm ATTR=ID:submitButton

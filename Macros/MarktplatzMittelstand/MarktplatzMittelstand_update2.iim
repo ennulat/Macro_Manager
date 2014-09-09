@@ -1,0 +1,5 @@
+﻿PROMPT 1.)ggf.Überprüfung<SP>ob<SP>alle<SP>Eingaben<SP>korrekt<SP>sind<BR>2.)Macro<SP>fortführen...
+PAUSE
+
+TAG POS=1 TYPE=A ATTR=TXT:(Abmelden)
+SET !EXTRACT {{!URLCURRENT}}

@@ -1,0 +1,48 @@
+﻿VERSION BUILD=7210419 RECORDER=FX
+
+'CMDLINE !DATASOURCE Eintragungen.csv
+'SET !DATASOURCE_COLUMNS 22
+'SET !LOOP 1
+'SET !DATASOURCE_LINE {{LOOP}}
+
+'SET !SINGLESTEP YES
+PAUSE
+URL GOTO=https://www.wlw.de/lyc/firma-bei-wlw-eintragen#/company
+TAG POS=1 TYPE=INPUT:TEXT FORM=NAME:companyCheckForm ATTR=ID:company-name CONTENT={{COL4}}
+TAG POS=1 TYPE=INPUT:TEXT FORM=NAME:companyCheckForm ATTR=ID:company-url CONTENT={{COL12}}
+TAG POS=1 TYPE=BUTTON FORM=NAME:companyCheckForm ATTR=TXT:Weiter
+
+TAG POS=1 TYPE=INPUT:TEXT FORM=NAME:companyMasterDataForm ATTR=ID:company-street CONTENT={{COL5}}
+TAG POS=1 TYPE=INPUT:TEXT FORM=NAME:companyMasterDataForm ATTR=ID:company-street-number CONTENT={{COL6}}
+TAG POS=1 TYPE=INPUT:TEXT FORM=NAME:companyMasterDataForm ATTR=ID:company-zipcode CONTENT={{COL7}}
+TAG POS=1 TYPE=INPUT:TEXT FORM=NAME:companyMasterDataForm ATTR=ID:company-city CONTENT={{COL8}}
+TAG POS=1 TYPE=INPUT:TEXT FORM=NAME:companyMasterDataForm ATTR=ID:company-phone-area-code CONTENT={{COL10}}
+TAG POS=1 TYPE=INPUT:TEXT FORM=NAME:companyMasterDataForm ATTR=ID:company-phone-number CONTENT={{COL11}}
+TAG POS=1 TYPE=INPUT:EMAIL FORM=NAME:companyMasterDataForm ATTR=ID:company-email CONTENT={{COL9}}
+SAVEAS TYPE=PNG FOLDER=* FILE={{COL4}}<SP>({{COL7}})<SP>-<SP>Foursquare<SP>-<SP>{{!NOW:dd.mm.yyyy,<SP>hh.nn.ss}}<SP>Uhr.png
+
+TAG POS=1 TYPE=BUTTON FORM=NAME:companyMasterDataForm ATTR=TXT:Weiter<SP>zu<SP>Schritt<SP>2
+
+
+
+
+TAG POS=1 TYPE=INPUT:SEARCH FORM=ID:headingSearchForm ATTR=NAME:term CONTENT={{COL13}}
+TAG POS=1 TYPE=BUTTON FORM=ID:headingSearchForm ATTR=ID:btn-search-heading
+'TAG POS=1 TYPE=TD ATTR=TXT:Pizza
+'TAG POS=2 TYPE=INPUT:CHECKBOX FORM=NAME:NoFormName ATTR=* CONTENT=YES
+PROMPT 1.)Branche<SP>enfügen/auswählen<BR>2.)ggf.Vorhandene<SP>Keywords<SP>löschen<BR>3.)<SP>makro<SP>fortfahren
+PAUSE
+TAG POS=1 TYPE=BUTTON ATTR=TXT:Weiter<SP>zu<SP>Schritt<SP>3
+
+TAG POS=1 TYPE=SELECT FORM=NAME:customerForm ATTR=ID:customer-salutation CONTENT=%{{COL1}}
+TAG POS=1 TYPE=INPUT:TEXT FORM=NAME:customerForm ATTR=ID:customer-firstname CONTENT={{COL2}}
+TAG POS=1 TYPE=INPUT:TEXT FORM=NAME:customerForm ATTR=ID:customer-lastname CONTENT={{COL3}}
+TAG POS=1 TYPE=INPUT:EMAIL FORM=NAME:customerForm ATTR=ID:customer-email CONTENT={{COL20}}
+SET !ENCRYPTION NO
+TAG POS=1 TYPE=INPUT:PASSWORD FORM=NAME:customerForm ATTR=ID:customer-password CONTENT={{COL15}}
+TAG POS=1 TYPE=INPUT:CHECKBOX FORM=NAME:customerForm ATTR=* CONTENT=YES
+PROMPT 1.)[ACHTUNG]-<SP>Herr<SP>/<SP>Frau<SP>anklicken<BR>2.)<SP>makro<SP>fortfahren
+PAUSE
+SAVEAS TYPE=PNG FOLDER=* FILE={{COL4}}<SP>({{COL7}})<SP>-<SP>Foursquare<SP>-<SP>{{!NOW:dd.mm.yyyy,<SP>hh.nn.ss}}<SP>Uhr.png
+
+TAG POS=1 TYPE=BUTTON FORM=NAME:customerForm ATTR=TXT:Jetzt<SP>registrieren

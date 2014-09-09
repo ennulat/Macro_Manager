@@ -1,0 +1,7 @@
+﻿VERSION BUILD=8601111 RECORDER=FX
+TAB T=1
+URL GOTO=http://admin.cylex.de/firma_page.aspx?action=startup&d=cylex.de
+TAG POS=1 TYPE=B ATTR=TXT:Logo<SP>hochladen<SP>oder<SP>ändern
+TAG POS=1 TYPE=DIV ATTR=TXT:Falsches<SP>File<SP>Format<SP>(erlaubtes<SP>File<SP>Format:.*
+TAG POS=1 TYPE=EMBED ATTR=ID:ctl00_ContentPlaceHolder1_firma_logo_LogoFirma_FileUpload1Uploader
+TAG POS=1 TYPE=INPUT:BUTTON FORM=ID:aspnetForm ATTR=ID:ctl00_ContentPlaceHolder1_firma_logo_LogoFirma_ButtonSaveChanges

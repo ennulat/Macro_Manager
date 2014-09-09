@@ -1,0 +1,22 @@
+﻿VERSION BUILD=7210419 RECORDER=FX
+
+'CMDLINE !DATASOURCE Eintragungen.csv
+'SET !LOOP 1
+'SET !DATASOURCE_LINE {{LOOP}}
+
+TAB CLOSEALLOTHERS
+CLEAR
+
+
+TAB T=1
+URL GOTO=http://www.nahklick.de/index.php?c=s&id=2
+
+TAG POS=1 TYPE=SELECT ATTR=NAME:ptyp CONTENT=$Geschäftlich
+TAG POS=1 TYPE=INPUT:TEXT ATTR=NAME:ur CONTENT={{COL14}}
+TAG POS=1 TYPE=INPUT:PASSWORD ATTR=NAME:pr CONTENT={{COL15}}
+TAG POS=1 TYPE=INPUT:TEXT ATTR=NAME:mr CONTENT={{COL20}}
+
+SAVEAS TYPE=PNG FOLDER=* FILE={{COL4}}<SP>({{COL7}})<SP>-<SP>nahklick<SP>-<SP>{{NOW:dd.mm.yyyy,<SP>hh.nn.ss}}<SP>Uhr.png
+PROMPT 1.)Kostenlos<SP>registrieren<SP>klicken<BR>2.)Link<SP>in<SP>Bestätigungsmail<SP>folgen<SP>und<SP>bis<SP>Profil<SP>bearbeiten<SP>navigieren.<BR>3.)Macro:<SP>nahklick_profil.iim<SP>starten..
+PAUSE
+
